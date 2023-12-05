@@ -1,5 +1,5 @@
 project:
-  type: book
+  type: seedcase-theme
   output-dir: _report
 
 
@@ -8,18 +8,6 @@ book:
   output-file: "seedcase-design.pdf"
   chapters:
     - index.qmd
-    - design/software-architecture/index.qmd
-    - design/software-architecture/introduction.qmd
-    - design/software-architecture/constraints.qmd
-    - design/software-architecture/context.qmd
-    - design/software-architecture/solution-strategy.qmd
-    - design/software-architecture/building-block-view.qmd
-    - design/software-architecture/runtime-view.qmd
-    # - design/software-architecture/deployment-view.qmd
-    - design/software-architecture/cross-cutting-concepts.qmd
-    # - design/software-architecture/architecture-decisions.qmd
-    # - design/software-architecture/quality-requirements.qmd
-    - design/software-architecture/risks.qmd
   page-footer:
     center:
       - text: "License: CC-BY 4.0"

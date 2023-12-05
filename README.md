@@ -1,4 +1,4 @@
-# Seedcase project
+# Documentation on the architecture design of the Seedcase Project
 
 -   Grant proposal: [![Grant proposal
     DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6511112.svg)](https://doi.org/10.5281/zenodo.6511112)
