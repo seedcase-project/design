@@ -1,0 +1,68 @@
+---
+title: "Why render.com for seedcase demo environment"
+description: "We need to select a cloud provider to easily visualise or demonstrate seedcase"
+author: "Philip Christiansen"
+date: "2023-12-8"
+date-modified: last-modified
+categories:
+---
+
+## Context and Problem Statement
+We want to use a cloud provider, so we can easily deploy and visualize the progress of seedcase. 
+
+This is relevant for reviewing code changes and for manual and user-experience testing.
+
+Ideally, this environment should be similar to a future production environment, but this may very a lot based on the team/organisation that needs to run seedcase
+
+## Decision Drivers
+We want to decide on a cloud provider based on these features/metrics
+- Price
+- Ease of use
+- Customisability. Cloud provider should be easy to customise? 
+- Github Auth. Provider should integrate with github authentication, because we already use github for the repo and project management
+- Github Actions Integration. Cloud provider should integrate with have github actions so it will be easy to make pipelines
+- Managed Postgres. Cloud provider should have a managed postgres database to store application data if needed
+- "Native" support for Django application. Cloud provider should have support for running a Django application without the need to wrap it in package or docker container
+- Docker image or Dockerfile support. Cloud provider should also have support for running docker images. Potentially, providing a Dockerfile would be convenient
+- Logging + Alerting. Logging and alert is nice, but no so relevant for a demo environment
+- Similar to production environment. We want the demo environment to be similar to the production environment, but we dont know how that will look
+
+
+## Considered Options
+
+We have considered four different cloud providers: Azure, Render, Digital Ocean and Vercel. Below you see a "decision matrix" based on the different features. 
+
+|                                                                 | Azure          | Render                       | Digital Ocean            | Vercel                    |
+| --------------------------------------------------------------- |:--------------:| ----------------------------:| ------------------------ | ------------------------- |
+| Price (per month)                                               | 1000kr         | Free or<br>19$/user + 20$/DB | ?                        | Free or<br>20$/user       |
+| Ease of use                                                     | Hard           | Easy                         | Medium                   | Easy                       |
+| Customizability (Poetry)                                        | High           | Medium                       | High                     | Low                       |
+| GitHub Auth                                                     | No             | Yes                          | Yes                      | Yes                       |
+| Github Actions Integration                                      | Very good      | Sort of (deploy webhook)     | Yes                      | Yes                       |
+| Managed Postgres                                                | Yes            | Yes                          | Yes                      | Yes                       |
+| File Storage service                                            | Yes            | Yes (FTP) 0.25$/GB           |                          |                           |
+| "Native support for Django app"                                 | Sort of        | Yes<br>(Poetry support)      | ?                        | Yes<br>(requirements.txt) |
+| Docker Image or Dockerfile support                              | Yes            | Yes                          | Yes                      | No                        |
+| Docker-compose                                                  | Yes            | No                           | Yes (with a normal node) | No                        |
+| Logging                                                         | Very good logs | Simple                       | Simple                   | Simple                    |
+| Alert                                                           | Yes            | No                           | ?                        | No                        |
+| Similar to production environment<br>(Aarhus University server) | Likely possible| Maybe if docker on university server                    | Likely                   | No                        |
+
+## Decision Outcome
+
+We have decided on render.com. 
+
+Render.com is cheap - even free for our use-case. It integrates with github auth and the deployment is very easy to setup. 
+
+Furthermore, we can customize the solution to use a Docker image or a Dockerfile if we need to. 
+
+The other cloud providers, where not choosen for these reasons:
+- Azure is able to do everything, but it is too complicated for a demo environment
+- Vercel is easy to use, but lacked customisability. For instance, it seemed not to work so well with poetry
+- Digital Ocean could be a fair choice, but I was unable to make it work
+
+### Consequences
+
+Render.com does not understand docker-compose files which would have been nice. Azure and Digital Ocean sort of supports docker-compose files, but it would require a lot of work and this seems overkill for a demo environment
+
+
