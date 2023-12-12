@@ -37,9 +37,9 @@ We have considered four different cloud providers: Azure, Render, Digital Ocean 
 | --------------------------------------------------------------- |:--------------:| ----------------------------:| ------------------------ | ------------------------- |
 | Price (per month)                                               | 1000kr         | Free or<br>19$/user + 20$/DB | ?                        | Free or<br>20$/user       |
 | Ease of use                                                     | Hard           | Easy                         | Medium                   | Easy                       |
-| Customizability (Poetry)                                        | High           | Medium                       | High                     | Low                       |
+| Customizability (venv, Poetry, Docker)                          | High           | Medium                       | High                     | Low                       |
 | GitHub Authentication                                           | No             | Yes                          | Yes                      | Yes                       |
-| Github Actions Integration                                      | Very good      | Sort of (deploy webhook)     | Yes                      | Yes                       |
+| GitHub Actions Integration                                      | Very good      | Sort of (deploy webhook)     | Yes                      | Yes                       |
 | Managed Postgres                                                | Yes            | Yes                          | Yes                      | Yes                       |
 | File Storage service                                            | Yes            | Yes (FTP) 0.25$/GB           |                          |                           |
 | "Native support for Django app"                                 | Sort of        | Yes<br>(Poetry support)      | ?                        | Yes<br>(requirements.txt) |
@@ -56,7 +56,7 @@ We have decided on render.com.
 Render.com is cheap - even free for our use-case. It integrates with GitHub authentication and the deployment is very easy to setup. It also has a native support for Django with Poetry. Furthermore, we can customize the solution to use a Docker image or a Dockerfile if we need to. 
 
 The other cloud providers, where not choosen for these reasons:
-- Azure is able to do everything, but it is too complicated for a demo environment
+- Azure is able to do everything we require, but it is too complicated for a demo environment
 - Vercel is easy to use, but lacks customisability. For instance, it seemed not to work so well with poetry and it is unable to work with docker
 - Digital Ocean could be a fair choice, but I was unable to make it work - so in that sense it fails the "ease of use"-criteria
 
