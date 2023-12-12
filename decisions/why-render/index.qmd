@@ -20,12 +20,12 @@ We want to decide on a cloud provider based on these features/metrics:
 - Ease of use
 - Customisability. Cloud provider should be easy to customise to use different frameworks/tools, if we need to adjust. (For instance we should be able to use either of: venv, poetry, docker and etc)
 - Github Authentication. Cloud provider should integrate with Github authentication, because we already use Github for the Seedcase repositories and project management
-- Github Actions Integration. Cloud provider should integrate with have github actions so it will be easy to make pipelines
-- Managed Postgres. Cloud provider should have a managed postgres database to store application data if needed
+- Github Actions Integration. Cloud provider should integrate with have Github Actions so it will be easy to make pipelines
+- Managed PostgreSQL. Cloud provider should have a managed PostgreSQL database to store application data if needed
 - "Native" support for Django application. Cloud provider should have support for running a Django application without the need to wrap it in package or docker container
 - Docker image or Dockerfile support. Cloud provider should also have support for running docker images. Potentially, providing a Dockerfile would be convenient
 - Docker-compose. A cloud provider with docker-compose support would allow us to easily spin up complicated environment (application, database and etc) in a similar way as we do locally
-- Logging + Alerting. Logging and alert is nice, but no so relevant for a demo environment
+- Logging + Alerting. Logging and alerts would be nice features for the cloud provider, but no so relevant (and, therefore, not required) for a demo environment
 - Similar to production environment. We want the demo environment to be similar to the production environment, but we dont know how that will look
 
 
@@ -38,7 +38,7 @@ We have considered four different cloud providers: Azure, Render, Digital Ocean 
 | Price (per month)                                               | 1000kr         | Free or<br>19$/user + 20$/DB | ?                        | Free or<br>20$/user       |
 | Ease of use                                                     | Hard           | Easy                         | Medium                   | Easy                       |
 | Customizability (Poetry)                                        | High           | Medium                       | High                     | Low                       |
-| GitHub Auth                                                     | No             | Yes                          | Yes                      | Yes                       |
+| GitHub Authentication                                           | No             | Yes                          | Yes                      | Yes                       |
 | Github Actions Integration                                      | Very good      | Sort of (deploy webhook)     | Yes                      | Yes                       |
 | Managed Postgres                                                | Yes            | Yes                          | Yes                      | Yes                       |
 | File Storage service                                            | Yes            | Yes (FTP) 0.25$/GB           |                          |                           |
@@ -53,9 +53,7 @@ We have considered four different cloud providers: Azure, Render, Digital Ocean 
 
 We have decided on render.com. 
 
-Render.com is cheap - even free for our use-case. It integrates with github auth and the deployment is very easy to setup. 
-
-Furthermore, we can customize the solution to use a Docker image or a Dockerfile if we need to. 
+Render.com is cheap - even free for our use-case. It integrates with GitHub authentication and the deployment is very easy to setup. It also has a native support for Django with Poetry. Furthermore, we can customize the solution to use a Docker image or a Dockerfile if we need to. 
 
 The other cloud providers, where not choosen for these reasons:
 - Azure is able to do everything, but it is too complicated for a demo environment
@@ -65,5 +63,3 @@ The other cloud providers, where not choosen for these reasons:
 ### Consequences
 
 Render.com lacks docker-compose support, so we will not be able to reuse docker-compose files from our local development
-
-
