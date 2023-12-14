@@ -1,0 +1,50 @@
+---
+title: "List of user stories"
+description: "This is a temporary file for collating the user stories for Seedcase."
+author: "Kristiane Beicher"
+date: last-modified
+categories:
+  - documentation
+  - organization
+  - user stories
+---
+
+|As a... |I want to... |Because... |
+| --- | --- | --- |
+|User Access Administrator|I want to set up user accounts|so that people can work in the system|
+|User Access Administrator|I want to assign a user to a role/group|so that they will receive the correct permissions to work in the system|
+|User Access Administrator|I want to see the individuals assigned to each role|so that I can easily audit who has access to which parts of the system|
+|User Access Administrator|I want to see the groups/roles assigned to an individual|so that I can easily audit what kind of access a user has/has had|
+|Data Request Admin|I want to see the applications submitted|so that I can check if they are completed correctly|
+|Data Request Admin|I want to send an application back to the requester|so that they can fill out the missing values|
+|Data Request Admin|I want to comment on a data request|so that I can inform either the requester or the data controller of my findings|
+|Data Request Admin|I want to forward a request to the data controller|so that they can make a decision on whether or not to grant access to the data|
+|Data Request Admin|I want to put together a data extract script|so that I can provide the data requested|
+|Data Request Admin|I want to pull the data out of the system|so that I can make the data available to the requestor|
+|Data Request Admin|I want to see how many rows of data a specific request will generate|so that I can determine if the tables have been linked correctly|
+|Data Request Admin|I want to select between formats for download of data|so that I can send the most appropriate format to the data requester|
+|Data Requester|I want to submit a request for data|so that I can continue my research|
+|Data Requester|I want to see how far my request is in the system|so that I know when I'm likely to hear of a decision|
+|Data Requester|I want to see the variables that the system contains|so that I can decide if I should apply for data|
+|Data Requester|I want to pick and chose between variables|so that I can put together a variable list for an application for data|
+|Data Requester|I want to ask questions about variables|so that I can get clarificaton before asking for data|
+|Data Requester|I want to select between different formats when I submit a data request|so that I get the data in a format I can work with|
+|Data Contributor|I want to be able to create tables |so that I can store my data|
+|Data Contributor|I want to be able to enter free text definitions for my variables|so that I can show the rest of the users what exactly has been captured|
+|Data Contributor|I want to add fields to my tables|so that I can add more variables to the same research subject|
+|Data Contributor|I want to add validation to my fields|so that the system will alert me, if there is data that doesn't fit in my upload|
+|Data Contributor|I want to define a field (or set of fields) as a primary key for a table|so that I can link data between tables|
+|Data Contributor|I want to define a field (or set of fields) as a foreign key for a table|so that I can link data between tables|
+|Data Contributor|I want to set a field as NULL or NOT NULL values|so that the system will alert me, if there is data that doesn't fit in my upload|
+|Data Contributor|I want to define a field to allow or not allow duplicate values|so that the system will alert me, if there is data that doesn't fit in my upload|
+|Data Contributor|I want to upload a file without a receiving table|so that I can use the system to fetch all the headings and data types, helping me to create a new table|
+|Data Contributor|I want to select from a sets of predefined tables|so that I don't have to type in all the definitions, if I'm uploading data from a particular machine or system|
+|Data Contributor|I want to see the violations of data validation rules|so that I can correct the errors as I'm batch uploading data|
+|Data Contributor|I want to select one violation type|so that I can work through all the occurences at the same time|
+|Data Contributor|I want to be notified if my variable names could be improved|so that I can decide if they should be changed|
+|Data Contributor|I want to see both data sets if I upload data that is already in the system|so that I can decide which one I would like to keep|
+|Data Contributor / Primary Admin|I want to be alerted if there is a violation that doesn't stop an upload (warning)|so that I can decide if I need to correct the |data, or if it should stay as is|
+|Primary Administrator|I want to select which permissions a user will have |so that I can control who has access to the raw data in the system|
+|Primary Administrator|I want to group permissions into roles|so that I don't have to give every single individual permission to a user|
+|Primary Administrator|I want to bulk update either a group of users or a group of roles|so that I don't have to do it for each one|
+|Primary Administrator|I want to see the name of the uploader that generated an upload with a warning|so that I can contact them about the warning if they persist |in doing the same thing|
