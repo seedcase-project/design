@@ -1,0 +1,44 @@
+---
+title: "Why Material Design"
+description: "We want to Seedcase to look good with a minimal effort."
+author: "Philip Christiansen"
+date: last-modified
+categories:
+---
+
+
+## Context and Problem Statement
+
+Seedcase should look good with a minimal effort. Therefore, we want to leverage existing CSS or UI frameworks rather than starting from scratch. 
+
+## Decision Drivers
+
+The UI framework should:
+- Should look good
+- Integrate well with figma. The wireframes in figma should be easy to reproduce in Django templates
+- Be easy to use with Django. Since Django is a python framework, we don't want to rely on frameworks that requires node/npm or too much javascript. Preferably, we want a CSS framework, where we can just add CSS classes to html elements
+- Should have a great documentation and community
+
+## Considered Options
+
+I have considered the following:
+- Bootstrap. The oldest and most widely used css framework. It is often used together with Django and there even exist a python package: django-bootstrap5
+- Material Design. A popular framework designed by Google. The framework has multiple implementations where https://materializeweb.com/ and https://www.beercss.com/ prioritize CSS over javascript
+- Tailwind. A popular framework that allows a high customisability
+- Bulma. Simple CSS only framework
+
+## Decision Outcome
+
+We decided on "Material Design" because:
+- We think it looks better than the other frameworks. Actually, this was the main driver for selecting Material Design
+- Figma has great support for Material Design
+- We have found two CSS frameworks, which integrates nicely with Django: https://materializeweb.com/ or https://www.beercss.com/
+
+Reasons for not selected the other frameworks
+- Bootstrap has great integration with Django, but we think Material Design looks better 
+- Tailwind require time and skill to customize and it relies on nodejs/npm which gives a bad developer experinence
+- Bulma is a CSS only framework. It is easy to use, but we think Material Design looks better
+
+### Consequences
+
+We might miss the better Django integration from Bootstrap
