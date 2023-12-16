@@ -1,0 +1,74 @@
+---
+title: "Why use Render to host a demo of Seedcase"
+description: |
+  Showcasing a demo of Seedcase software helps make things more tangible. This
+  post describes our reasons for using Render as a deployment host for showcasing our demo.
+author: "Philip Christiansen"
+date: "2023-12-08"
+date-modified: last-modified
+categories:
+  - hosting
+  - demo
+  - deployment
+---
+
+## Context and Problem Statement
+
+We need some way to test and visually see how Seedcase deploys and works "live". The best solution would be to use a cloud provider, so we can easily deploy and visualize the progress of Seedcase.
+
+This is relevant for reviewing code changes and for manual and user-experience testing. Ideally, this environment should be similar to a future production environment, but this may vary a lot based on the team/organisation that will use Seedcase. 
+
+So our question is:
+
+> Which cloud hosting provider should we use for our demonstrating and testing purposes?
+
+## Decision Drivers
+
+We want to decide on a cloud provider based on these features/metrics:
+
+- Price: Relatively inexpensive in costs, since it will only be for demonstration purposes.
+- Easy of use: It shouldn't be too difficult to use.
+- Customisable: The provider should be easy to customise to use different frameworks/tools, if we need to adjust. For instance we should be able to use either of: venv, poetry, docker and etc.
+- Github Authentication: The cloud provider should integrate with Github authentication, because we already use Github for the Seedcase repositories and project management.
+- Github Actions Integration: The cloud provider should integrate with have Github Actions so it will be easy to make pipelines.
+- Managed PostgreSQL: It should have a managed PostgreSQL database to store application data if needed.
+- "Native" support for Django application: It should have support for running a Django application without the need to wrap it in package or Docker container.
+- Docker image or Dockerfile support: The cloud provider should also have support for running Docker images. Potentially, providing a Dockerfile would be convenient.
+- Docker-compose support: A cloud provider with docker-compose support would allow us to easily spin up complicated environment (application, database and etc) in a similar way as we do locally.
+- Logging and alerting: Logging and alerts would be nice features for the cloud provider, but not so relevant (and, therefore, not required) for a demo environment.
+- Similar to production environment: We want the demo environment to be similar to the production environment, but we don't know how that will look.
+
+## Considered Options
+
+We have considered four different cloud providers: [Azure](https://azure.microsoft.com/en-us), [Render](https://render.com/), [Digital Ocean](https://www.digitalocean.com/), and [Vercel](https://vercel.com/). Below you see a "decision matrix" based on the different features. 
+
+|                                                                 | Azure          | Render                       | Digital Ocean            | Vercel                    |
+| --------------------------------------------------------------- |:--------------:| ----------------------------:| ------------------------ | ------------------------- |
+| Price (per month)                                               | 1000kr         | Free or 19$/user + 20$/DB | ?                        | Free or 20$/user       |
+| Ease of use                                                     | Hard           | Easy                         | Medium                   | Easy                       |
+| Customizability (venv, Poetry, Docker)                          | High           | Medium                       | High                     | Low                       |
+| GitHub Authentication                                           | No             | Yes                          | Yes                      | Yes                       |
+| GitHub Actions Integration                                      | Very good      | Sort of (deploy webhook)     | Yes                      | Yes                       |
+| Managed Postgres                                                | Yes            | Yes                          | Yes                      | Yes                       |
+| File Storage service                                            | Yes            | Yes (FTP) 0.25$/GB           |                          |                           |
+| "Native support for Django app"                                 | Sort of        | Yes (Poetry support)      | ?                        | Yes (requirements.txt) |
+| Docker Image or Dockerfile support                              | Yes            | Yes                          | Yes                      | No                        |
+| Docker-compose                                                  | Yes            | No (but has render.yml)      | Yes (with a normal node) | No                        |
+| Logging                                                         | Very good logs | Simple                       | Simple                   | Simple                    |
+| Alert                                                           | Yes            | No                           | ?                        | No                        |
+| Similar to production environment (Aarhus University server) | Likely possible| Maybe if docker on university server                    | Likely                   | No                        |
+
+## Decision Outcome
+
+We have decided on using Render for our demo and testing needs. Render is cheap - even free for our use-case. It integrates with GitHub authentication and the deployment is very easy to setup. It also has a native support for Django with Poetry. Furthermore, we can customize the solution to use a Docker image or a Dockerfile if we need to. 
+
+The other cloud providers, where not chosen for these reasons:
+
+- Azure is able to do everything we require, but it is too complicated for a demo environment.
+- Vercel is easy to use, but lacks customisability. For instance, it seemed not to work so well with Poetry and it is unable to work with Docker.
+- Digital Ocean could be a fair choice, but I was unable to make it work - so in that sense it fails the "ease of use"-criteria.
+
+### Consequences
+
+- Render lacks docker-compose support, so we will not be able to reuse docker-compose files from our local development.
+- We'll have to take time to set up the connection between GitHub and Render, as well as take the time to maintain and debug it.
