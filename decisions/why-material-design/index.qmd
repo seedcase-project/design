@@ -1,0 +1,79 @@
+---
+title: "Why Material Design for frontend styling"
+description: "We aim to utilise existing CSS or UI frameworks instead of building from scratch so Seedcase will look good with minimal effort. Since Material Design lives up to these requirements, we have chosen this framework for Seedcase."
+author: "Philip Christiansen"
+date: last-modified
+categories:
+  - user interface
+  - user experience
+  - frontend framework
+  - style
+---
+
+## Context and Problem Statement
+
+The Seedcase software products' frontend should look good with minimal effort. Therefore, we aim to utilise existing CSS or UI frameworks instead of building from scratch.
+
+## Decision Drivers
+
+The UI framework should:
+
+- Be aesthetically pleasing.
+- Integrate well with Figma. The wireframes in Figma should be easy to reproduce in Django templates.
+- Be easy to use with Django. Since we use Django and it is a Python framework, we don't want to rely on frameworks that require node/npm or too much JavaScript. Preferably, we want a CSS framework, where CSS classes can be directly added to HTML elements.
+- Have a great documentation and community.
+
+## Considered Options
+
+We have considered the following:
+
+### Bootstrap
+
+[Bootstrap](https://getbootstrap.com/) is one of the older and more widely used CSS frameworks. 
+
+- **Pros**:
+    - Widely used, lots of support and community.
+    - Great integration with Django through the Python package [`django-bootstrap5`](https://pypi.org/project/django-bootstrap5/).
+- **Cons**:
+    - Harder to customize individual components (for example, a button).
+
+### Material Design
+
+[Material Design](https://m3.material.io/) is a popular framework designed by Google. 
+
+- **Pros**:
+    - Has multiple implementations, like [Materialize Web](https://materializeweb.com/) and [BeerCSS](https://www.beercss.com/) that works well with Django.
+    - Prioritizes CSS over JavaScript.
+    - Very customizable.
+    - Looks very aesthetically pleasing (backed by the strong design community within Google).
+    - [Figma](https://www.figma.com/) (used for sketching out the UI) has great support for Material Design.
+- **Cons**:
+    - Has multiple implementations, which might take time to decide on.
+
+### Tailwind
+
+[Tailwind](https://tailwindcss.com/) is a popular framework that allows a high level of customisability.
+
+- **Pros**:
+    - CSS only.
+    - Very highly customisable.
+- **Cons**:
+    - Requires time and skill to customize
+    - Relies on [Node.js](https://nodejs.org/en) (via [npm](https://www.npmjs.com/)) which is an additional dependency and needs time to learn to use
+
+### Bulma
+
+[Bulma](https://bulma.io/) is a simple CSS or Sass only framework.
+
+- **Pros**:
+    - Seems relatively easy to use.
+- **Cons**:
+    - Requires Node.js (via npm) to install.
+
+## Decision Outcome
+
+We decided on Material Design because it has great integration with existing UI/UX (like Figma), looks amazing (has the design team at Google backing it's development), is widely used, and customizable.
+
+### Consequences
+
+- There is better Django integration with Bootstrap, so we might need to spend some time properly integrating Material Design.
