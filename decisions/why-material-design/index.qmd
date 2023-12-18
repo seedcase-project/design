@@ -36,7 +36,7 @@ We decided on "Material Design" because:
 
 Reasons for not selected the other frameworks
 - Bootstrap has great integration with Django, but we think Material Design looks better 
-- Tailwind require time and skill to customize and it relies on nodejs/npm which gives a bad developer experinence
+- Tailwind require time and skill to customize, and it relies on nodejs/npm which gives a bad developer experience
 - Bulma is a CSS only framework. It is easy to use, but we think Material Design looks better
 
 ### Consequences
