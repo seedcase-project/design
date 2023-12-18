@@ -21,7 +21,7 @@ The UI framework should:
 
 ## Considered Options
 
-I have considered the following:
+We have considered the following:
 - Bootstrap. The oldest and most widely used css framework. It is often used together with Django and there even exist a python package: django-bootstrap5
 - Material Design. A popular framework designed by Google. The framework has multiple implementations where https://materializeweb.com/ and https://www.beercss.com/ prioritize CSS over javascript
 - Tailwind. A popular framework that allows a high customisability
