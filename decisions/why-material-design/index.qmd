@@ -34,7 +34,7 @@ We decided on "Material Design" because:
 - Figma has great support for Material Design
 - We have found two CSS frameworks, which integrates nicely with Django: https://materializeweb.com/ or https://www.beercss.com/
 
-Reasons for not selected the other frameworks
+Reasons for not selecting the other frameworks
 - Bootstrap has great integration with Django, but we think Material Design looks better 
 - Tailwind require time and skill to customize, and it relies on nodejs/npm which gives a bad developer experience
 - Bulma is a CSS only framework. It is easy to use, but we think Material Design looks better
