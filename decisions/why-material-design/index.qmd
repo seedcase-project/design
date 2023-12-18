@@ -17,7 +17,7 @@ The UI framework should:
 - Look good
 - Integrate well with Figma. The wireframes in Figma should be easy to reproduce in Django templates
 - Be easy to use with Django. Since Django is a Python framework, we don't want to rely on frameworks that requires node/npm or too much JavaScript. Preferably, we want a CSS framework, where CSS classes can be directly added to HTML elements
-- Should have a great documentation and community
+- Have a great documentation and community
 
 ## Considered Options
 
