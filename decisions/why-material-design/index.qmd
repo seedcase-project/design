@@ -23,7 +23,7 @@ The UI framework should:
 
 We have considered the following:
 - Bootstrap. The oldest and most widely used CSS framework. It is often used together with Django and there even exist a Python package for this purpose called `django-bootstrap5`
-- Material Design. A popular framework designed by Google. The framework has multiple implementations where https://materializeweb.com/ and https://www.beercss.com/ prioritize CSS over javascript
+- Material Design. A popular framework designed by Google. The framework has multiple implementations where https://materializeweb.com/ and https://www.beercss.com/ prioritize CSS over JavaScript
 - Tailwind. A popular framework that allows a high customisability
 - Bulma. Simple CSS only framework
 
