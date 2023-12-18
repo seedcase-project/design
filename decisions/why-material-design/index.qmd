@@ -30,7 +30,7 @@ We have considered the following:
 ## Decision Outcome
 
 We decided on Material Design because:
-- We think it looks better than the other frameworks. Actually, this was the main driver for selecting Material Design
+- We think it looks better than the other frameworks, which was the main driver for selecting Material Design
 - Figma has great support for Material Design
 - We have found two CSS frameworks, which integrates nicely with Django: https://materializeweb.com/ or https://www.beercss.com/
 
