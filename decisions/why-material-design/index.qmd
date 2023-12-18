@@ -9,7 +9,7 @@ categories:
 
 ## Context and Problem Statement
 
-Seedcase should look good with a minimal effort. Therefore, we want to leverage existing CSS or UI frameworks rather than starting from scratch. 
+Seedcase should look good with minimal effort. Therefore, we aim to utilise existing CSS or UI frameworks instead of building from scratch.
 
 ## Decision Drivers
 
