@@ -1,9 +1,9 @@
 ---
-title: "Seedcase Project: Design Docs"
+title: "Welcome to the Design Docs!"
 about:
   id: hero-heading
   template: solana
-  image: /images/logo-full-color.png
+  image: images/logo-full-color.png
   image-width: 20em 
 ---
 
@@ -60,7 +60,7 @@ read the documents:
 While Seedcase is software, it also interacts with data, so we have
 written two core parts in mind:
 
--   A [software architecture](software-architecture/index.qmd) document,
+-   A [software architecture](software/index.qmd) document,
     which is based on the [arc42](https://arc42.org) template and the
     [C4 Model](https://c4model.com/)
 -   A data architecture document, which is a work-in-progress

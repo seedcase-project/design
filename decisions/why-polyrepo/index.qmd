@@ -1,6 +1,6 @@
 ---
-title: "Why choose a THAT approach to repositories?"
-description: "Our reasons for ..."
+title: "Why choose a poly-repo approach to development?"
+description: "This contains our reasons for using a poly-repo based approach to organizing our projects and software."
 author: "Luke W. Johnston"
 date: last-modified
 categories:
