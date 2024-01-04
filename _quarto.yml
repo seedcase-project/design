@@ -3,7 +3,6 @@ project:
 
 website:
   title: "Seedcase Project: Design"
-  favicon: "/images/logo.svg"
   site-url: "https://design.seedcase-project.org/"
   repo-url: "https://github.com/seedcase-project/design"
   page-footer:
@@ -13,30 +12,22 @@ website:
   page-navigation: true
   navbar:
     pinned: true
-    logo: "/images/logo.svg"
-    right:
-      - icon: list
-        menu:
-          - text: "Main"
-            href: "https://seedcase-project.org"
     tools:
+      - icon: house
+        href: "https://seedcase-project.org"
       - icon: github
         href: "https://github.com/seedcase-project/design"
   sidebar:
-    - id: design
-      pinned: true
-      style: "floating"
-      align: left
-      collapse-level: 2
-      contents:
-        - index.qmd
-        - auto: software-architecture/
+    pinned: true
+    style: "floating"
+    contents:
+      - index.qmd
+      - auto: software/
 
 # format:
 #   seedcase-theme-html:
     # include-before-body:
       # - "includes/site-counter.html"
-      # - "includes/contribute.html"
 
 editor:
   markdown:
