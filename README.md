@@ -1,23 +1,12 @@
 # Documentation on the architecture design of the Seedcase Project
 
--   Grant proposal: [![Grant proposal
-    DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6511112.svg)](https://doi.org/10.5281/zenodo.6511112)
-
-In many fields of science, managing and structuring data in FAIR,
-transparent, and discoverable ways can be a major barrier to fully using
-data collected from a study. This is especially true of larger studies,
-as experienced in many human health fields. This is largely a software
-and training issue, complicated by the fact that funding is often
-restricted for this type of work as it is often undervalued. For this
-project, we aim to build software tools and training documentation that
-make it easier to manage and work with data. More details are found on
-the [landing page](https://seedcase-project.org) of the website.
+This repository contains documents describing the overall design and architecture of the Seedcase Project.
 
 ## Contributing
 
 Looking to contribute? Check out our [contributing
-guidelines](CONTRIBUTING.md). Please note that the Seedcase project is
-released with a [Contributor Code of
-Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
+guidelines](https://community.seedcase-project.org). Please note that the Seedcase project is
+released with a [Code of
+Conduct](https://github.com/seedcase-project/.github/blob/main/CODE_OF_CONDUCT.md).
 By contributing to this project, you agree to abide by its
-[terms](community/CODE_OF_CONDUCT.md).
+terms.
