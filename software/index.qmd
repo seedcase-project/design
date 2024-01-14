@@ -3,7 +3,7 @@ title: "Software architecture documentation"
 order: 0
 ---
 
-{{< include ../../includes/_wip.qmd >}}
+{{< include /includes/_wip.qmd >}}
 
 ## Purpose
 
@@ -21,7 +21,7 @@ test, develop, and grow as a team.
 ## Reader
 
 The assumed readers are similar to the ones we listed in the [Design of
-Seedcase](../index.md) landing page. The complete list of expected
+Seedcase](../index.qmd) landing page. The complete list of expected
 readers is found in the [Stakeholders](introduction.qmd#stakeholders)
 section of the Introduction.
 
