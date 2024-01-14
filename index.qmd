@@ -8,8 +8,7 @@ about:
 ---
 
 ::: {#hero-heading}
-Documentation on the architecture design of our Seedcase Products as well as the reasons for the decisions we've made for which technologies to use.
-
+Documentation on the architecture design of our Seedcase Products.
 A software's architecture that is well documented and described is (or
 should be) the first place to look when trying to understand it and how
 it works. The design documentation is a way of providing an overall map
