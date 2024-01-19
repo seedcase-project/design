@@ -50,8 +50,6 @@ Here we list the user stories for each of our anticipated / target users.
 |Data Contributor|be able to enter free text definitions for my variables|so that I can show the rest of the users what exactly has been captured|
 |Data Contributor|add fields to my tables|so that I can add more variables to the same research subject|
 |Data Contributor|add validation to my fields|so that the system will alert me, if there is data that doesn't fit in my upload|
-|Data Contributor|define a field (or set of fields) as a primary key for a table|so that I can link data between tables|
-|Data Contributor|define a field (or set of fields) as a foreign key for a table|so that I can link data between tables|
 |Data Contributor|set a field as NULL or NOT NULL values|so that the system will alert me, if there is data that doesn't fit in my upload|
 |Data Contributor|define a field to allow or not allow duplicate values|so that the system will alert me, if there is data that doesn't fit in my upload|
 |Data Contributor|upload a file with data that doesn't have a receiving table|so that I can use the system to fetch all the headings and data types, helping me to create a new table|
@@ -71,3 +69,5 @@ Here we list the user stories for each of our anticipated / target users.
 |Primary Administrator|bulk update either a group of users or a group of roles|so that I don't have to do it for each one|
 |Primary Administrator|see the name of the uploader that generated an upload with a warning|so that I can contact them about the warning if they persist in doing the same thing|
 |Primary Administrator|be alerted if there is a violation that doesn't stop an upload (warning)|so that I can decide if I need to correct the data, or if it should stay as is|
+|Primary Administrator|define a field (or set of fields) as a primary key for a table|so that I can link data between tables|
+|Primary Administrator|define a field (or set of fields) as a foreign key for a table|so that I can link data between tables|
