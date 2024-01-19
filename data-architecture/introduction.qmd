@@ -14,7 +14,7 @@ Seedcase is in its core a tool to help with data architecture by providing an op
 
 ### Static
 
-Some users of the Seedcase Product will only want to use it to store an already existing data set, with the express purpose of analysing the data, producing a paper, and then either archiving or discarding the data.  For that type of use it is excessive to want to document much more than the data itself to a level where it is possible to re-trace the analysis work done with the research data.  The way Seedcase encourages good data documentation can be seen in the [Describing data](../describing-data.md) section.
+Some users of the Seedcase Product will only want to use it to store an already existing data set, with the express purpose of analysing the data, producing a paper, and then either archiving or discarding the data.  For that type of use it is excessive to want to document much more than the data itself to a level where it is possible to re-trace the analysis work done with the research data.  The way Seedcase encourages good data documentation can be seen in the [Describing data](describing-data.qmd) section.
 
 As for the data internal to Seedcase (user accounts), it would be standard in a static model for it to be set up once and then never edited again, see the section User set-up for more information on how the Seedcase Product handles user accounts.
 
