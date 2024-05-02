@@ -1,0 +1,22 @@
+
+## Philosophy and ideals
+
+How we design things at the implementation level, both for internal and user-facing content, will be:
+
+-   Simple: Keep the vocabulary simple and easy to understand
+-   Composable: Can be combined with other names to imply intent
+-   Predictable: Easy to guess and reason on, without needing to look up
+    documentation
+-   Reusable: Can be used across multiple contexts
+-   Consistent: Remains the same across different contexts
+-   Align with existing conventions: Follow widely-established standards
+    and conventions
+
+# Style guidelines
+
+- Keep functions small and simple.
+- Have predictable output 
+
+for very small functions (<5 lines) and with few arguments and options and with clear input and output, only need to provide a simple docstring (or none at all)
+
+Prefer predictable output, prefer fewer actions for most functions, bigger/core functions then contain the smaller functions that chain together to achieve a bigger/more complex set of actions
