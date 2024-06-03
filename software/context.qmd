@@ -6,10 +6,13 @@ order: 3
 {{< include /includes/_wip.qmd >}}
 
 This document is an overview of the different connections, both human
-and computer, with a [Data Resource](introduction.qmd#definition-of-terms) managed by Seedcase.
+and computer, with a [Data
+Resource](introduction.qmd#definition-of-terms) managed by the Seedcase
+framework.
 
-![[C4 Context diagram](https://c4model.com/#SystemContextDiagram) showing users and external systems that connect to
-the Data Resource managed by Seedcase.](/design/images/context.png)
+![[C4 Context diagram](https://c4model.com/#SystemContextDiagram)
+showing users and external systems that connect to the Data Resource
+managed by Seedcase.](/design/images/context.png)
 
 <!-- ## User and organizational -->
 
@@ -33,7 +36,8 @@ The four users and their associated use cases are:
         projects to await approval from the data controllers (User 4).
 3.  **Users who are administrators and data controllers** of the Data
     Resource. Use cases are:
-    1.  Initial upload of data that includes setting up tables and allocating space in the raw data file storage. 
+    1.  Initial upload of data that includes setting up tables and
+        allocating space in the raw data file storage.
     2.  Approve newly submitted data projects that request data and
         manage existing data projects.
     3.  Approve and authorize researchers to access the web portal for
