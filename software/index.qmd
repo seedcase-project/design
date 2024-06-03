@@ -8,15 +8,15 @@ order: 0
 ## Purpose
 
 The core purpose of writing this architecture documentation is to be
-able to describe to ourselves and others what Seedcase is aiming to
-accomplish and how it will do that.
+able to describe to ourselves and others what the Seedcase framework is
+aiming to accomplish and how it will do that.
 
 We structured the software architecture documentation to follow the
 [arc42](https://arc42.org) template and the [C4
 Model](https://c4model.com/) as much as is relevant for our situation,
 since these both are fairly popular and common templates to use. This
-documentation is also continuously evolving as we learn,
-test, develop, and grow as a team.
+documentation is also continuously evolving as we learn, test, develop,
+and grow as a team.
 
 ## Reader
 
@@ -35,11 +35,11 @@ section of the Introduction.
     barriers or constraints we have self-imposed (for instance, due to
     ideological or philosophical reasons) as well as those we have no
     control over (such as technological server environments that
-    Seedcase may be installed on).
+    Seedcase software may be installed on).
 3.  [Context and scope](context.qmd): Targeted at any reader. Covers who
-    our target or anticipated users are for Seedcase as well as
-    potential technological "users" are, for instance, external servers
-    connecting to Seedcase.
+    our target or anticipated users are for Seedcase software as well as
+    potential technological "users", for instance, external servers
+    connecting to Seedcase software.
 4.  [Solution strategy](solution-strategy.qmd): Targeted at any reader.
     Describes our proposed solution for the problem we are trying to
     address, as well as which core technologies and architecture designs
@@ -49,19 +49,21 @@ section of the Introduction.
     who are more interested in some more technical details while later
     sections are much more highly detailed and written for those with
     much more technical knowledge. We describe the core architecture of
-    Seedcase with increasing detail throughout the section, including
-    the different parts and connections between parts.
+    the Seedcase framework with increasing detail throughout the
+    section, including the different parts and connections between
+    parts.
 6.  [Runtime view](runtime-view.qmd): Targeted at readers who are
     interested in very technical details. Covers how the different parts
-    will actually interact with each other when a user uses Seedcase.
+    will actually interact with each other when a user uses the Seedcase
+    framework.
 7.  [Deployment view](deployment-view.qmd): Targeted at readers who are
     interested in very technical details.
 8.  [Cross-cutting concepts](cross-cutting-concepts.qmd): Targeted at
     both technical and non-technical users. Includes concepts such as
     security, privacy, legal considerations, storage, and dissemination.
-9.  [Architecture decisions](../decisions.qmd): Targeted at
-    technical readers. Covers the reasons for decisions we make about
-    specific technologies or patterns used.
+9.  [Architecture decisions](../decisions.qmd): Targeted at technical
+    readers. Covers the reasons for decisions we make about specific
+    technologies or patterns used.
 10. [Quality requirements](quality-requirements.qmd): Targeted at any
     reader. This section goes into more detail on the quality goals
     listed in the [introduction](introduction.qmd#quality-goals)

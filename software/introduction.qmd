@@ -10,9 +10,9 @@ practices, technologies, and processes to research environments.
 Technological and computing skills and knowledge within health research
 (at least in our experience) often lags far behind what is the current
 state-of-the-art. The connected design documents describe the
-architecture of the Seedcase software as well as the underlying data
-architecture that Seedcase implements as a framework. Our specific goals
-for the Seedcase project are:
+architecture of Seedcase software as well as the underlying data
+architecture that Seedcase software implements as a framework. Our
+specific goals for the Seedcase Project are:
 
 <!--TODO removed something here, now the colon is hanging-->
 
@@ -24,15 +24,15 @@ on the structure and format of the filesystem, URL paths, and API calls;
 and, 3) a defined and standardized structure to the data and associated
 documentation, all of which are linked together as modular components.
 
-The Community based aims are covered more in our
-[Community site](https://community.seedcase-project.org) page. While these aims are not related
-to the software itself, it does impact architectural and design
-decisions we make.
+The Community based aims are covered more in our [Community
+site](https://community.seedcase-project.org) page. While these aims are
+not related to the software itself, it does impact architectural and
+design decisions we make.
 
 ## Definition of terms
 
--   **Seedcase Product**: This is the software itself that is installed
-    on computer or server.
+-   **Seedcase Product**: This is a piece of Seedcase software that is
+    installed on a computer or server.
 -   **Data Resource**: {{< var design.data-resource >}}
 -   **Data Project**: A data project, also called a data extract, would
     be a subset of data from a Data Resource that researchers or other
@@ -42,7 +42,7 @@ decisions we make.
 
 ## Requirements Overview
 
-Primary **goals** of the Seedcase Product are:
+Primary **goals** of Seedcase software are:
 
 1.  **Ingesting data and metadata into standardized storage**: Take
     generated data from source locations (such as the clinic or
@@ -61,13 +61,15 @@ Primary **goals** of the Seedcase Product are:
     approve of (or not). Approved requests get converted to ongoing data
     projects, which are displayed on the web portal.
 
-While the software architecture documentation largely encompasses the software
-and data components of Seedcase, because of our secondary aims (to create a 
-framework that other research groups and companies can relatively easily 
-implement, and modify, for their own purposes), we need to describe additional 
-requirements that aren't strictly technical. We'll cover some Guiding 
-Principles we need to follow for Seedcase, describe our target users and 
-use-cases, and then list the main functionalities of Seedcase.
+While the software architecture documentation largely encompasses the
+software and data components of the Seedcase Project, because of our
+secondary aims (to create a framework that other research groups and
+companies can relatively easily implement, and modify, for their own
+purposes), we need to describe additional requirements that aren't
+strictly technical. We'll cover some Guiding Principles we need to
+follow for the Seedcase Project, describe our target users and
+use-cases, and then list the main functionalities of the Seedcase
+framework.
 
 ### Guiding principles
 
@@ -75,20 +77,22 @@ use-cases, and then list the main functionalities of Seedcase.
 
 Any human creation is influenced by our values and perspectives of the
 world around us. We can either unconsciously and implicitly let these
-values guide the development of Seedcase, unexamined and unevaluated, or
-we can explicitly and consciously select, describe, and explain the
-values we want to be guided by while developing Seedcase.
+values guide the development of Seedcase software, unexamined and
+unevaluated, or we can explicitly and consciously select, describe, and
+explain the values we want to be guided by while developing Seedcase
+software.
 
 In our case, we want to be explicit and conscious about what, how, and
 importantly, why we are doing what we decide to do. Being explicit will
 also help focus our work and (hopefully) make us more efficient and
 effective. And so, we will adhere to these key principles, that are
 supported by strong philosophical and scientific rationale, while
-developing Seedcase:
+developing Seedcase software:
 
-1.  Follow [FAIR](https://www.go-fair.org/fair-principles/) (Findable, 
-    Accessible, Interoperable, and Reusable), open, and transparent principles 
-    for the framework itself and to enable FAIR principles in the database.
+1.  Follow [FAIR](https://www.go-fair.org/fair-principles/) (Findable,
+    Accessible, Interoperable, and Reusable), open, and transparent
+    principles for the framework itself and to enable FAIR principles in
+    the database.
 2.  Be openly licensed and re-usable to facilitate uptake in other
     national groups (or companies) who are unable to invest in and build
     it.
@@ -99,8 +103,8 @@ developing Seedcase:
 
 In order to maximise the potential for re-use and to minimise the
 technical debt and expertise needed to use, maintain, and modify the
-framework, we will use software and tools underlying Seedcase that fit
-these principles:
+framework, we will use software and tools underlying Seedcase products
+that fit these principles:
 
 1.  Re-use existing material: There already exists many great software
     tools, infrastructures, and resources that haven't been incorporated
@@ -140,7 +144,9 @@ these principles:
 
 ### Users
 
-Seedcase is developed and designed with four users and uses cases in mind. The four users, which are described in more detail in the [Context section](context.qmd), are:
+The Seedcase framework is developed and designed with four users and
+uses cases in mind. The four users, which are described in more detail
+in the [Context section](context.qmd), are:
 
 1.  **Users inputting data** into the Data Resource, e.g., authorized
     centers and researchers.
@@ -155,9 +161,9 @@ Seedcase is developed and designed with four users and uses cases in mind. The f
 
 ### Main functionality
 
--   **One Seedcase "instance" per Data Resource**: Some users may have
-    multiple Data Resources, so the Seedcase Product will create
-    separate "instances" for each Data Resource.
+-   **One Data Resource per Seedcase "instance"**: For users with
+    multiple Data Resources, each Data Resource will be housed in a
+    separate "instance" of the infrastructure framework.
 -   **Upload or update data**: Input data into the Data Resource in
     batches or continuously into the backend storage, either into the
     database or as raw data files.
@@ -177,20 +183,25 @@ Seedcase is developed and designed with four users and uses cases in mind. The f
     and a brief reason as
 -   **Store data request submissions as data projects for auditing and
     managing**: Save submissions as "data projects", where admin users
-    can approve (or decline) these data projects and manage whether they are
-    "ongoing", "completed", or "declined". The stored ongoing or completed data
-    projects will be displayed on the web portal for discoverability and
-    transparency on the data resources use.
-- **Allow for individual parts to be independently installable and usable**: Users might not need or want some of the functionality, so being able to have individual and independent parts that are usable on their own is necessary. These independent parts also need to be able to connect and work together.
+    can approve (or decline) these data projects and manage whether they
+    are "ongoing", "completed", or "declined". The stored ongoing or
+    completed data projects will be displayed on the web portal for
+    discoverability and transparency on the subset of the Data Resource
+    used.
+-   **Allow for individual parts to be independently installable and
+    usable**: Users might not need or want some of the functionality, so
+    being able to have individual and independent parts that are usable
+    on their own is necessary. These independent parts also need to be
+    able to connect and work together.
 
 ## Quality Goals
 
 <!-- TODO: Add more as we develop the documents. -->
 
-| Goals                        | Scenarios                                                                                           |
-|------------------------------|-----------------------------------------------------------------------------------------------------|
-| Secure and legally compliant | Seedcase currently targets health data, so it needs to be compliant with privacy and security laws. |
-| Beginner-friendly interfaces | We want non-technical users to use this, so ease of use is high priority.                           |
+| Goals                        | Scenarios                                                                                                    |
+|-------------------|-----------------------------------------------------|
+| Secure and legally compliant | Seedcase software currently targets health data, so it needs to be compliant with privacy and security laws. |
+| Beginner-friendly interfaces | We want non-technical users to use this, so ease of use is high priority.                                    |
 
 ## Stakeholders
 
@@ -214,10 +225,10 @@ expectations we believe they have for these documents.
 
 -   **Key partners ([DD2](https://dd2.dk/),
     [SDCA](https://www.stenoaarhus.dk/))**: They were co-applicants for
-    the funding and will be the first users (and testers) of Seedcase.
-    They will likely review the overview sections and higher-level
-    diagrams for general understanding, rather than for technical
-    purposes.
+    the funding and will be the first users (and testers) of Seedcase
+    software. They will likely review the overview sections and
+    higher-level diagrams for general understanding, rather than for
+    technical purposes.
 
 -   **External reviewers**: Part of our plan is to send this document to
     a software consultancy firm to critically review it and provide
@@ -225,9 +236,9 @@ expectations we believe they have for these documents.
     important or critical. These reviewers will read these documents
     critically from a technical perspective.
 
--   **Funder (Novo Nordisk Foundation)**: We need to send progress reports to our funders.
-    They will likely use them for record-keeping, accountability, and
-    auditing purposes.
+-   **Funder (Novo Nordisk Foundation)**: We need to send progress
+    reports to our funders. They will likely use them for
+    record-keeping, accountability, and auditing purposes.
 
 -   **Data owners/generators (users of the software)**: These may
     include study coordinators or principal investigators of studies who
@@ -238,10 +249,10 @@ expectations we believe they have for these documents.
 
 -   **Interested researchers**: Researchers whose duties include
     research software or data engineering may be interested in the
-    technical side of Seedcase, either to become a contributor or to
-    modify for their own purposes.
+    technical side of the Seedcase Project, either to become a
+    contributor or to modify for their own purposes.
 
--   **Institutional admin/IT**: Building the Seedcase software will not
-    be enough to get researchers using it. We also have to ensure that
-    we have institutional IT on board and see that Seedcase fits legal,
-    privacy, and security concerns they may have.
+-   **Institutional admin/IT**: Building Seedcase software will not be
+    enough to get researchers using it. We also have to ensure that we
+    have institutional IT on board and see that Seedcase software fits
+    legal, privacy, and security concerns they may have.

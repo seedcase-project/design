@@ -3,21 +3,27 @@ title: "Risks and technical debt"
 order: 11
 ---
 
-As discussed in our [Decision Record](https://decisions.seedcase-project.org), we have chosen to use Django, PostgreSQL, and Docker for the Seedcase Product. Even though we have deemed these technologies the most suitable the product, they include technical debt and risks, which will be discussed below.
+As discussed in our [Decision
+Record](https://decisions.seedcase-project.org), we have chosen to use
+Django, PostgreSQL, and Docker for the Seedcase framework. Even though
+we have deemed these technologies the most suitable for our products,
+they include technical debt and risks, which will be discussed below.
 
 ## Technical debt
 
 ### Django Framework
 
-The [Django Framework](https://www.djangoproject.com) is a popular web framework for building web applications in Python. Although the framework provides many benefits,
-there are several areas where technical debt has accumulated.
+The [Django Framework](https://www.djangoproject.com) is a popular web
+framework for building web applications in Python. Although the
+framework provides many benefits, there are several areas where
+technical debt has accumulated.
 
--   **Outdated dependencies**: The Seedcase application is currently using outdated
-    versions of some Django dependencies, which can lead to security
-    vulnerabilities and compatibility issues.
--   **Unoptimized database queries**: The application is making inefficient
-    database queries, which can lead to slower performance and increased
-    server load.
+-   **Outdated dependencies**: The Seedcase framework is currently using
+    outdated versions of some Django dependencies, which can lead to
+    security vulnerabilities and compatibility issues.
+-   **Unoptimized database queries**: The Seedcase framework is making
+    inefficient database queries, which can lead to slower performance
+    and increased server load.
 -   **Poorly organized code**: Some parts of the codebase are poorly
     organized, making it difficult to maintain and update the
     application.
@@ -26,17 +32,17 @@ To address these issues, the following strategies are recommended:
 
 todo: Not clear, are these things we need to do? How?
 
--   **Update dependencies**: The team should update the dependencies to the
-    latest versions, making sure to test for compatibility issues.
--   **Optimize database queries**: The team should review the application's
-    database queries and identify areas for optimization, such as
-    reducing the number of queries or improving indexing.
+-   **Update dependencies**: The team should update the dependencies to
+    the latest versions, making sure to test for compatibility issues.
+-   **Optimize database queries**: The team should review the
+    application's database queries and identify areas for optimization,
+    such as reducing the number of queries or improving indexing.
 
 ### Django REST API Framework
 
-The [Django REST API Framework](https://www.django-rest-framework.org) is a 
-powerful tool for building RESTful APIs in Django. However, there are several 
-areas where technical debt has accumulated:
+The [Django REST API Framework](https://www.django-rest-framework.org)
+is a powerful tool for building RESTful APIs in Django. However, there
+are several areas where technical debt has accumulated:
 
 -   **Some poorly documented endpoints**: Some endpoints are poorly
     documented, making it difficult for developers to use them
@@ -56,12 +62,12 @@ To address these issues, the following strategies are recommended:
 
 ### PostgreSQL Database
 
-The [PostgreSQL](https://www.postgresql.org) database is a powerful open-source database that provides
-many benefits. However, there are some areas where technical debt has
-accumulated, primarily regarding situations where a large number of
-transactions are happening at the same time. These should not impact the
-Seedcase Product. Technical debt is more likely to arise over time, as
-the database is being built.
+The [PostgreSQL](https://www.postgresql.org) database is a powerful
+open-source database that provides many benefits. However, there are
+some areas where technical debt has accumulated, primarily regarding
+situations where a large number of transactions are happening at the
+same time. These should not impact Seedcase products. Technical debt is
+more likely to arise over time, as the database is being built.
 
 To address these issues, the following strategies are recommended:
 
@@ -78,12 +84,13 @@ To address these issues, the following strategies are recommended:
 
 ### Docker Framework
 
-The [Docker Framework](https://www.docker.com) presents several technical risks, including:
+The [Docker Framework](https://www.docker.com) presents several
+technical risks, including:
 
 -   **Security vulnerabilities**: Docker images can contain security
     vulnerabilities, such as outdated dependencies or misconfigured
     settings, that can be exploited by attackers.
--  **Misconfigured containers**: Misconfigured containers can expose
+-   **Misconfigured containers**: Misconfigured containers can expose
     sensitive data or provide unauthorized access to the host system.
 
 To mitigate these risks, the following strategies are recommended:
@@ -101,7 +108,8 @@ To mitigate these risks, the following strategies are recommended:
 
 ### Django Framework
 
-The [Django Framework](https://www.djangoproject.com) presents several technical risks, including:
+The [Django Framework](https://www.djangoproject.com) presents several
+technical risks, including:
 
 -   **SQL injection attacks**: The application may be vulnerable to SQL
     injection attacks if user input is not properly validated.
@@ -114,19 +122,20 @@ To mitigate these risks, the following strategies are recommended:
 -   **Implement input validation and sanitization**: The team should
     implement input validation and sanitization to prevent XSS and SQL
     injection attacks.
--   **Implement logging and monitoring**: The team should implement logging
-    and monitoring mechanisms to track user activities and detect
-    security incidents.
--   **Regularly perform security audits**: The team should regularly perform
-    security audits to identify and address potential vulnerabilities.
+-   **Implement logging and monitoring**: The team should implement
+    logging and monitoring mechanisms to track user activities and
+    detect security incidents.
+-   **Regularly perform security audits**: The team should regularly
+    perform security audits to identify and address potential
+    vulnerabilities.
 
 ### Django REST API Framework
 
-The [Django REST API Framework](https://www.django-rest-framework.org) presents several technical risks,
-including:
+The [Django REST API Framework](https://www.django-rest-framework.org)
+presents several technical risks, including:
 
--   **Insecure authentication and authorization**: The application may use
-    insecure authentication and authorization mechanisms, allowing
+-   **Insecure authentication and authorization**: The application may
+    use insecure authentication and authorization mechanisms, allowing
     unauthorized access to sensitive data.
 -   **Insufficient access controls**: The application may not have
     sufficient access controls, allowing unauthorized users to access
@@ -137,8 +146,8 @@ To mitigate these risks, the following strategies are recommended:
 -   **Use secure authentication and authorization mechanisms**: The team
     should use secure authentication and authorization mechanisms, such
     as OAuth 2.0 or JSON Web Tokens (JWT).
--   **Implement access controls**: The team should implement access controls
-    to restrict access to sensitive data and functions.
+-   **Implement access controls**: The team should implement access
+    controls to restrict access to sensitive data and functions.
 
 ### Frontend
 
@@ -146,8 +155,8 @@ Frontend presents several technical risks, including:
 
 -   **Cross-site scripting (XSS) attacks**: The application may be
     vulnerable to XSS attacks if user input is not properly sanitized.
--   **Code injection attacks**: The application may be vulnerable to code
-    injection attacks if user input is not properly validated.
+-   **Code injection attacks**: The application may be vulnerable to
+    code injection attacks if user input is not properly validated.
 
 To mitigate these risks, the following strategies are recommended:
 
@@ -156,5 +165,6 @@ To mitigate these risks, the following strategies are recommended:
     injection attacks.
 -   **Use secure communication protocols**: The team should use secure
     communication protocols, such as HTTPS, to prevent MITM attacks.
--   **Regularly perform security audits**: The team should regularly perform
-    security audits to identify and address potential vulnerabilities.
+-   **Regularly perform security audits**: The team should regularly
+    perform security audits to identify and address potential
+    vulnerabilities.
