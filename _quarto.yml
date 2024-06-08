@@ -11,6 +11,8 @@ website:
         href: LICENSE.md
   page-navigation: true
   navbar:
+    title: false
+    logo: _extensions/seedcase-project/seedcase-theme/logos/navbar-logo-seedcase-design.svg
     pinned: true
     tools:
       - icon: house
