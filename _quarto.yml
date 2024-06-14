@@ -13,9 +13,9 @@ website:
   navbar:
     title: false
     logo: _extensions/seedcase-project/seedcase-theme/logos/navbar-logo-seedcase-design.svg
+    logo-alt: "Seedcase Design logo"
     pinned: true
     tools:
-    logo-alt: "Seedcase Design logo"
       - icon: house
         href: "https://seedcase-project.org"
         aria-label: Home page
