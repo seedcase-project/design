@@ -13,15 +13,15 @@ website:
   navbar:
     title: false
     logo: _extensions/seedcase-project/seedcase-theme/logos/navbar-logo-seedcase-design.svg
-    logo-alt: "Seedcase Design logo"
+    logo-alt: "Seedcase Design logo: Main page"
     pinned: true
     tools:
       - icon: house
         href: "https://seedcase-project.org"
-        aria-label: Home page
+        aria-label: "House icon: Seedcase Project home page"
       - icon: github
         href: "https://github.com/seedcase-project/design"
-        aria-label: GitHub
+        aria-label: "GitHub icon: Source code"
   sidebar:
     pinned: true
     style: "floating"
