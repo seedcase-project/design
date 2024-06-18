@@ -10,7 +10,17 @@ code itself) and limit the technical debt and expertise needed to
 develop, maintain, and modify Seedcase software. As a team, we also want
 to build and develop in ways that are easier and clearer to everyone
 involved. For these reasons, any implementation of the architectural
-designs for Seedcase software has these core values that influence our principles.
+designs for Seedcase software has these core values that influence our
+principles.
+
+::: callout-important
+Above all else, Seedcase software follows a [domain-driven
+design](https://en.wikipedia.org/wiki/Domain-driven_design) approach. We
+are integrated within a health research and clinical setting, and are
+also lead by a health researcher. The people who test out our software
+are also domain experts like researchers and technical staff who would
+also be the end users.
+:::
 
 ## Values
 
