@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the Design Docs!"
+title: "Welcome!"
 about:
   id: hero-heading
   template: solana
