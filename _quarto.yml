@@ -15,6 +15,15 @@ website:
     logo: _extensions/seedcase-project/seedcase-theme/logos/navbar-logo-seedcase-design.svg
     logo-alt: "Seedcase Design logo: Main page"
     pinned: true
+    left:
+      - text: "Software"
+        href: software/index.qmd
+      - text: "Data"
+        href: data/index.qmd
+      - text: "Style"
+        href: style/index.qmd
+      - text: "Accessibility"
+        href: accessibility/index.qmd
     tools:
       - icon: house
         href: "https://seedcase-project.org"
@@ -23,11 +32,20 @@ website:
         href: "https://github.com/seedcase-project/design"
         aria-label: "GitHub icon: Source code"
   sidebar:
-    pinned: true
-    style: "floating"
-    contents:
-      - index.qmd
-      - auto: software/
+    - id: software
+      pinned: true
+      style: "floating"
+      contents:
+        - auto: software/
+    - id: data
+      contents:
+        - data/index.qmd
+    - id: style
+      contents:
+        - style/index.qmd
+    - id: accessibility
+      contents:
+        - accessibility/index.qmd
 
 # format:
 #   seedcase-theme-html:
