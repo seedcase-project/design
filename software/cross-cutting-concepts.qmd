@@ -278,23 +278,24 @@ Therefore, it is important to consider how they will be used.
 ## User permissions {#permissions}
 
 | Task                                       | Administrator | Data Requester | Data Contributor | External User |
-|---------------------------|------------|------------|------------|------------|
-| Create, update, delete users               | Y     |              |            |             |
-| Create, update, delete tables              | Y     |              |            |             |
-| Create, update, delete metadata            | Y     |              |            |             |
-| Read metadata                              | Y     | Y            | Y          | Y           |
-| Comment on/ask about metadata              | Y     | Y            | Y          | Y           |
-| Read information on existing data projects | Y     | Y            | Y          | Y           |
-| Create new data projects                   | Y     | Y            |            |             |
-| Edit existing data projects                | Y     | Y            |            |             |
-| Approve new data projects                  | Y     |              |            |             |
-| Add tables to handle new data              | Y     |              |            |             |
-| Add metadata on new data                   | Y     |              |            |             |
-| Add data to existing tables                | Y     |              | Y          |             |
+|---------------------|-------------|-------------|-------------|-------------|
+| Create, update, delete users               | Y             |                |                  |               |
+| Create, update, delete tables              | Y             |                |                  |               |
+| Create, update, delete metadata            | Y             |                |                  |               |
+| Read metadata                              | Y             | Y              | Y                | Y             |
+| Comment on/ask about metadata              | Y             | Y              | Y                | Y             |
+| Read information on existing data projects | Y             | Y              | Y                | Y             |
+| Create new data projects                   | Y             | Y              |                  |               |
+| Edit existing data projects                | Y             | Y              |                  |               |
+| Approve new data projects                  | Y             |                |                  |               |
+| Add tables to handle new data              | Y             |                |                  |               |
+| Add metadata on new data                   | Y             |                |                  |               |
+| Add data to existing tables                | Y             |                | Y                |               |
 
 : Permission levels for tasks associated with each user role.
 
-User roles and use cases are described in more detail on the [User Requirements](user-requirements.qmd) page.
+User roles and use cases are described in more detail on the [User
+Requirements](user-requirements.qmd) page.
 
 ## Computational and storage locations
 
