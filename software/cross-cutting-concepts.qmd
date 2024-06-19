@@ -277,7 +277,7 @@ Therefore, it is important to consider how they will be used.
 
 ## User permissions {#permissions}
 
-| Task                                       | Admin | Data Request | Data Entry | Third Party |
+| Task                                       | Administrator | Data Requester | Data Contributor | External User |
 |---------------------------|------------|------------|------------|------------|
 | Create, update, delete users               | Y     |              |            |             |
 | Create, update, delete tables              | Y     |              |            |             |
@@ -292,7 +292,9 @@ Therefore, it is important to consider how they will be used.
 | Add metadata on new data                   | Y     |              |            |             |
 | Add data to existing tables                | Y     |              | Y          |             |
 
-: Permission levels for tasks given to each user type.
+: Permission levels for tasks associated with each user role.
+
+User roles and use cases are described in more detail on the [User Requirements](user-requirements.qmd) page.
 
 ## Computational and storage locations
 

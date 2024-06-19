@@ -144,20 +144,20 @@ that fit these principles:
 
 ### Users
 
-The Seedcase framework is developed and designed with four users and
-uses cases in mind. The four users, which are described in more detail
-in the [Context section](context.qmd), are:
+The Seedcase framework is developed and designed with four users and their associated
+use cases in mind. The four users, which are described in more detail
+on the [User Requirements](user-requirements.qmd) page, are:
 
-1.  **Users inputting data** into the Data Resource, e.g., authorized
-    centers and researchers.
-2.  **Users requesting access** to a subset of data in the Data
+1.  **Data Contributor**: inputs data to the Data Resource, e.g.,
+    authorized centers and researchers.
+2.  **Data Requester**: requests access to a subset of data in the Data
     Resource, e.g., researchers and clinicians.
-3.  **Users viewing updates on findings and results** from the Data
-    Resource such as aggregate statistics, e.g., policymakers,
+3.  **Administrator**: manages the Data Resource. Data controllers, as
+    defined by the GDPR, fall into this category.    
+4.  **External User**: views updates on findings and results from the
+    Data Resource such as aggregate statistics, e.g., policymakers,
     healthcare workers, journalists, researchers, and the general
     public.
-4.  **Users who are administrators and data controllers** of the Data
-    Resource.
 
 ### Main functionality
 
