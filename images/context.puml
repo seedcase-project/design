@@ -2,8 +2,8 @@
 !theme C4_green from <C4/themes>
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
-Person(user_data_contributor, "Data Contributor")
 Person(user_data_requester, "Data Requester")
+Person(user_data_contributor, "Data Contributor")
 Person(user_admin, "Administrator")
 
 Person_Ext(user_external, "External User")
@@ -15,5 +15,6 @@ Rel(user_data_contributor, seedcase, "Uploads data")
 Rel(user_data_requester, seedcase, "Finds and requests data for project")
 Rel(user_admin, seedcase, "Manages users, projects and data")
 Rel(user_external, seedcase, "Explores projects and findings")
+Rel(user_data_requester, ext_secure_server, "Accesses data extract")
 Rel(seedcase, ext_secure_server, "Sends data extract for approved project")
 @enduml
