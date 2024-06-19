@@ -5,14 +5,15 @@ order: 3
 
 {{< include /includes/_wip.qmd >}}
 
-This section is an overview of the potential human and computer partners
-the Seedcase framework communicates with during operation. Human
-communication partners are grouped into user roles which are broadly
-applicable to the entire Seedcase framework. For a detailed discussion
-of these user roles, see [User Requirements](user-requirements.qmd).
-Whether any computer communication partners are present for a particular
-Seedcase installation depends on the specific needs or requirements of
-the Data Resource managed by Seedcase.
+This section establishes the system boundaries of the Seedcase framework
+and situates the framework in its operational context by describing its
+potential human and computer communication partners. Human communication
+partners are grouped into user roles which are broadly applicable to the
+entire Seedcase framework. For a detailed discussion of these user
+roles, see [User Requirements](user-requirements.qmd). Whether any
+computer communication partners are present for a particular Seedcase
+installation depends on the specific needs or requirements of the Data
+Resource managed by Seedcase.
 
 The diagram below illustrates the interaction and the direction of
 information flow between the Seedcase framework and its communication
