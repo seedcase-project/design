@@ -1,21 +1,19 @@
-@startuml
+@startuml context
+!theme C4_green from <C4/themes>
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
-Person(user_data_input, "Data input")
-Person(user_data_request, "Data discover and request")
-Person(user_admin, "Admin", "Data contrdollers or data managers")
+Person(user_data_contributor, "Data Contributor")
+Person(user_data_requester, "Data Requester")
+Person(user_admin, "Administrator")
 
-Person_Ext(user_results, "Explore findings and projects")
+Person_Ext(user_external, "External User")
 
-Lay_Right(user_admin, user_results)
+System(seedcase, "Seedcase framework")
+System_Ext(ext_secure_server, "External Secure Server")
 
-System(ui, "Data Resource structured by Seedcase")
-System_Ext(external_server, "External secure server")
-
-Rel(user_data_input, ui, "Uploads data")
-Rel(user_data_request, ui, "Find and request data for project")
-Rel(user_results, ui, "Explore findings of study")
-Rel(user_admin, ui, "Manages issues and requests for data projects")
-Rel_Right(ui, external_server, "Data extract for approved data projects")
-Rel(user_data_request, external_server, "Access requested data")
+Rel(user_data_contributor, seedcase, "Uploads data")
+Rel(user_data_requester, seedcase, "Finds and requests data for project")
+Rel(user_admin, seedcase, "Manages users, projects and data")
+Rel(user_external, seedcase, "Explores projects and findings")
+Rel(seedcase, ext_secure_server, "Sends data extract for approved project")
 @enduml
