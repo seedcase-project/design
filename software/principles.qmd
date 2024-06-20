@@ -19,7 +19,7 @@ design](https://en.wikipedia.org/wiki/Domain-driven_design) approach. We
 are integrated within a health research and clinical setting, and are
 also lead by a health researcher. The people who test out our software
 are also domain experts like researchers and technical staff who would
-also be the end users.
+also be the end [users](user-requirements.qmd).
 :::
 
 ## Values
