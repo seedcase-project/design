@@ -37,7 +37,10 @@ The main technologies we will use are:
 For our decisions to use these technologies, see [Decision
 Record](https://decisions.seedcase-project.org).
 
-In relation to our [Quality Goals](introduction.qmd#quality-goals):
+<!--TODO #99 update the section on quality goals in design/solution-strategy-->
+
+```{=html}
+<!-- In relation to our [Quality Goals](introduction.qmd#quality-goals):
 
 -   **Secure and legally compliant**:
     -   We will separate the data in the backend with its own Docker
@@ -51,4 +54,5 @@ In relation to our [Quality Goals](introduction.qmd#quality-goals):
         components of [Test Driven
         Development](https://en.wikipedia.org/wiki/Test-driven_development))
         to ensure that what the user interacts with is the first thing
-        we consider and document.
+        we consider and document. -->
+```

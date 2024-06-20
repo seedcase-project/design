@@ -196,12 +196,16 @@ in the [Context section](context.qmd), are:
 
 ## Quality Goals
 
-<!-- TODO: Add more as we develop the documents. -->
+We will go into more detail on the quality goals in the [Quality
+requirements](quality-requirements.qmd) section, but here is a brief
+overview of the quality goals we have for Seedcase software:
 
-| Goals                        | Scenarios                                                                                                    |
-|-------------------|-----------------------------------------------------|
-| Secure and legally compliant | Seedcase software currently targets health data, so it needs to be compliant with privacy and security laws. |
-| Beginner-friendly interfaces | We want non-technical users to use this, so ease of use is high priority.                                    |
+| Goals                                       | Scenarios                                                                                                       |
+|--------------------|----------------------------------------------------|
+| Beginner-friendly interfaces                | We want non-technical users to use this, therefore it should be easy to learn and use.                          |
+| Comprehensive functionality and easy to use | All apps under the Seedcase banner should be able to do what we need them to do, with ease.                     |
+| Reliable and robust                         | As much as possible we want to simplify the applications and ensure that there is comprehensive error handling. |
+| Secure and legally compliant                | Seedcase software currently targets health data, so it needs to be compliant with privacy and security laws.    |
 
 ## Stakeholders
 
