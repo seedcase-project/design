@@ -64,4 +64,4 @@ written two core parts in mind:
 -   A [software architecture](software/index.qmd) document, which is
     based on the [arc42](https://arc42.org) template and the [C4
     Model](https://c4model.com/)
--   A data architecture document, which is a work-in-progress
+-   A [data architecture](data/index.qmd) document, which is a work-in-progress
