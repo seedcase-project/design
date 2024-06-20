@@ -36,10 +36,7 @@ section of the Introduction.
     ideological or philosophical reasons) as well as those we have no
     control over (such as technological server environments that
     Seedcase software may be installed on).
-3.  [Context and scope](context.qmd): Targeted at any reader. Covers who
-    our target or anticipated users are for Seedcase software as well as
-    potential technological "users", for instance, external servers
-    connecting to Seedcase software.
+3.  [Context and scope](context.qmd): Targeted at any reader. Defines the boundaries of the Seedcase framework by listing its human and computer communication partners, and describing, in general terms, the messages exchanged between them.
 4.  [Solution strategy](solution-strategy.qmd): Targeted at any reader.
     Describes our proposed solution for the problem we are trying to
     address, as well as which core technologies and architecture designs

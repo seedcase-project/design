@@ -225,8 +225,8 @@ metadata or to copy the project into a new data project application.
 
 ## Browsing projects and results
 
-There are at least three routes, we anticipate the [external
-user](context.qmd) might take when browsing the Data Resource:
+There are at least three routes, we anticipate the [External
+User](user-requirements.qmd#roles-and-use-cases) might take when browsing the Data Resource:
 
 1.  Reading about the Data Resource, its history, organizational
     structure and ownership, and any other details in a typical "About"
