@@ -9,7 +9,7 @@ This document describes what overall strategy we have decided on to
 solve our problem, as outlined in the [Introduction
 section](introduction.qmd). Specifically, what main technologies and
 what architectural designs we will use. Any solution we decide must
-adhere to the [Guiding principles](principles.qmd)
+adhere to the [Principles](principles.qmd)
 and the [constraints](constraints.qmd).
 
 The main technologies we will use are:

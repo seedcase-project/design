@@ -23,8 +23,9 @@ also be the end users.
 :::
 
 ## Values
+The core values directing and shaping many aspects of the Seedcase software are: 
 
-::: {.column-body-outset layout-ncol="4"}
+::: {layout-ncol="4"}
 ***Openness and transparency***
 
 ***Friendly and inclusive***
@@ -35,8 +36,9 @@ also be the end users.
 :::
 
 ## Principles
+The guiding principles below are those shaped and informed by the core values:
 
-::: {.column-body-outset layout-ncol="3"}
+::: {layout-ncol="2"}
 ### Re-use existing material
 
 There already exists many great software tools, infrastructures, and
