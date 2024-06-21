@@ -5,7 +5,7 @@ Person(user_input, "Data Contributor")
 Person(user_request, "Data Requester")
 Person(user_admin, "Administrator", "Data controllers or data managers")
 
-Person_Ext(user_results, "Explore findings and projects")
+Person_Ext(user_results, "External User")
 
 Lay_R(user_admin, user_input)
 Lay_R(user_input, user_results)
@@ -14,12 +14,12 @@ Lay_R(user_results, user_request)
 
 AddRelTag("line", $lineStyle = DashedLine())
 
-System(ui, "Data Resource structured by Seedcase")
+System(ui, "Seedcase Data Resource")
 System_Ext(external_server, "External secure server")
 
 Rel(user_input, ui, "Uploads and/or inputs data")
 Rel(user_request, ui, "Find and request data for own project")
-Rel(user_admin, ui, "Manages issues and requests for data projects")
+Rel(user_admin, ui, "Manages the data resource, user access, and requests for data projects")
 Rel(user_results, ui, "Explore variables and projects")
 Rel(user_results, user_request, "May become", $tags="line")
 
