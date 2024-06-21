@@ -3,8 +3,8 @@ title: "Welcome!"
 about:
   id: hero-heading
   template: solana
-  image: images/logo-full-color.png
-  image-width: 20em 
+  image: _extensions/seedcase-project/seedcase-theme/logos/navbar-logo-seedcase-design.svg
+  image-width: 75em 
 ---
 
 ::: {#hero-heading}
