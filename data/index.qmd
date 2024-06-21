@@ -1,5 +1,7 @@
 # Data architecture
 
+{{< include /includes/_wip.qmd >}}
+
 ## Data lifecycle stages
 
 All data has a lifecycle that can, more or less, be categorized into 5
