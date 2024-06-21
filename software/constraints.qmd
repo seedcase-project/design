@@ -9,7 +9,7 @@ This document lists organizational and  political/legal constraints
 that we must consider when developing software for the Seedcase Project.
 
 The main "philosophical" and value-based constraints are described in
-the [Guiding Principles](introduction.qmd#guiding-principles) section.
+the [Principles](principles.qmd) section.
 These form the basis for all other decisions and designs. Some of those
 constraints are summarized below.
 
