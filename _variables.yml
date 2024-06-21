@@ -16,9 +16,9 @@ design:
     request access to use for a specific purpose. This request, when approved, 
     will result in a data extract that is sent to the Data Requester.
   instance: |
-    An Instance of Seedcase is one installation of Seedcase products. This could include
-    all software within the Seedcase framework or only some parts of it.
-    An Instance can contain multiple Data Projects and Data Resources.
+    An Instance of the Seedcase infrastructure  can include all software products 
+    within the Seedcase framework or only some parts of it.
+    An Instance can contain one Data Resource, but multiple Data Projects.
   seedcase-framework: |
      The software deliverables which work together to implement core project 
      functionalities as a single conceptual unit. Specifically, this includes 
