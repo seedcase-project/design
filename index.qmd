@@ -22,6 +22,27 @@ technical and non-technical users and stakeholders.
 
 {{< include /includes/_wip.qmd >}}
 
+## Contents
+
+While the Seedcase framework is software, it also interacts with data,
+the code base is open-source, and the user-interface is designed to be
+accessible. The design documentation is divided into four main sections:
+
+-   [Software architecture](software/index.qmd) documentation, which is
+    based on the [arc42](https://arc42.org) template and the [C4
+    Model](https://c4model.com/).
+-   [Data architecture](data/index.qmd) documentation, which is a
+    work-in-progress
+-   A [style guide](style/index.qmd), which is a work-in-progress
+-   An [accessibility guide](accessibility/index.qmd), which is a
+    work-in-progress
+
+Along with the design documentation, we also document the decisions we
+make in the [decisions](https://decisions.seedcase-project.org/)
+archive. This is a place where we document the reasons behind the
+decisions we make, and the trade-offs and alternatives we consider when
+making those decisions.
+
 ## Reader
 
 We've written these documents considering a few people in mind who will
@@ -59,13 +80,3 @@ read the documents:
     Seedcase Project after we've presented or advertised it. We assume
     they will read mostly the introduction and first few sections, so we
     try to write these sections with them in mind.
-
-## Contents
-
-While Seedcase is software, it also interacts with data, so we have
-written two core parts in mind:
-
--   A [software architecture](software/index.qmd) document, which is
-    based on the [arc42](https://arc42.org) template and the [C4
-    Model](https://c4model.com/)
--   A [data architecture](data/index.qmd) document, which is a work-in-progress
