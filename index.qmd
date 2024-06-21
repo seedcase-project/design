@@ -1,5 +1,5 @@
 ---
-title: "Welcome!"
+title: "Welcome to the Seedcase design documentation!"
 about:
   id: hero-heading
   template: solana
@@ -8,16 +8,17 @@ about:
 ---
 
 ::: {#hero-heading}
-Documentation on the architecture design of our Seedcase Products. A
-software's architecture that is well documented and described is (or
-should be) the first place to look when trying to understand it and how
-it works. The design documentation is a way of providing an overall map
-of our software (or its output) without getting into highly specific
-technical details. It is also used to communicate the goals, general
-structure, requirements, and uses of the software to both technical and
-non-technical people. Along with the design documentation, we also
-document and post the reasons
+This is the first place to look when trying to understand the Seedcase
+framework and how it works from a high-level perspective. 
+
+The design
+documentation is a way of providing an overall map of our software and
+the principles we follow when developing it without getting into highly
+specific technical details. It is also describes the goals,
+general structure, requirements, and uses of the software to both
+technical and non-technical users and stakeholders.
 :::
+
 
 {{< include /includes/_wip.qmd >}}
 
