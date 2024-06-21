@@ -32,6 +32,7 @@ read the documents:
     or team members to the project. We assume that they will likely read
     all sections. Almost all of the documentation we write with these
     readers in mind.
+
 -   **Other research software/data engineers**: These readers will be
     interested in the much more technical aspects of the design
     documentation, potentially for their own purposes, for learning, or
@@ -40,6 +41,7 @@ read the documents:
     Seedcase products, so we write these sections with these readers
     also in mind. These readers also include external consultants who
     will act as expert reviewers of Seedcase software.
+
 -   **Technical stakeholders**: These are people, such as in IT units,
     that have more technical knowledge and who are potentially involved
     in approving software and helping with installing it. They are also
@@ -48,6 +50,7 @@ read the documents:
     might read the introduction sections as well as the slightly more
     detailed sections, but likely not at the level of the previous two
     readers.
+
 -   **Non-technical stakeholders**: This reader is any person who is
     interested in understanding Seedcase products at more than a "How To
     Install" and "How To Use" level, for instance to learn if a Seedcase
