@@ -7,7 +7,7 @@ order: 100
 
 This page includes a glossary of the terms we use to describe different parts of the software architecture in the Seedcase Project.
 
-## Seedcase specific terms
+## Seedcase-specific terms
 
 | Term |Definition |
 | --- | --- |
