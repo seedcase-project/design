@@ -44,8 +44,7 @@ communication partner.
 
 : Computer communication partners and messages
 
-<!-- #TODO: insert real link below -->
+<!-- #TODO: insert real link below to sprout/runtime-view#expected-type-of-input-data -->
 
 For more information about the data input formats we expect to handle,
-see [Expected Type of Input
-Data](link/to/sprout/runtime-view#expected-type-of-input-data).
+see [Expected Type of Input Data]().
