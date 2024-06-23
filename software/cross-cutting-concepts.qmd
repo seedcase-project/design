@@ -56,18 +56,24 @@ encourage more developers to look at and contribute to the code, so we
 will have more eyes looking for issues.
 
 ### Authentication/permission security
+
 <!-- TODO: Insert real links to Sprout below -->
 
 One easy approach to managing security is limiting who has access to
 internal components of an infrastructure and software. With this, we
-have a set of tasks and corresponding permission levels that a user can be assigned,
-laid out in the [User Permissions](link/to/sprout/security#user-permissions) subsection.
+have a set of tasks and corresponding permission levels that a user can
+be assigned, laid out in the [User
+Permissions](link/to/sprout/security#user-permissions) subsection.
 
-For a detailed discussion of how the Seedcase framework ensures that only authorised users can update or transfer data, see the [Login and Authentication](link/to/sprout/runtime-view#login-and-authentication) section and the [Security](link/to/sprout/security) page. The endpoint
+For a detailed discussion of how the Seedcase framework ensures that
+only authorised users can update or transfer data, see the [Login and
+Authentication](link/to/sprout/runtime-view#login-and-authentication)
+section and the [Security](link/to/sprout/security) page. The endpoint
 of the data transfer is dealt with by the legal teams of the relevant
 institutions.
 
 ### Data-in-transit security
+
 <!-- TODO: Insert real links to Sprout below -->
 
 For data transfers of personal data, either from data collection
@@ -86,7 +92,8 @@ unauthorized access, steal sensitive information, or disrupt service
 availability. To protect against these threats, it is important to
 implement a robust security strategy for the API. The main approach to
 dealing with API connections across the Internet is with the use of
-authentication as described on the [Security](link/to/sprout/security) page, as well as managing [user
+authentication as described on the [Security](link/to/sprout/security)
+page, as well as managing [user
 permission](link/to/sprout/security#user-permissions) levels.
 
 ## Privacy {#privacy}

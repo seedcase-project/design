@@ -33,7 +33,7 @@ internal parts of the Seedcase framework.
 framework.](/design/images/container.png)
 
 | Building Block                 | Description                                                                                                             |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | Web Interface                  | User Interface as a web portal for interacting with the Seedcase-managed Data Resource.                                 |
 | User Authentication            | Managing and controlling who gets access to what sections of the Data Resource.                                         |
 | User and Data Management Layer | The programmatic layer connecting the web interface to the backend environment.                                         |
@@ -54,8 +54,10 @@ This list describes the individual black box parts in more detail:
     authenticating users who log into the Web Portal of the Data
     Resource instance managed by the Seedcase framework. Depending on
     the user's assigned permissions, they will see different pages
-    within the Web Interface. For a more detailed description of the login process, see the
-[Login](link/to/sprout/runtime-view#login-and-authentication) section.
+    within the Web Interface. For a more detailed description of the
+    login process, see the
+    [Login](link/to/sprout/runtime-view#login-and-authentication)
+    section.
 -   **User and Data Management Layer**: This is the programmatic
     interface that connects the Web Portal to the Backend Environment.
     While all actions will be achieved through the Web Portal, advanced
@@ -76,7 +78,7 @@ This list describes the individual black box parts in more detail:
 interface.](/design/images/component-ui.png)
 
 | Building Block            | Description                                                                                                                                                                                                                                          |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | Landing Page              | The initial page that a user sees when they visit the Seedcase web portal. It provides an overview of the Seedcase Project and includes links to other important pages.                                                                              |
 | Login Pages               | It is used to authenticate users before they can access protected areas. It includes fields for users to enter their login credentials, such as a username and password.                                                                             |
 | Project List Pages        | It displays a list of all data projects that a user has access to. Each project is typically displayed as a separate item in a list and includes basic information about the project such as its name and status.                                    |
@@ -122,7 +124,7 @@ interface.](/design/images/component-ui.png)
 #### API Layer
 
 | Building Block         | Description                                                                                                          |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | API Security           | This implements measures to protect an API from unauthorized access, data theft, and other security threats.         |
 | Dataset CRUD\* API     | This API endpoint allows creating, reading, updating, and deleting the dataset in the system.                        |
 | Data file CRUD\* API   | This API endpoint allows creating, reading, updating, and deleting the data file in the system.                      |
@@ -138,7 +140,7 @@ Management Layer* part.
 #### Admin management
 
 | Building Block                 | Description                                                                                                                                                                                                                                                                            |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | Project Management             | These admin pages allow administrators to manage projects in the system. This includes creating new projects, updating existing projects, and assigning researchers to projects.                                                                                                       |
 | Project Dataset Management     | These admin pages allow administrators to manage the datasets associated with a specific project. This includes adding new datasets to the project, updating existing datasets, and managing the access permissions for each dataset.                                                  |
 | Data QC Process Management     | These admin pages allow administrators to manage the quality control (QC) process for data sets in the system. This includes setting thresholds for pass/fail criteria and managing the process for reviewing and approving data sets that have been cleaned and prepared.             |
@@ -158,7 +160,7 @@ there are some overlapping features. For instance, each endpoint accepts
     provided to the user when they create an account.
 
 | Response status code      | Description                                             |
-|------------------------|------------------------------------------------|
+|------------------------|-----------------------------------------------|
 | 400 Bad Request           | The request was malformed or invalid.                   |
 | 401 Unauthorized          | The authentication code provided is invalid or missing. |
 | 500 Internal Server Error | There was an error processing the request.              |
@@ -194,7 +196,7 @@ there are some overlapping features. For instance, each endpoint accepts
         data project that the data is being generated for.
 
 | Response status code | Description                                                           |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | 202 Accepted         | The request was accepted and the data generation process has started. |
 | 404 Not Found        | The project with the specified ID was not found.                      |
 
@@ -208,7 +210,7 @@ there are some overlapping features. For instance, each endpoint accepts
         cleaning function to call.
 
 | Response status code  | Description                                                             |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | 201 process completed | The request was successful and the data cleaning function was executed. |
 
 #### Get list of data projects
@@ -265,7 +267,7 @@ there are some overlapping features. For instance, each endpoint accepts
             permission field.
 
 | Response status code | Description                                                      |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | 200 OK               | The request was successful and the user permissions were updated |
 | 404 Not Found        | The user with the specified ID was not found.                    |
 
@@ -285,7 +287,7 @@ there are some overlapping features. For instance, each endpoint accepts
         history logs that match any of the provided criteria.
 
 | Response status code | Description                                                   |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | 200 OK               | The request was successful and the history log was retrieved. |
 | 404 Not Found        | No history logs were found for the specified criteria.        |
 
@@ -317,7 +319,7 @@ backend will need to be composed of multiple components:
 Container.](/design/images/component-backend.png)
 
 | Building Block      | Description                                                                                                                                      |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | Raw File Storage    | Raw data that requires processing before entering the database, preferably as CSV or other plain text format.                                    |
 | Large File Storage  | Data files (like images) that are too big or can't be stored in the database. A variable for the file path will be used in the database instead. |
 | Relational Database | PostgreSQL relational database containing the data, as well as some metadata, data projects, and user information.                               |
@@ -325,7 +327,7 @@ Container.](/design/images/component-backend.png)
 : Black boxes within the *Backend Environment* part.
 
 | Building Block           | Description                                                                                                 |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | User information         | Details about registered users and their permission levels, viewable by admin users.                        |
 | Resource data            | Research data collected, uploaded, and store by users of Data Resource.                                     |
 | Data project information | Submitted requests for data as a data project, with details like project description and list of variables. |
