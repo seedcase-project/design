@@ -9,8 +9,7 @@ design:
     An acronym for Create, Read, Update, and Delete. These four actions are the
     core operations for data storage on computers.
   data-resource: |
-    The data layer of the framework and its contents. 
-    A data resource will stores data from a research study or data source.
+    Is the research data and metadata, and any management needed, of a specific research study. 
   data-project: |
     A subset of data from a Data Resource that researchers or other analysts
     request access to use for a specific purpose. This request, when approved, 
