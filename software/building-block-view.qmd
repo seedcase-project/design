@@ -73,7 +73,7 @@ This list describes the individual closed box parts in more detail:
 ### Web Portal (open box)
 
 ![C4 Component diagram of Web Portal
-interface.](/design/images/component-ui.png)
+interface.](../images/component-ui.png)
 
 | Building Block            | Description                                                                                                                                                                                                                                          |
 |------------------------|------------------------------------------------|
@@ -117,7 +117,7 @@ interface.](/design/images/component-ui.png)
 
 <!-- TODO: Need a components diagram for this. -->
 
-![user data management](/design/images/user-data-management.png)
+![user data management](../images/user-data-management.png)
 
 #### API Layer
 
@@ -314,7 +314,7 @@ backend will need to be composed of multiple components:
     modified manually by the users but generated automatically
 
 ![C4 Component diagram showing the Backend Environment
-Container.](/design/images/component-backend.png)
+Container.](../images/component-backend.png)
 
 | Building Block      | Description                                                                                                                                      |
 |------------------------|------------------------------------------------|
