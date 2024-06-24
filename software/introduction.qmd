@@ -145,7 +145,7 @@ that fit these principles:
 ### Users
 
 The Seedcase framework is developed and designed with four users and
-their associated use cases in mind. The four users, which are described
+their associated use cases in mind. These four users we've translated into user roles, which are described
 in more detail on the [User Requirements](user-requirements.qmd) page,
 are:
 
@@ -154,7 +154,7 @@ are:
 2.  **Data Requester**: requests access to a subset of data in the Data
     Resource, e.g., researchers and clinicians.
 3.  **Administrator**: manages the Data Resource. Data controllers, as
-    defined by the GDPR, fall into this category.\
+    defined by the GDPR, fall into this category.
 4.  **External User**: views updates on findings and results from the
     Data Resource such as aggregate statistics, e.g., policymakers,
     healthcare workers, journalists, researchers, and the general
