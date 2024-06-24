@@ -1,25 +1,47 @@
 ---
-title: "Welcome to the Design Docs!"
+title: "Welcome to the Seedcase design documentation!"
 about:
   id: hero-heading
   template: solana
-  image: images/logo-full-color.png
-  image-width: 20em 
+  image: _extensions/seedcase-project/seedcase-theme/logos/navbar-logo-seedcase-design.svg
+  image-width: 75em 
 ---
 
 ::: {#hero-heading}
-Documentation on the architecture design of our Seedcase Products. A
-software's architecture that is well documented and described is (or
-should be) the first place to look when trying to understand it and how
-it works. The design documentation is a way of providing an overall map
-of our software (or its output) without getting into highly specific
-technical details. It is also used to communicate the goals, general
-structure, requirements, and uses of the software to both technical and
-non-technical people. Along with the design documentation, we also
-document and post the reasons
+This is the first place to look when trying to understand the Seedcase
+framework and how it works from a high-level perspective. 
+
+The design
+documentation is a way of providing an overall map of our software and
+the principles we follow when developing it without getting into
+specific technical details. It is also describes the goals,
+general structure, requirements, and uses of the software to both
+technical and non-technical users and stakeholders.
 :::
 
+
 {{< include /includes/_wip.qmd >}}
+
+## Contents
+
+The Seedcase framework is open-source software that interacts with data and aims to
+have a user-interface designed to be
+accessible. The design documentation is divided into four main sections:
+
+-   [Software architecture](software/index.qmd) documentation, which is
+    based on the [arc42](https://arc42.org) template and the [C4
+    Model](https://c4model.com/)
+-   [Data architecture](data/index.qmd) documentation, which is a
+    work-in-progress
+-   A [style guide](style/index.qmd), which is a work-in-progress
+-   An [accessibility guide](accessibility/index.qmd), which is a
+    work-in-progress
+
+Along with the design documentation, we also document the decisions we
+make in the [decisions](https://decisions.seedcase-project.org/)
+archive. This is a place where we document the reasons behind the
+decisions we make, and the trade-offs and alternatives we consider when
+making those decisions.
 
 ## Reader
 
@@ -31,6 +53,7 @@ read the documents:
     or team members to the project. We assume that they will likely read
     all sections. Almost all of the documentation we write with these
     readers in mind.
+
 -   **Other research software/data engineers**: These readers will be
     interested in the much more technical aspects of the design
     documentation, potentially for their own purposes, for learning, or
@@ -39,6 +62,7 @@ read the documents:
     Seedcase products, so we write these sections with these readers
     also in mind. These readers also include external consultants who
     will act as expert reviewers of Seedcase software.
+
 -   **Technical stakeholders**: These are people, such as in IT units,
     that have more technical knowledge and who are potentially involved
     in approving software and helping with installing it. They are also
@@ -47,6 +71,7 @@ read the documents:
     might read the introduction sections as well as the slightly more
     detailed sections, but likely not at the level of the previous two
     readers.
+
 -   **Non-technical stakeholders**: This reader is any person who is
     interested in understanding Seedcase products at more than a "How To
     Install" and "How To Use" level, for instance to learn if a Seedcase
@@ -55,13 +80,3 @@ read the documents:
     Seedcase Project after we've presented or advertised it. We assume
     they will read mostly the introduction and first few sections, so we
     try to write these sections with them in mind.
-
-## Contents
-
-While Seedcase is software, it also interacts with data, so we have
-written two core parts in mind:
-
--   A [software architecture](software/index.qmd) document, which is
-    based on the [arc42](https://arc42.org) template and the [C4
-    Model](https://c4model.com/)
--   A data architecture document, which is a work-in-progress
