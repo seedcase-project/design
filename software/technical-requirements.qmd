@@ -5,7 +5,14 @@ order: 0
 
 {{< include /includes/_wip.qmd >}}
 
+This section outlines the technical requirements for the Seedcase
+software from a developer point of view.
+
 ### Main functionality
+
+The main functionality of the Seedcase framework is to provide a way for
+users to manage and share data resources. The main features of the
+Seedcase framework are:
 
 -   **One Data Resource per Seedcase "instance"**: For users with
     multiple Data Resources, each Data Resource will be housed in a
@@ -73,6 +80,9 @@ Record](https://decisions.seedcase-project.org).
 
 ## Technical constraints
 
+Following our guiding principles, we have the following technical
+constraints of the Seedcase framework:
+
 | Constraints                                         | Background/Motivation                                                            |
 |----------------------------|--------------------------------------------|
 | Run on Windows, MacOS, and Linux                    | Our potential users work on any of these systems, so we need to design for that  |
@@ -86,10 +96,12 @@ Record](https://decisions.seedcase-project.org).
 
 ## Conventions
 
-| Conventions                                                           | Background/Motivation                                                                                                                   |
+We follow the conventions below for software development when developing
+the Seedcase framework:
+
 |-------------------------------|-----------------------------------------|
 | Follow standard styling (e.g., [PIP3](https://pypi.org/project/pip/) and [black](https://github.com/psf/black) formatting) | Coding style is vital to readability, so we follow best practices                                                                        |
 | Use [CalVer](https://calver.org/) versioning                          | This style is simple and easily shows the age of the software                                                                           |
 | Incorporate test-driven and documentation-driven development styles   | Each has pros and cons, we use what works best. See the [Contributing Guidelines](https://seedcase-project.org/community/contributing). |
 
-: Conventions that we follow for Seedcase software.
+: Conventions that we follow for the Seedcase framework.
