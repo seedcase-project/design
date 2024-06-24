@@ -1,0 +1,95 @@
+---
+title: Principles
+order: 1.5
+---
+
+{{< include /includes/_wip.qmd >}}
+
+We want to enable greater use of all our software outputs (including the
+code itself) and limit the technical debt and expertise needed to
+develop, maintain, and modify Seedcase software. As a team, we also want
+to build and develop in ways that are easier and clearer to everyone
+involved. For these reasons, any implementation of the architectural
+designs for Seedcase software has these core values that influence our
+principles.
+
+::: callout-important
+Above all else, Seedcase software follows a [domain-driven
+design](https://en.wikipedia.org/wiki/Domain-driven_design) approach. We
+are integrated within a health research and clinical setting, and are
+also lead by a health researcher. The people who test out our software
+are also domain experts like researchers and technical staff who would
+also be the end [users](user-requirements.qmd).
+:::
+
+## Values
+The core values directing and shaping many aspects of the Seedcase software are: 
+
+::: {layout-ncol="4"}
+***Openness and transparency***
+
+***Friendly and inclusive***
+
+***Enabling [FAIRness](https://www.go-fair.org/fair-principles/)***
+
+***Modern and established***
+:::
+
+## Principles
+The guiding principles below are those shaped and informed by the core values:
+
+::: {layout-ncol="2"}
+### Re-use existing material
+
+There already exists many great software tools, infrastructures, and
+resources that haven't been incorporated into common health research
+practice. We will make use of and/or modify these materials where we
+can.
+
+### Be familiar to or used by researchers currently or within the near future
+
+To ensure the greatest potential for continued maintenance, development,
+and use, the software should use or be built with tools and skills that
+are at least familiar or soon to be familiar to more technical
+researchers.
+
+### Be familiar to skilled personnel
+
+Skilled personnel such as research software engineers, data engineers,
+and data scientists will build, modify, or contribute to this software
+and need to be familiar with them.
+
+### Be open source
+
+Software that isn't open source is by definition not transparent, FAIR,
+or open. This is a requirement as it will encourage wide and easy
+re-use.
+
+### Integrates easily with other software
+
+Modular software that follows common input/output conventions and has
+well-designed and documented APIs are easier to build with and maintain.
+
+### Historically stable and reliable
+
+While there are always new software being built, maintenance and
+development is easier when using those that are established.
+
+### Likely to be used in the future or is easily interchangeable with potential future tools
+
+Technology progresses quite quickly, so we will rely on software that is
+likely to still be used or can be switched to other tools.
+
+### Be developed or supported by organizations that adhere to open principles
+
+There are many organizations that develop or support open source
+software, but not all of them have openness as a core value and mission.
+
+### Be usable in diverse computing environments
+
+Not all institutions or companies have the funding or access to more
+powerful computing environments. To be equitable and inclusive, we will
+consider, and where relevant, develop for environments with less
+powerful read/write speeds, limits in memory and storage, and/or lower
+Internet access and connectivity.
+:::

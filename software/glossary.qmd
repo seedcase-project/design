@@ -1,0 +1,28 @@
+---
+title: "Glossary"
+order: 100
+---
+
+{{< include /includes/_wip.qmd >}}
+
+This page includes a glossary of the terms we use to describe different parts of the software architecture in the Seedcase Project.
+
+## Seedcase-specific terms
+
+| Term |Definition |
+| --- | --- |
+| Data Resource  | {{< var design.data-resource >}} |
+| Data Project  | {{< var design.data-project >}} |
+| Instance  | {{< var design.instance >}} |
+| Seedcase Framework  | {{< var design.seedcase-framework >}} |
+| Seedcase Products  | {{< var design.seedcase-products >}} |
+| Seedcase Project  | {{< var design.seedcase-project >}} |
+
+## General terms
+
+| Term |Definition |
+| --- | --- |
+| Closed box | {{< var design.closed-box >}} |
+| CRUD | {{< var design.crud >}} |
+| Open box  | {{< var design.open-box >}} |
+

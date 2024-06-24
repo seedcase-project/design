@@ -1,17 +1,5 @@
 design:
-  data-resource: |
-    This is the software component that
-    manages and stores data from a research study or data source. For
-    example, our external partner DD2 (listed below in the Stakeholder
-    section) collects a wide variety of data on a set of participants.
-    The data generated from these participants enrolled with DD2 would
-    form a single "Data Resource".
-  whitebox: |
-    A description of the internal functioning and behaviour of a system.
-    For example, how the internals of the Seedcase framework like the web frontend 
-    part, the programmatic API part, and the data backend environment part interact
-    with each other. "White" implying seen or visible (e.g. daylight).
-  blackbox: |
+  closed-box: |
     A description of the external functioning and behaviour of a system that
     doesn't include *how* it works internally. For example, how the API part of
     the Seedcase framework connects and communicates with other Seedcase software 
@@ -20,5 +8,28 @@ design:
   crud: |
     An acronym for Create, Read, Update, and Delete. These four actions are the
     core operations for data storage on computers.
+  data-resource: |
+    Is the research data and metadata, and any management needed, of a specific research study. 
+  data-project: |
+    A subset of data from a Data Resource that researchers or other analysts
+    request access to use for a specific purpose. This request, when approved, 
+    will result in a data extract that is sent to the Data Requester.
   instance: |
-    An Instance of Seedcase is .. <!--TODO Finish text here. -->
+    An Instance of the Seedcase infrastructure  can include all software products 
+    within the Seedcase framework or only some parts of it.
+    An Instance can contain one Data Resource, but multiple Data Projects.
+  seedcase-framework: |
+     The software products that work together to implement the core project 
+     functionalities as a single conceptual unit. Specifically, this includes 
+     the software products Sprout, Propagate, Flower, and Garden. 
+  seedcase-products: |
+    The software products of the Seedcase project collectively.
+    Also called "Seedcase software" or "Seedcase software products". 
+  seedcase-project: | 
+    The Seedcase Project as a whole, including software, documentation, learning material, 
+    as well as underpinning ideas and philosophy.
+  open-box: |
+    A description of the internal functioning and behaviour of a system.
+    For example, how the internals of the Seedcase framework like the web frontend 
+    part, the programmatic API part, and the data backend environment part interact
+    with each other. Open implying transparent or visible.
