@@ -3,6 +3,8 @@ title: "Technical requirements"
 order: 0
 ---
 
+{{< include /includes/_wip.qmd >}}
+
 
 ## Technical constraints
 
