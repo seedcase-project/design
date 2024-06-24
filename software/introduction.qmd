@@ -29,17 +29,6 @@ site](https://community.seedcase-project.org) page. While these aims are
 not related to the software itself, it does impact architectural and
 design decisions we make.
 
-## Definition of terms
-
--   **Seedcase Product**: This is a piece of Seedcase software that is
-    installed on a computer or server.
--   **Data Resource**: {{< var design.data-resource >}}
--   **Data Project**: A data project, also called a data extract, would
-    be a subset of data from a Data Resource that researchers or other
-    analysts would request access to use for a specific purpose. This
-    request, when approved, would result in a data extract that is sent
-    to the user.
-
 ## Requirements Overview
 
 Primary **goals** of Seedcase software are:
