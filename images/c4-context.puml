@@ -1,30 +1,29 @@
 @startuml c4-context
+!theme C4_green from <C4/themes>
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
-Person(user_input, "Data Contributor")
-Person(user_request, "Data Requester")
-Person(user_admin, "Administrator", "Data controllers or data managers")
+Person(user_input, "Data Contributor", "Uploads and/or inputs data\n")
+Person(user_request, "Data Requester", "Find and request data for own project")
+Person(user_admin, "Administrator", "Manages the data resource, user access, and requests")
 
-Person_Ext(user_results, "External User")
+Person_Ext(user_results, "External User", "Explore variables and projects")
 
 Lay_R(user_admin, user_input)
 Lay_R(user_input, user_results)
-Lay_R(user_results, user_request)
-
 
 AddRelTag("line", $lineStyle = DashedLine())
 
 System(ui, "Seedcase Data Resource")
 System_Ext(external_server, "External secure server")
 
-Rel(user_input, ui, "Uploads and/or inputs data")
-Rel(user_request, ui, "Find and request data for own project")
-Rel(user_admin, ui, "Manages the data resource, user access, and requests for data projects")
-Rel(user_results, ui, "Explore variables and projects")
-Rel(user_results, user_request, "May become", $tags="line")
+Rel(user_input, ui, "")
+Rel(user_request, ui, "")
+Rel(user_admin, ui, "")
+Rel(user_results, ui, "")
+Rel_Right(user_results, user_request, "May become", $tags="line")
 
 Rel_Right(ui, external_server, "Data extract for approved data projects")
 Rel(user_request, external_server, "Access requested data")
 
-SHOW_FLOATING_LEGEND()
+SHOW_LEGEND()
 @enduml

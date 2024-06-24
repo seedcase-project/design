@@ -1,7 +1,8 @@
 @startuml c4-container
+!theme C4_green from <C4/themes>
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-Person(adm, "Administrator", "Data controllers or data managers")
+Person(adm, "Administrator")
 Person(inp, "Data Contributor")
 Person(req, "Data Requester")
 
