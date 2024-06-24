@@ -24,8 +24,8 @@ technical and non-technical users and stakeholders.
 
 ## Contents
 
-While the Seedcase framework is software, it also interacts with data,
-the code base is open-source, and the user-interface is designed to be
+The Seedcase framework is open-source software that interacts with data and aims to
+have a user-interface designed to be
 accessible. The design documentation is divided into four main sections:
 
 -   [Software architecture](software/index.qmd) documentation, which is
