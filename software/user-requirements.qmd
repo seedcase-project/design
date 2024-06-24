@@ -3,6 +3,13 @@ title: "User requirements"
 date: last-modified
 ---
 
+User requirements set out the functionalities expected of a system from
+the end user's perspective. These functionalities are grouped by the
+type of user expected to perform or utilise them into application-level
+user roles. There is no fix correspondence between user roles and
+individual, physical users; a physical user may assume different roles
+during different interactions with the system.
+
 ## Roles and Use Cases
 
 This section lists the four roles that users can assume when they
