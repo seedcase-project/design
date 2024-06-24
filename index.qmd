@@ -13,7 +13,7 @@ framework and how it works from a high-level perspective.
 
 The design
 documentation is a way of providing an overall map of our software and
-the principles we follow when developing it without getting into highly
+the principles we follow when developing it without getting into
 specific technical details. It is also describes the goals,
 general structure, requirements, and uses of the software to both
 technical and non-technical users and stakeholders.
@@ -30,7 +30,7 @@ accessible. The design documentation is divided into four main sections:
 
 -   [Software architecture](software/index.qmd) documentation, which is
     based on the [arc42](https://arc42.org) template and the [C4
-    Model](https://c4model.com/).
+    Model](https://c4model.com/)
 -   [Data architecture](data/index.qmd) documentation, which is a
     work-in-progress
 -   A [style guide](style/index.qmd), which is a work-in-progress
