@@ -159,40 +159,6 @@ in the [Context section](context.qmd), are:
 4.  **Users who are administrators and data controllers** of the Data
     Resource.
 
-### Main functionality
-
--   **One Data Resource per Seedcase "instance"**: For users with
-    multiple Data Resources, each Data Resource will be housed in a
-    separate "instance" of the infrastructure framework.
--   **Upload or update data**: Input data into the Data Resource in
-    batches or continuously into the backend storage, either into the
-    database or as raw data files.
--   **Upload or update metadata**: When inputting data, attach metadata
-    along side it.
--   **Store changes to the data in a changelog**: Track and list changes
-    made to the data within the Data Resource for auditing and
-    recordkeeping.
--   **Display metadata and basic information on the data in the Data
-    Resource on a user interface**: So external users and users
-    interested in data in the Data Resource can browse what is
-    available.
--   **Provide a data access submission process**: Allow users to submit
-    a data access request for data in the Data Resource, along with a
-    data selection process (for instance, like a shopping cart). Submit
-    a request for access as a data project that includes selected data
-    and a brief reason as
--   **Store data request submissions as data projects for auditing and
-    managing**: Save submissions as "data projects", where admin users
-    can approve (or decline) these data projects and manage whether they
-    are "ongoing", "completed", or "declined". The stored ongoing or
-    completed data projects will be displayed on the web portal for
-    discoverability and transparency on the subset of the Data Resource
-    used.
--   **Allow for individual parts to be independently installable and
-    usable**: Users might not need or want some of the functionality, so
-    being able to have individual and independent parts that are usable
-    on their own is necessary. These independent parts also need to be
-    able to connect and work together.
 
 ## Quality Goals
 
