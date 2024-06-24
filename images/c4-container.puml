@@ -1,11 +1,18 @@
 @startuml c4-container
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
+Person(adm, "Administrator", "Data controllers or data managers")
+Person(inp, "Data Contributor")
+Person(req, "Data Requester")
+
+Person_Ext(ext, "External User")
+
 Container_Boundary(seed, "Seedcase Data Resource", "web-interface") {
+	Container(land, "Main Seedcase page", "navigation page", "Main page showing installed apps")
 	Container(sec, "User Authentication", "interface", "called when selecting any app which needs security")
 	Container(sprout, "Sprout", "web-app", "uploads the research instance data")
 	Container(flower, "Flower", "web-app", "makes metadata available to browse")
-	Container(prop, "Propagate", "web-app", "allows others to request data")
+	Container(prop, "Propagate", "web-app", "allows others to request data\n")
 	Container(garden, "Garden", "web-app", "handles workflow for data requests")
 	Container_Boundary(backend, "data storage"){
   	ContainerDb(data, "Research Data", "db, csv, etc")
@@ -13,16 +20,22 @@ Container_Boundary(seed, "Seedcase Data Resource", "web-interface") {
 	}
 }
 
+Lay_U(garden, land)
+Lay_U(prop, land)
 Lay_Left(data, user)
 Lay_Right(sprout, flower)
 Lay_Right(flower, prop)
 Lay_Right(prop, garden)
 
-BiRel_Left(seed, sec, "")
-Rel(seed, sprout, "")
-Rel(seed, garden, "")
-Rel(seed, prop, "")
-Rel(seed, flower, "")
+Rel(inp, land, "")
+Rel(req, land, "")
+Rel(adm, land, "")
+Rel(ext, land, "")
+BiRel_Left(land, sec, "")
+Rel(land, sprout, "")
+Rel(land, garden, "")
+Rel(land, prop, "")
+Rel(land, flower, "")
 Rel_U(data, flower, "")
 Rel_U(data, garden, "")
 Rel_U(data, prop, "")
