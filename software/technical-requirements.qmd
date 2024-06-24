@@ -1,6 +1,6 @@
 ---
 title: "Technical requirements"
-order: 0
+order: 12
 ---
 
 {{< include /includes/_wip.qmd >}}
