@@ -8,7 +8,7 @@ order: 4
 This document describes what overall strategy we have decided on to
 solve our problem, as outlined in the [Introduction
 section](introduction.qmd). Any solution we decide must
-adhere to the [Guiding principles](introduction.qmd#guiding-principles)
+adhere to the [Guiding principles](principles.qmd)
 and the [constraints](constraints.qmd).
 
 In relation to our [Quality Goals](introduction.qmd#quality-goals):
