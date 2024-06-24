@@ -22,7 +22,7 @@ This page includes a glossary of the terms we use to describe different parts of
 
 | Term |Definition |
 | --- | --- |
-| Black box | {{< var design.black-box >}} |
+| Closed box | {{< var design.closed-box >}} |
 | CRUD | {{< var design.crud >}} |
-| White box  | {{< var design.white-box >}} |
+| Open box  | {{< var design.open-box >}} |
 
