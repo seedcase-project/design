@@ -32,16 +32,17 @@ requirements that a software system must have. These are:
 9.  **Safety**: The system must be safe and be able to protect against
     accidents.
 
-In the arc42 guidance it is recommended that a project focus on between
+In the arc42 guidelines it is recommended that a project focus on between
 three and five of the above areas as the primary quality requirements.
-For Seedcase we have chosen to focus on the following:
+For Seedcase we have chosen to focus on functional suitability, 
+interaction capability, reliability, and security.
 
 ### Functional suitability
 
 The system must have the functions that the users need. The ISO standard
-talks about completeness, correctness and appropriateness which are all
+talks about completeness, correctness, and appropriateness which are all
 important aspects of functional suitability. We want all Seedcase
-products to have all the functions that are needed to store, organise
+products to have all the functions that are needed to store, organise,
 and retrieve research data. We want Seedcase to store data in a way that
 it stays correct, and is easy to maintain, and we want Seedcase to be
 have the appropriate features for the user.
@@ -52,15 +53,17 @@ There are many items covered in the ISO standard under the heading
 Interaction Capability. The ones we would like to initially focus on
 are: Learnability, Operability, Inclusivity and Self-descriptiveness.
 
-**Learnability** relates to how easy it is for a user to learn how to
-use the system. It is to do with the intuitiveness of the system as well
-as the availability of help and documentation. **Operability** is about
-how easy it is to use the system, how the functionality links together
+- **Learnability** relates to how easy it is for a user to learn how to
+use the system. It has to do with the intuitiveness of the system as well
+as the availability of help and documentation. 
+- **Operability** is about
+how easy it is to use the system, how the functionality links together,
 and how the different parts of Seedcase will support each other.
-**Inclusivity** is about how easy it is for all users to use the system,
-regardless of their abilities. **Self-descriptiveness** is about how
+- **Inclusivity** is about how easy it is for all users to use the system,
+regardless of their abilities. 
+- **Self-descriptiveness** is about how
 easy it is for a user to understand what the system is doing and how it
-is doing it, highly dependent on the user interface and documentation.
+is doing it, which are highly dependent on the user interface and documentation.
 
 ### Reliability
 
@@ -74,7 +77,7 @@ and retrieve information.
 
 ### Security
 
-Because Seedcase is aimed at the medical research sector security is
+Because Seedcase is aimed at the medical research sector, security is
 paramount. We want to make sure that the data stored in Seedcase is
 secure and that only the people who are supposed to have access to the
 data can access it. It should also be protected against attacks as well
