@@ -13,24 +13,24 @@ documents but not so detailed as to be describing actual code. To
 clarify how much detail each part will be described in, there are two
 established terms we use:
 
--   **White box**: {{< var design.whitebox >}}
--   **Black box**: {{< var design.blackbox >}}
+-   **Open box**: {{< var design.open-box >}}
+-   **Closed box**: {{< var design.closed-box >}}
 
 The [first section](#level1) covers the overall view of the main parts
 inside the Seedcase framework. The [second section](#level2) goes deeper
-and describes the contents within each main part, but only as black
+and describes the contents within each main part, but only as closed
 boxes.
 
-## White box overall system, Level 1 {#level1}
+## Open box overall system, Level 1 {#level1}
 
 This section is a high level overview of the internals of the Seedcase
 framework and is visually represented with the ["C4
 Container"](https://c4model.com/#ContainerDiagram) diagram below. Each
-part within the diagram is a black box representation of the core
+part within the diagram is a closed box representation of the core
 internal parts of the Seedcase framework.
 
 ![C4 Container diagram showing the major internal parts of the Seedcase
-framework.](/design/images/container.png)
+framework.](../images/container.png)
 
 | Building Block                 | Description                                                                                                             |
 |------------------------|------------------------------------------------|
@@ -40,9 +40,9 @@ framework.](/design/images/container.png)
 | Backend Environment            | This enclosed environment contains the inputted data, admin details, changelog, and raw data.                           |
 | External Secure Server         | The external server where requested data is sent to (only needed if the user requesting access is an external partner). |
 
-: Core internal parts of the Seedcase framework (as black boxes).
+: Core internal parts of the Seedcase framework (as closed boxes).
 
-This list describes the individual black box parts in more detail:
+This list describes the individual closed box parts in more detail:
 
 -   **Web Interface**: This is the interface that users will interact
     with, displayed as HTML pages. Different sections of the Web
@@ -70,7 +70,7 @@ This list describes the individual black box parts in more detail:
 
 ## Building block, Level 2 {#level2}
 
-### Web Portal (white box)
+### Web Portal (open box)
 
 ![C4 Component diagram of Web Portal
 interface.](/design/images/component-ui.png)
@@ -88,7 +88,7 @@ interface.](/design/images/component-ui.png)
 | Data QC Process Pages     | It provides information about the quality control process used to ensure that data sets are accurate and reliable. It provides a list of the quality control functions. It also provides the result to determine if a data set passes or fails.      |
 | Data Request Pages        | Submitting a request to use data from the Data Resource. Includes the list of variables selected from the data, some descriptions on the proposed use of the data, as well as information on subsetting the data.                                    |
 
-: Black boxes within the *Web Portal* part.
+: Closed boxes within the *Web Portal* part.
 
 #### Data catalog
 
@@ -113,7 +113,7 @@ interface.](/design/images/component-ui.png)
     been granted access to as well as simple aggregations of the
     variables.
 
-### User and Data Management Layer (white box)
+### User and Data Management Layer (open box)
 
 <!-- TODO: Need a components diagram for this. -->
 
@@ -130,7 +130,7 @@ interface.](/design/images/component-ui.png)
 | List Project Log       | This API endpoint allows displaying a log of all activity related to a specific project in the system.               |
 | Researchers CRUD\* API | This API endpoint allows creating, reading, updating, and deleting a researcher user in the system.                  |
 
-: Black boxes related to *API Layer* within the *User and Data
+: Closed boxes related to *API Layer* within the *User and Data
 Management Layer* part.
 
 \*CRUD: {{< var design.crud >}}
@@ -146,7 +146,7 @@ Management Layer* part.
 | API Security Management        | These admin pages allow administrators to manage the security measures that are in place to protect the API for the system.                                                                                                                                                            |
 | External Connection Management | These admin pages allow administrators to manage the connections between the system and external data sources or applications. This includes setting up new connections, updating existing connections, and managing the access permissions for each connection.                       |
 
-: Black boxes related to *Admin Management* within the *User and Data
+: Closed boxes related to *Admin Management* within the *User and Data
 Management Layer* part.
 
 These are some potential endpoints for the API. For almost all of them,
@@ -289,10 +289,10 @@ there are some overlapping features. For instance, each endpoint accepts
 | 200 OK               | The request was successful and the history log was retrieved. |
 | 404 Not Found        | No history logs were found for the specified criteria.        |
 
-: Blackboxes related to *data entry* within the *User and Data
+: Closed boxes related to *data entry* within the *User and Data
 Management Layer* part.
 
-### Backend Environment (whitebox)
+### Backend Environment (open box)
 
 The input data will be quite heterogeneous and so the Seedcase framework
 backend will need to be composed of multiple components:
@@ -322,7 +322,7 @@ Container.](/design/images/component-backend.png)
 | Large File Storage  | Data files (like images) that are too big or can't be stored in the database. A variable for the file path will be used in the database instead. |
 | Relational Database | PostgreSQL relational database containing the data, as well as some metadata, data projects, and user information.                               |
 
-: Black boxes within the *Backend Environment* part.
+: Closed boxes within the *Backend Environment* part.
 
 | Building Block           | Description                                                                                                 |
 |------------------------|------------------------------------------------|
@@ -331,7 +331,7 @@ Container.](/design/images/component-backend.png)
 | Data project information | Submitted requests for data as a data project, with details like project description and list of variables. |
 | Changelog                | Changes made to data recorded as a table.                                                                   |
 
-: Black boxes of tables in *Relational Database* within the *Backend
+: Closed boxes of tables in *Relational Database* within the *Backend
 Environment* part.
 
 <!-- TODO: Not sure where Data dictionary details will go... -->
