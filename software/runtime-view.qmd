@@ -34,7 +34,7 @@ a Seedcase Data Resource. Health data tends to consist of specific types
 of data:
 
 -   **Clinical**: This data is typically collected during patient visits
-    to doctors. Depending on the country or adminitrative region, there
+    to doctors. Depending on the country or administrative region, there
     will likely already be well-established data processing and storage
     pipelines in place.
 -   **Register**: This type of data is highly dependent on the country
@@ -126,7 +126,7 @@ database will confirm successful entry of data to the API which will in
 turn send the confirmation back to the user via the frontend.
 
 ![Logged in user who manually writes a new row to the Data
-Resource.](/design/images/runtime-manual-data-entry.png){#fig-manual-data-entry}
+Resource.](../images/runtime-manual-data-entry.png){#fig-manual-data-entry}
 
 #### Manual data entry: Done in multiple sessions
 
@@ -159,7 +159,7 @@ which will in turn send the confirmation back to the user via the front
 end.
 
 ![Logged in user enters data manually in more than one
-session](/design/images/runtime-manual-data-update.png){#fig-manual-data-update}
+session](../images/runtime-manual-data-update.png){#fig-manual-data-update}
 
 ## Requesting data
 
@@ -173,7 +173,7 @@ by Seedcase:
 ![Logged in user who is requesting data from a Data Resource. <br> The
 "alt" box shows the alternative workflows depending on whether the user
 requests a new data projects or re-uses an existing data project for the
-request.](/design/images/runtime-data-request.png){#fig-data-request}
+request.](../images/runtime-data-request.png){#fig-data-request}
 
 ### Applying for a new data project
 
