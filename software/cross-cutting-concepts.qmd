@@ -27,7 +27,7 @@ There are a few main security concerns:
     this is outside the scope of the Seedcase framework.
 
 ![Layers for the various stages of
-security.](/design/images/security.png)
+security.](../images/security.png)
 
 ### Security of software and code
 
