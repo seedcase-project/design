@@ -57,50 +57,22 @@ will have more eyes looking for issues.
 
 ### Authentication/permission security
 
+<!-- TODO: Insert real link to sprout/security#user-permissions -->
+
 One easy approach to managing security is limiting who has access to
 internal components of an infrastructure and software. With this, we
-have a set of tasks that a user can be assigned permission levels to,
-detailed in the [User permissions](#permissions) subsection below.
+have a set of tasks and corresponding permission levels that a user can
+be assigned, laid out in the [User Permissions]() subsection.
 
-Key authentication principles such as two-factor authentication and
-OAuth (open standard for access authentication) will be central to the
-framework to control who can update or transfer the data. The endpoint
-of the data transfer is dealt with by the legal teams of the relevant
+<!-- TODO: Insert real link to sprout/runtime-view#login-and-authentication -->
+
+<!-- TODO: Insert real link to sprout/security -->
+
+For a detailed discussion of how the Seedcase framework ensures that
+only authorised users can update or transfer data, see the [Login and
+Authentication]() section and the [Security]() page. The endpoint of the
+data transfer is dealt with by the legal teams of the relevant
 institutions.
-
--   **Basic Authentication** is a simple authentication scheme used by
-    APIs to authenticate users based on a username and password. In this
-    scheme, the user's credentials are encoded in a Base64-encoded
-    string and included in the HTTP Authorization header of each
-    request.The server verifies the credentials and either grants or
-    denies access to the requested resource. When make API request need
-    to include the correct username and password.
-
--   A **User Token** is a type of authentication token used by APIs to
-    authenticate and authorize user requests. When a user logs in, the
-    API generates a unique token for that user, which is then stored
-    securely on the client side (seedcase box). User Tokens are more
-    secure than Basic Authentication because they are not transmitted in
-    plaintext and can be set to expire after a certain period of time,
-    forcing the user to log in again to obtain a new token. They can
-    also be revoked by the server, if the user's access needs to be
-    terminated. When make API request need to include the correct token
-    as the header.
-
--   The **OAuth** approach is more complicated compared to previously
-    two. Here are some basic steps.
-
-    1.  User requests access to a Data Resource managed by the Seedcase
-        framework.
-    2.  The Seedcase framework redirects the user to an OAuth server
-        (e.g., Shib-Identity-Provider).
-    3.  The OAuth server authenticates the user by username and
-        password.
-    4.  The OAuth server sends the secret key back to the Seedcase
-        framework.
-    5.  The Seedcase framework uses the secret key from OAuth server,
-        providing correct authorization of the user for accessing
-        components of the Data Resource.
 
 ### Data-in-transit security
 
@@ -108,6 +80,10 @@ For data transfers of personal data, either from data collection
 centers, data generated from researchers, or when transferring data for
 approved projects, we would use well-established and compliant encrypted
 data transfer processes.
+
+<!-- TODO: Insert real link to sprout/security -->
+
+<!-- TODO: Insert real link to sprout/security#user-permissions -->
 
 Since many Seedcase software components are managed with an API, adding
 a security layer to it is crucial for ensuring the confidentiality,
@@ -120,8 +96,8 @@ unauthorized access, steal sensitive information, or disrupt service
 availability. To protect against these threats, it is important to
 implement a robust security strategy for the API. The main approach to
 dealing with API connections across the Internet is with the use of
-authentication as described above, as well as managing [user
-permission](#permissions) levels.
+authentication as described on the [Security]() page, as well as
+managing [user permission]() levels.
 
 ## Privacy {#privacy}
 
@@ -134,47 +110,6 @@ Resource managed by Seedcase software (i.e., a data project). Aside from
 managing data, when the Seedcase framework is deployed to manage a Data
 Resource, only aggregate statistics, and not individual-level personal
 data, will be publicly accessible.
-
-The Seedcase framework will allow setting up multiple layers of user
-access and authorization levels to the Data Resource instance. As
-default there will be an administrator who will have access to
-everything to do with user roles and permissions. In principle it will
-be possible for that user to set the framework up in a way that they
-themselves cannot view any of the uploaded data, but this will not be a
-standard setup.
-
-The database backend will hold all information about users and their
-permissions. This is done by allowing the administrator to assign an
-individual user to either roles or groups, some of which will come
-pre-defined. It will also be possible for an administrator to create
-their own roles and groups based on the people working on a particular
-project that is using the Seedcase framework to handle their data.
-
-The Seedcase framework will ship with the following user roles
-pre-defined to make it easier for the data project administrator to
-ensure the security and privacy of the data entered into the system.
-
--   **Administrator**: Initial user, will as a standard be assigned
-    permissions to do everything in the database. Create, read, update,
-    and delete (CRUD) permissions on data, database objects, and users
-    (including assigning other users to Administrator role).
-
--   **Administrator light (CRUD of data)**: A user assigned this role
-    will have full CRUD permission on data, but not on user permissions,
-    tables, or other database objects.
-
--   **Views only**: This will be a way of connecting specific users with
-    specific views created on the data contained in the database. These
-    views will be created by someone with a type of administrator role.
-
--   **Data create-update**: A user with permission to enter data and to
-    view the data that they have entered in the past.
-
-There will be other pre-defined roles, but those will be for the
-interaction between the backend and frontend and mainly coded into the
-APIs. The above roles should be used by activated users. A full list of
-permissions to specific tasks is listed in the [User
-permissions](#permissions) subsection below.
 
 ## Legal
 
@@ -274,28 +209,6 @@ later we will incorporate the slightly more restricted standards (like
 subscription). Standards help with naming and defining the variables
 that the research team needs in order to build their database.
 Therefore, it is important to consider how they will be used.
-
-## User permissions {#permissions}
-
-| Task                                       | Administrator | Data Requester | Data Contributor | External User |
-|---------------------|-------------|-------------|-------------|-------------|
-| Create, update, delete users               | Y             |                |                  |               |
-| Create, update, delete tables              | Y             |                |                  |               |
-| Create, update, delete metadata            | Y             |                |                  |               |
-| Read metadata                              | Y             | Y              | Y                | Y             |
-| Comment on/ask about metadata              | Y             | Y              | Y                | Y             |
-| Read information on existing data projects | Y             | Y              | Y                | Y             |
-| Create new data projects                   | Y             | Y              |                  |               |
-| Edit existing data projects                | Y             | Y              |                  |               |
-| Approve new data projects                  | Y             |                |                  |               |
-| Add tables to handle new data              | Y             |                |                  |               |
-| Add metadata on new data                   | Y             |                |                  |               |
-| Add data to existing tables                | Y             |                | Y                |               |
-
-: Permission levels for tasks associated with each user role.
-
-User roles and use cases are described in more detail on the [User
-Requirements](user-requirements.qmd) page.
 
 ## Computational and storage locations
 

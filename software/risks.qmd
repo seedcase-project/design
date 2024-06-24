@@ -143,9 +143,11 @@ presents several technical risks, including:
 
 To mitigate these risks, the following strategies are recommended:
 
+<!-- TODO: Insert real link to sprout/security -->
+
 -   **Use secure authentication and authorization mechanisms**: The team
-    should use secure authentication and authorization mechanisms, such
-    as OAuth 2.0 or JSON Web Tokens (JWT).
+    should use secure authentication and authorization mechanisms. See
+    the [Security]() page for concrete recommendations.
 -   **Implement access controls**: The team should implement access
     controls to restrict access to sensitive data and functions.
 
