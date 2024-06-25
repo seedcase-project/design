@@ -13,47 +13,49 @@ documents but not so detailed as to be describing actual code. To
 clarify how much detail each part will be described in, there are two
 established terms we use:
 
--   **White box**: {{< var design.whitebox >}}
--   **Black box**: {{< var design.blackbox >}}
+-   **Open box**: {{< var design.open-box >}}
+-   **Closed box**: {{< var design.closed-box >}}
 
 The [first section](#level1) covers the overall view of the main parts
 inside the Seedcase framework. The [second section](#level2) goes deeper
-and describes the contents within each main part, but only as black
+and describes the contents within each main part, but only as closed
 boxes.
 
-## White box overall system, Level 1 {#level1}
+## Open box overall system, Level 1 {#level1}
 
 This section is a high level overview of the internals of the Seedcase
 framework and is visually represented with the ["C4
 Container"](https://c4model.com/#ContainerDiagram) diagram below. Each
-part within the diagram is a black box representation of the core
+part within the diagram is a closed box representation of the core
 internal parts of the Seedcase framework.
 
 ![C4 Container diagram showing the major internal parts of the Seedcase
-framework.](/design/images/container.png)
+framework.](../images/container.png)
 
 | Building Block                 | Description                                                                                                             |
-|-------------------|-----------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Web Interface                  | User Interface as a web portal for interacting with the Seedcase-managed Data Resource.                                 |
 | User Authentication            | Managing and controlling who gets access to what sections of the Data Resource.                                         |
 | User and Data Management Layer | The programmatic layer connecting the web interface to the backend environment.                                         |
 | Backend Environment            | This enclosed environment contains the inputted data, admin details, changelog, and raw data.                           |
 | External Secure Server         | The external server where requested data is sent to (only needed if the user requesting access is an external partner). |
 
-: Core internal parts of the Seedcase framework (as black boxes).
+: Core internal parts of the Seedcase framework (as closed boxes).
 
-This list describes the individual black box parts in more detail:
+This list describes the individual closed box parts in more detail:
 
 -   **Web Interface**: This is the interface that users will interact
     with, displayed as HTML pages. Different sections of the Web
     Interface are available to different users depending on their
     permission level (for instance, admin users will see more pages
     related to managing data projects).
+    <!-- TODO: Insert real link to sprout/runtime-view#login-and-authentication -->
 -   **User Authentication**: This is the part that handles
     authenticating users who log into the Web Portal of the Data
     Resource instance managed by the Seedcase framework. Depending on
     the user's assigned permissions, they will see different pages
-    within the Web Interface.
+    within the Web Interface. For a more detailed description of the
+    login process, see the [Login]() section.
 -   **User and Data Management Layer**: This is the programmatic
     interface that connects the Web Portal to the Backend Environment.
     While all actions will be achieved through the Web Portal, advanced
@@ -68,13 +70,13 @@ This list describes the individual black box parts in more detail:
 
 ## Building block, Level 2 {#level2}
 
-### Web Portal (white box)
+### Web Portal (open box)
 
 ![C4 Component diagram of Web Portal
-interface.](/design/images/component-ui.png)
+interface.](../images/component-ui.png)
 
 | Building Block            | Description                                                                                                                                                                                                                                          |
-|-------------------|-----------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Landing Page              | The initial page that a user sees when they visit the Seedcase web portal. It provides an overview of the Seedcase Project and includes links to other important pages.                                                                              |
 | Login Pages               | It is used to authenticate users before they can access protected areas. It includes fields for users to enter their login credentials, such as a username and password.                                                                             |
 | Project List Pages        | It displays a list of all data projects that a user has access to. Each project is typically displayed as a separate item in a list and includes basic information about the project such as its name and status.                                    |
@@ -86,7 +88,7 @@ interface.](/design/images/component-ui.png)
 | Data QC Process Pages     | It provides information about the quality control process used to ensure that data sets are accurate and reliable. It provides a list of the quality control functions. It also provides the result to determine if a data set passes or fails.      |
 | Data Request Pages        | Submitting a request to use data from the Data Resource. Includes the list of variables selected from the data, some descriptions on the proposed use of the data, as well as information on subsetting the data.                                    |
 
-: Black boxes within the *Web Portal* part.
+: Closed boxes within the *Web Portal* part.
 
 #### Data catalog
 
@@ -111,29 +113,16 @@ interface.](/design/images/component-ui.png)
     been granted access to as well as simple aggregations of the
     variables.
 
-### User Authentication (white box)
+### User and Data Management Layer (open box)
 
 <!-- TODO: Need a components diagram for this. -->
 
-![user id](/design/images/user-id.png)
-
-| Building Block           | Description                                   |
-|--------------------------|-----------------------------------------------|
-| Connect Remote ID Server | Connect to remote user authentication server  |
-| Local Authentication     | Use Seedcase local user authentication server |
-
-: Black boxes within the *User Authentication* part.
-
-### User and Data Management Layer (white box)
-
-<!-- TODO: Need a components diagram for this. -->
-
-![user data management](/design/images/user-data-management.png)
+![user data management](../images/user-data-management.png)
 
 #### API Layer
 
 | Building Block         | Description                                                                                                          |
-|-------------------|-----------------------------------------------------|
+|------------------------|------------------------------------------------|
 | API Security           | This implements measures to protect an API from unauthorized access, data theft, and other security threats.         |
 | Dataset CRUD\* API     | This API endpoint allows creating, reading, updating, and deleting the dataset in the system.                        |
 | Data file CRUD\* API   | This API endpoint allows creating, reading, updating, and deleting the data file in the system.                      |
@@ -141,7 +130,7 @@ interface.](/design/images/component-ui.png)
 | List Project Log       | This API endpoint allows displaying a log of all activity related to a specific project in the system.               |
 | Researchers CRUD\* API | This API endpoint allows creating, reading, updating, and deleting a researcher user in the system.                  |
 
-: Black boxes related to *API Layer* within the *User and Data
+: Closed boxes related to *API Layer* within the *User and Data
 Management Layer* part.
 
 \*CRUD: {{< var design.crud >}}
@@ -149,7 +138,7 @@ Management Layer* part.
 #### Admin management
 
 | Building Block                 | Description                                                                                                                                                                                                                                                                            |
-|-------------------|-----------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Project Management             | These admin pages allow administrators to manage projects in the system. This includes creating new projects, updating existing projects, and assigning researchers to projects.                                                                                                       |
 | Project Dataset Management     | These admin pages allow administrators to manage the datasets associated with a specific project. This includes adding new datasets to the project, updating existing datasets, and managing the access permissions for each dataset.                                                  |
 | Data QC Process Management     | These admin pages allow administrators to manage the quality control (QC) process for data sets in the system. This includes setting thresholds for pass/fail criteria and managing the process for reviewing and approving data sets that have been cleaned and prepared.             |
@@ -157,7 +146,7 @@ Management Layer* part.
 | API Security Management        | These admin pages allow administrators to manage the security measures that are in place to protect the API for the system.                                                                                                                                                            |
 | External Connection Management | These admin pages allow administrators to manage the connections between the system and external data sources or applications. This includes setting up new connections, updating existing connections, and managing the access permissions for each connection.                       |
 
-: Black boxes related to *Admin Management* within the *User and Data
+: Closed boxes related to *Admin Management* within the *User and Data
 Management Layer* part.
 
 These are some potential endpoints for the API. For almost all of them,
@@ -169,7 +158,7 @@ there are some overlapping features. For instance, each endpoint accepts
     provided to the user when they create an account.
 
 | Response status code      | Description                                             |
-|------------------------|------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | 400 Bad Request           | The request was malformed or invalid.                   |
 | 401 Unauthorized          | The authentication code provided is invalid or missing. |
 | 500 Internal Server Error | There was an error processing the request.              |
@@ -205,7 +194,7 @@ there are some overlapping features. For instance, each endpoint accepts
         data project that the data is being generated for.
 
 | Response status code | Description                                                           |
-|------------------|------------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | 202 Accepted         | The request was accepted and the data generation process has started. |
 | 404 Not Found        | The project with the specified ID was not found.                      |
 
@@ -219,7 +208,7 @@ there are some overlapping features. For instance, each endpoint accepts
         cleaning function to call.
 
 | Response status code  | Description                                                             |
-|------------------|------------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | 201 process completed | The request was successful and the data cleaning function was executed. |
 
 #### Get list of data projects
@@ -276,7 +265,7 @@ there are some overlapping features. For instance, each endpoint accepts
             permission field.
 
 | Response status code | Description                                                      |
-|-------------------|-----------------------------------------------------|
+|------------------------|------------------------------------------------|
 | 200 OK               | The request was successful and the user permissions were updated |
 | 404 Not Found        | The user with the specified ID was not found.                    |
 
@@ -296,14 +285,14 @@ there are some overlapping features. For instance, each endpoint accepts
         history logs that match any of the provided criteria.
 
 | Response status code | Description                                                   |
-|-------------------|-----------------------------------------------------|
+|------------------------|------------------------------------------------|
 | 200 OK               | The request was successful and the history log was retrieved. |
 | 404 Not Found        | No history logs were found for the specified criteria.        |
 
-: Blackboxes related to *data entry* within the *User and Data
+: Closed boxes related to *data entry* within the *User and Data
 Management Layer* part.
 
-### Backend Environment (whitebox)
+### Backend Environment (open box)
 
 The input data will be quite heterogeneous and so the Seedcase framework
 backend will need to be composed of multiple components:
@@ -325,24 +314,24 @@ backend will need to be composed of multiple components:
     modified manually by the users but generated automatically
 
 ![C4 Component diagram showing the Backend Environment
-Container.](/design/images/component-backend.png)
+Container.](../images/component-backend.png)
 
 | Building Block      | Description                                                                                                                                      |
-|-------------------|-----------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Raw File Storage    | Raw data that requires processing before entering the database, preferably as CSV or other plain text format.                                    |
 | Large File Storage  | Data files (like images) that are too big or can't be stored in the database. A variable for the file path will be used in the database instead. |
 | Relational Database | PostgreSQL relational database containing the data, as well as some metadata, data projects, and user information.                               |
 
-: Black boxes within the *Backend Environment* part.
+: Closed boxes within the *Backend Environment* part.
 
 | Building Block           | Description                                                                                                 |
-|-------------------|-----------------------------------------------------|
+|------------------------|------------------------------------------------|
 | User information         | Details about registered users and their permission levels, viewable by admin users.                        |
 | Resource data            | Research data collected, uploaded, and store by users of Data Resource.                                     |
 | Data project information | Submitted requests for data as a data project, with details like project description and list of variables. |
 | Changelog                | Changes made to data recorded as a table.                                                                   |
 
-: Black boxes of tables in *Relational Database* within the *Backend
+: Closed boxes of tables in *Relational Database* within the *Backend
 Environment* part.
 
 <!-- TODO: Not sure where Data dictionary details will go... -->
