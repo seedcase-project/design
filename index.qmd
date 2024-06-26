@@ -3,8 +3,8 @@ title: "Welcome to the Seedcase design documentation!"
 about:
   id: hero-heading
   template: solana
-  image: _extensions/seedcase-project/seedcase-theme/logos/navbar-logo-seedcase-design.svg
-  image-width: 75em 
+  image: _extensions/seedcase-project/seedcase-theme/logos/software-product-logos.svg
+  image-width: 10em
 ---
 
 ::: {#hero-heading}
