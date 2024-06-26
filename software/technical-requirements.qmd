@@ -102,7 +102,7 @@ the Seedcase framework:
 | Conventions                                                                                                                | Background/Motivation                                                                                                                                                           |
 |-------------------------------|-----------------------------------------|
 | Follow standard styling (e.g., [PIP3](https://pypi.org/project/pip/) and [black](https://github.com/psf/black) formatting) | Coding style is vital to readability, so we follow best practices. See our [Style documentation](https://design.seedcase-project.org/style/)                                    |
-| Use [SemVar](https://semver.org/) versioning                                                                               | We can utilise existing tools to handle tasks like version release and changelog generation. See our [decision post](https://decisions.seedcase-project.org/why-semver) on this |
+| Use [SemVer](https://semver.org/) versioning                                                                               | We can utilise existing tools to handle tasks like version release and changelog generation. See our [decision post](https://decisions.seedcase-project.org/why-semver) on this |
 | Incorporate test-driven and documentation-driven development styles                                                        | Each has pros and cons, we use what works best. See the [Contributing Guidelines](https://seedcase-project.org/community/contributing)                                          |
 
 : Conventions that we follow for the Seedcase framework.
