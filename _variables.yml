@@ -10,6 +10,7 @@ design:
     core operations for data storage on computers.
   data-resource: |
     Is the research data and metadata, and any management needed, of a specific research study. 
+    A Data Resource can contain multiple Data Projects.
   data-project: |
     A subset of data from a Data Resource that researchers or other analysts
     request access to use for a specific purpose. This request, when approved, 
