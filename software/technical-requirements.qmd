@@ -1,0 +1,108 @@
+---
+title: "Technical requirements"
+order: 12
+---
+
+{{< include /includes/_wip.qmd >}}
+
+This section outlines the technical requirements for the Seedcase
+software from a developer point of view.
+
+### Main functionality
+
+The main functionality of the Seedcase framework is to provide a way for
+users to manage and share data resources. The main features of the
+Seedcase framework are:
+
+-   **One Data Resource per Seedcase "instance"**: For users with
+    multiple Data Resources, each Data Resource will be housed in a
+    separate "instance" of the infrastructure framework.
+-   **Upload or update data**: Input data into the Data Resource in
+    batches or continuously into the backend storage, either into the
+    database or as raw data files.
+-   **Upload or update metadata**: When inputting data, attach metadata
+    along side it.
+-   **Store changes to the data in a changelog**: Track and list changes
+    made to the data within the Data Resource for auditing and
+    recordkeeping.
+-   **Display metadata and basic information on the data in the Data
+    Resource on a user interface**: So external users and users
+    interested in data in the Data Resource can browse what is
+    available.
+-   **Provide a data access submission process**: Allow users to submit
+    a data access request for data in the Data Resource, along with a
+    data selection process (for instance, like a shopping cart). Submit
+    a request for access as a data project that includes selected data
+    and a brief reason as
+-   **Store data request submissions as data projects for auditing and
+    managing**: Save submissions as "data projects", where admin users
+    can approve (or decline) these data projects and manage whether they
+    are "ongoing", "completed", or "declined". The stored ongoing or
+    completed data projects will be displayed on the web portal for
+    discoverability and transparency on the subset of the Data Resource
+    used.
+-   **Allow for individual parts to be independently installable and
+    usable**: Users might not need or want some of the functionality, so
+    being able to have individual and independent parts that are usable
+    on their own is necessary. These independent parts also need to be
+    able to connect and work together.
+
+## Technologies
+
+To accomplish the features described above, we have to decide what main
+technologies and what architectural designs to use. Any technologies we
+decide must adhere to the [Guiding principles](principles.qmd).
+
+The main technologies we will use are:
+
+-   For the Seedcase framework itself, it will be developed using
+    **Python**, for multiple reasons, including because it is open
+    source and because it is one of the most commonly used languages
+    within research and industry alike.
+-   For the data, the formal database will be created and managed by
+    **PostgreSQL**, since it is an established and open source software,
+    while raw data will be stored as either **CSV** or **JSON** files as
+    they are the most common forms of storing data as well as being
+    plain text.
+-   For general software development and managing computing
+    environments, we will build the Seedcase framework within **Docker
+    containers**. Containers are a modern and powerful way of management
+    software and environment dependencies. Docker is very popular and
+    the program is open source.
+-   For building the web and API layer, we will use **Django** for the
+    framework since it is very popular and has a large amount of online
+    resources. Django also implements **RESTful API** (representational
+    state transfer), which is the de facto standard way for building
+    APIs.
+
+For our decisions to use these technologies, see [Decision
+Record](https://decisions.seedcase-project.org).
+
+## Technical constraints
+
+Following our guiding principles, we have the following technical
+constraints of the Seedcase framework:
+
+| Constraints                                         | Background/Motivation                                                            |
+|----------------------------|--------------------------------------------|
+| Run on Windows, MacOS, and Linux                    | Our potential users work on any of these systems, so we need to design for that  |
+| Use open source software dependencies               | We will use an open license, so we need to use components that are open as well  |
+| Use software that's (relatively) familiar to many   | We want others to contribute, so we need to use tools others (likely) know       |
+| Integrate GDPR, privacy, and security compliance    | Our target users work with health data, so this is vital to consider             |
+| Deployable to servers and locally                   | Could be used locally but mainly used on a server environment                    |
+| Storage and computing may be at different locations | Where data are stored vs analyzed will likely be different, see subsection below |
+
+: Technical constraints we need to consider for Seedcase software.
+
+## Conventions
+
+We follow the conventions below for software development when developing
+the Seedcase framework:
+
+| Conventions                                                                                                                | Background/Motivation                                                                                                                   |
+|-------------------------------|-----------------------------------------|
+| Follow standard styling (e.g., [PIP3](https://pypi.org/project/pip/) and [black](https://github.com/psf/black) formatting) | Coding style is vital to readability, so we follow best practices                                                                       |
+| Use [CalVer](https://calver.org/) versioning                                                                               | This style is simple and easily shows the age of the software                                                                           |
+| Incorporate test-driven and documentation-driven development styles                                                        | Each has pros and cons, we use what works best. See the [Contributing Guidelines](https://seedcase-project.org/community/contributing). |
+
+: Conventions that we follow for the Seedcase framework.
