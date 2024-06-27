@@ -29,11 +29,11 @@ section of the Introduction.
 
 1.  [Introduction and goals](introduction.qmd): Targeted at any reader.
     Introduction to the architecture documentation, goals, core
-    functionality requirements, guiding principles and philosophies, and
-    stakeholders (readers of the documentation).
-2.  [Principles](principles.qmd): Targeted at any reader. Covers the
-    core values and guiding principles that direct and shape many
-    aspects of the architecture of Seedcase software as well as the
+    functionality requirements, and stakeholders (readers of the
+    documentation).
+2.  [Values and principles](principles.qmd): Targeted at any reader.
+    Covers the core values and guiding principles that direct and shape
+    many aspects of the architecture of Seedcase software as well as the
     exact implementation of the architecture.
 3.  [Constraints](constraints.qmd): Targeted at any reader. Covers
     barriers or constraints we have self-imposed (for instance, due to

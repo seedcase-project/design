@@ -51,7 +51,7 @@ Seedcase framework are:
 
 To accomplish the features described above, we have to decide what main
 technologies and what architectural designs to use. Any technologies we
-decide must adhere to the [Guiding principles](principles.qmd).
+decide must adhere to our [values and principles](principles.qmd).
 
 The main technologies we will use are:
 
@@ -80,8 +80,8 @@ Record](https://decisions.seedcase-project.org).
 
 ## Technical constraints
 
-Following our guiding principles, we have the following technical
-constraints of the Seedcase framework:
+Following our [values and principles](principles.qmd), we have the
+following technical constraints of the Seedcase framework:
 
 | Constraints                                         | Background/Motivation                                                            |
 |----------------------------|--------------------------------------------|
