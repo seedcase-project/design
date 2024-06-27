@@ -14,9 +14,9 @@ The main functionality of the Seedcase framework is to provide a way for
 users to manage and share data resources. The main features of the
 Seedcase framework are:
 
--   **One Data Resource per Seedcase "instance"**: For users with
-    multiple Data Resources, each Data Resource will be housed in a
-    separate "instance" of the infrastructure framework.
+-   **One or multiple Data Resources per Seedcase installation**: For
+    users with multiple Data Resources, all Data Resources will be
+    housed in one installation of Seedcase.
 -   **Upload or update data**: Input data into the Data Resource in
     batches or continuously into the backend storage, either into the
     database or as raw data files.

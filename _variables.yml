@@ -17,7 +17,7 @@ design:
   installation: |
     An installation of the Seedcase infrastructure  can include all software products 
     within the Seedcase framework or only some parts of it.
-    An Instance can contain one Data Resource, but multiple Data Projects.
+    An installation can contain multiple Data Resources and multiple Data Projects.
   seedcase-framework: |
      The software products that work together to implement the core project 
      functionalities as a single conceptual unit. Specifically, this includes 
