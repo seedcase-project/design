@@ -11,7 +11,7 @@ Person_Ext(user_results, "External User", "Explore variables and projects")
 Lay_R(user_admin, user_input)
 Lay_R(user_input, user_results)
 
-AddRelTag("line", $lineStyle = DashedLine())
+AddRelTag("dashed", $lineStyle = DashedLine())
 
 System(ui, "Seedcase Data Resource")
 System_Ext(external_server, "External secure server")
@@ -20,7 +20,7 @@ Rel(user_input, ui, "")
 Rel(user_request, ui, "")
 Rel(user_admin, ui, "")
 Rel(user_results, ui, "")
-Rel_Right(user_results, user_request, "May become", $tags="line")
+Rel_Right(user_results, user_request, "May become", $tags="dashed")
 
 Rel_Right(ui, external_server, "Data extract for approved data projects")
 Rel(user_request, external_server, "Access requested data")
