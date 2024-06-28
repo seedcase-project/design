@@ -3,3 +3,95 @@ title: "Accessibility"
 ---
 
 {{< include /includes/_wip.qmd >}}
+
+## Introduction
+
+It is important to us that the outputs of the Seedcase Project
+(including the websites, the software products, and the teaching
+material) are as accessible as possible. This includes people with
+disabilities, people who are older, people who are not native English
+speakers, and people who are not familiar with technology. The Seedcase
+project is no exception. We want to make all output of the Seedcase
+Project as accessible as possible for all potential users. This includes
+both the websites, the software products, and the teaching material.
+
+## Decision drivers
+
+We want to ensure that a multitude of users will be able to work with
+our software and interact with our documentation. At first this was a
+question of ensuring that our colour scheme was accessible to people
+with colour blindness, which in turn lead us to consider other
+accessibility issues. We want to ensure that the Seedcase Project is as
+inclusive as possible, so it's accessible to as many users as possible.
+This is also a requirement for the Seedcase Project to be successful in
+the long term.
+
+## Considered options
+
+There are a number of ways of looking at accessibility, the most common
+are accessible content and visual accessibility. We will work with both.
+
+### Accessible content
+
+Accessible content is content that is easy to understand and use for
+everyone. Things like accessible naming, and using a polite setting for
+the hidden text. Ensuring that the language isn't too technical or
+complex, and that pictures and potential audio/visual content is
+described in a way that is compatible with screen readers.
+
+Things to check for during development:
+
+-   is the text to complex?
+-   is the language too technical?
+-   are the images described in a way that is compatible with screen
+    readers (i.e., do we include alt texts)?
+-   are the buttons and links named in a way that is easy to understand?
+-   are the interactive elements easy to navigate with a keyboard?
+-   are any landmarks/headings coded in a way that makes guides a screen
+    reader in a logical way?
+-   if we end up making videos or audio content, is there a transcript
+    available?
+
+### Visual accessibility
+
+Visual accessibility is about making sure that websites and apps are
+easy to use for people with visual impairments. This includes things
+like ensuring that the colour scheme is accessible to people with colour
+blindness and that the text is easy to see. It also includes things like
+ensuring that our websites and apps are easy to navigate, and that the
+buttons are easy to click on.
+
+Things to check for during development:
+
+-   is the colour scheme accessible to people with colour blindness?
+-   is the colour ratio between text and background high enough (minimum
+    4.5:1)?
+-   is the text easy to read (large enough font)?
+-   is the line length suitable (between 45 and 75 char)?
+-   are the meaning the icons convey established (like a pencil for
+    edit, or a square for stop)?
+-   are the buttons easy to click, with a tap-target a minimum of 44x44
+    px and not too closely spaced?
+-   are the interactive states easy to see (default, focus/hover,
+    active/pressed, deactivated)?
+
+## Decision outcome
+
+We decided to work on both accessible content and visual accessibility
+even though this will take more time to implement and that this doesn't
+cover all accessibility issues. However, we believe that making our
+websites, software products, and teaching materials as accessible as
+possible is crucial. This commitment aligns with our values. The focus
+on accessible content and visual accessibility is a great first step to
+make the Seedcase Project more accessible. Some of the points
+highlighted above are things we will need to pay attention to (like text
+complexity), others are some that we will be able to incorporate into
+our development process (like ensuring that the colour scheme is
+accessible to people with colour blindness, and that buttons have an
+accessible contrast ratio).
+
+There are numerous ways to test for accessibility, and we will need to
+ensure that we have a good testing plan in place. This will at present
+be a semi-manual process, the details of which are described in the
+[Accessibility testing
+plan](!--TODO%20#89%20insert%20link%20once%20page%20is%20written--).
