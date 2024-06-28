@@ -63,9 +63,9 @@ framework.
 ### Users
 
 The Seedcase framework is developed and designed with four users and
-their associated use cases in mind. These four users we've translated into user roles, which are described
-in more detail on the [User Requirements](user-requirements.qmd) page,
-are:
+their associated use cases in mind. These four users we've translated
+into user roles, which are described in more detail on the [User
+Requirements](user-requirements.qmd) page, are:
 
 1.  **Data Contributor**: inputs data to the Data Resource, e.g.,
     authorized centers and researchers.
@@ -81,12 +81,8 @@ are:
 
 ## Quality Goals
 
-<!-- TODO: Add more as we develop the documents. -->
-
-| Goals                        | Scenarios                                                                                                    |
-|--------------------|----------------------------------------------------|
-| Secure and legally compliant | Seedcase software currently targets health data, so it needs to be compliant with privacy and security laws. |
-| Beginner-friendly interfaces | We want non-technical users to use this, so ease of use is high priority.                                    |
+Please see the [Quality requirements](quality-requirements.qmd) section
+for our thoughts on this.
 
 ## Stakeholders
 
