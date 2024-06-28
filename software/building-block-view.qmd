@@ -52,7 +52,7 @@ This list describes the individual closed box parts in more detail:
     <!-- TODO: Insert real link to sprout/runtime-view#login-and-authentication -->
 -   **User Authentication**: This is the part that handles
     authenticating users who log into the Web Portal of the Data
-    Resource instance managed by the Seedcase framework. Depending on
+    Resource managed by the Seedcase framework. Depending on
     the user's assigned permissions, they will see different pages
     within the Web Interface. For a more detailed description of the
     login process, see the [Login]() section.
