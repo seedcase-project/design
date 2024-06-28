@@ -10,12 +10,7 @@ It is important to us that the outputs of the Seedcase Project
 (including the websites, the software products, and the teaching
 material) are as accessible as possible. This includes people with
 disabilities, people who are older, people who are not native English
-speakers, and people who are not familiar with technology. The Seedcase
-project is no exception. We want to make all output of the Seedcase
-Project as accessible as possible for all potential users. This includes
-both the websites, the software products, and the teaching material.
-
-## Decision drivers
+speakers, and people who are not familiar with technology.
 
 We want to ensure that a multitude of users will be able to work with
 our software and interact with our documentation. At first this was a
@@ -26,17 +21,16 @@ inclusive as possible, so it's accessible to as many users as possible.
 This is also a requirement for the Seedcase Project to be successful in
 the long term.
 
-## Considered options
 
 There are a number of ways of looking at accessibility, the most common
 are accessible content and visual accessibility. We will work with both.
 
-### Accessible content
+## Accessible content
 
 Accessible content is content that is easy to understand and use for
-everyone. Things like accessible naming, and using a polite setting for
-the hidden text. Ensuring that the language isn't too technical or
-complex, and that pictures and potential audio/visual content is
+everyone. This includes things like accessible naming and using a polite
+setting for hidden text. Ensuring that the language isn't too technical or
+complex, and that pictures and potential audio/visual content are
 described in a way that is compatible with screen readers.
 
 Things to check for during development:
@@ -48,11 +42,11 @@ Things to check for during development:
 -   are the buttons and links named in a way that is easy to understand?
 -   are the interactive elements easy to navigate with a keyboard?
 -   are any landmarks/headings coded in a way that makes guides a screen
-    reader in a logical way?
+    reader in a logical way? (i.e., do we avoid skipping header levels?)
 -   if we end up making videos or audio content, is there a transcript
     available?
 
-### Visual accessibility
+## Visual accessibility
 
 Visual accessibility is about making sure that websites and apps are
 easy to use for people with visual impairments. This includes things
@@ -72,10 +66,10 @@ Things to check for during development:
     edit, or a square for stop)?
 -   are the buttons easy to click, with a tap-target a minimum of 44x44
     px and not too closely spaced?
--   are the interactive states easy to see (default, focus/hover,
+-   are the interactive states of buttons easy to see (default, focus/hover,
     active/pressed, deactivated)?
 
-## Decision outcome
+## Conclusion
 
 We decided to work on both accessible content and visual accessibility
 even though this will take more time to implement and that this doesn't
