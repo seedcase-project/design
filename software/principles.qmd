@@ -1,5 +1,5 @@
 ---
-title: Principles
+title: Values and principles
 order: 1.5
 ---
 
