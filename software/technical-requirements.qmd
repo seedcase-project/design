@@ -14,9 +14,9 @@ The main functionality of the Seedcase framework is to provide a way for
 users to manage and share data resources. The main features of the
 Seedcase framework are:
 
--   **One Data Resource per Seedcase "instance"**: For users with
-    multiple Data Resources, each Data Resource will be housed in a
-    separate "instance" of the infrastructure framework.
+-   **One or multiple Data Resources per Seedcase installation**: For
+    users with multiple Data Resources, all Data Resources will be
+    housed in one installation of Seedcase.
 -   **Upload or update data**: Input data into the Data Resource in
     batches or continuously into the backend storage, either into the
     database or as raw data files.
@@ -51,7 +51,7 @@ Seedcase framework are:
 
 To accomplish the features described above, we have to decide what main
 technologies and what architectural designs to use. Any technologies we
-decide must adhere to the [Guiding principles](principles.qmd).
+decide must adhere to our [values and principles](principles.qmd).
 
 The main technologies we will use are:
 
@@ -80,8 +80,8 @@ Record](https://decisions.seedcase-project.org).
 
 ## Technical constraints
 
-Following our guiding principles, we have the following technical
-constraints of the Seedcase framework:
+Following our [values and principles](principles.qmd), we have the
+following technical constraints of the Seedcase framework:
 
 | Constraints                                         | Background/Motivation                                                            |
 |----------------------------|--------------------------------------------|

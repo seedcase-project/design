@@ -15,7 +15,7 @@ Data description
 Actual data
 
 - Research data resource: {{< var design.data-resource >}}
-- Seedcase Instance: DEFINITION
+- Seedcase installation: DEFINITION
 
 A Data Resource of Seedcase will contain one or more tables with data relevant for research (as well as tables defining security and user access).
 
