@@ -10,7 +10,7 @@ Person(inp, "Data Contributor")
 Person(req, "Data Requester")
 Person_Ext(ext, "External User")
 
-Container_Boundary(seed, "Seedcase Data Resource") {
+System_Boundary(seed, "Seedcase Data Resource") {
 	Container(land, "Main Seedcase page", "navigation page", "Main page showing installed apps")
 	Container(sec, "User authentication", "interface", "Called when selecting any app which needs security")
 	Container(sprout, "Sprout", "web-app", "Uploads the research instance data")
