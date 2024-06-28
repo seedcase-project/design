@@ -41,7 +41,7 @@ vocabulary of the HTTP verbs (GET, POST, PUT, PATCH, and DELETE):
     data, metadata, and project identifiers.
 
 To name things, we'll combine the above with the object name first,
-followed by the action, with a natural heirarchy of "offspring" to the
+followed by the action, with a natural hierarchy of "offspring" to the
 objects. Based on these principles, we can derive a naming scheme. In
 the scheme, objects and actions are ordered, with names occurring first
 acting as a "parent" to later names. The names are separated by a symbol
