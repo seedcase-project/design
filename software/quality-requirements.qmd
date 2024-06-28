@@ -1,0 +1,87 @@
+---
+title: "Quality requirements"
+order: 10
+---
+
+{{< include /includes/_wip.qmd >}}
+
+## Quality requirements
+
+The architectural quality requirements are the quality attributes that
+the system must have. These requirements are derived from the business
+requirements and the constraints of the system. The quality requirements
+are the non-functional requirements that the system must have. For
+Seedcase we have sought inspiration from the [ISO 25010 standard for
+software quality
+requirements](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
+as well as the [arc42 Documentation](https://docs.arc42.org/home/)
+sections 1.2 and 10. The ISO 25010 standard defines nine quality
+requirements that a software system must have. These are:
+
+1.  **Functional suitability**: The system must have the functions that
+    the users need.
+2.  **Performance efficiency**: The system must have the performance
+    that the users need.
+3.  **Compatibility**: The system must be compatible with other systems.
+4.  **Interaction Capability**: The system must be easy to use and
+    protect against user errors.
+5.  **Reliability**: The system must be reliable.
+6.  **Security**: The system must be secure.
+7.  **Maintainability**: The system must be maintainable.
+8.  **Flexibility**: The system must be flexible.
+9.  **Safety**: The system must be safe and be able to protect against
+    accidents.
+
+In the arc42 guidelines it is recommended that a project focus on between
+three and five of the above areas as the primary quality requirements.
+For Seedcase we have chosen to focus on functional suitability, 
+interaction capability, reliability, and security.
+
+### Functional suitability
+
+The system must have the functions that the users need. The ISO standard
+talks about completeness, correctness, and appropriateness which are all
+important aspects of functional suitability. We want all Seedcase
+products to have all the functions that are needed to store, organise,
+and retrieve research data. We want Seedcase to store data in a way that
+it stays correct, and is easy to maintain, and we want Seedcase to be
+have the appropriate features for the user.
+
+### Interaction Capability
+
+There are many items covered in the ISO standard under the heading
+Interaction Capability. The ones we would like to initially focus on
+are: Learnability, Operability, Inclusivity and Self-descriptiveness.
+
+- **Learnability** relates to how easy it is for a user to learn how to
+use the system. It has to do with the intuitiveness of the system as well
+as the availability of help and documentation. 
+- **Operability** is about
+how easy it is to use the system, how the functionality links together,
+and how the different parts of Seedcase will support each other.
+- **Inclusivity** is about how easy it is for all users to use the system,
+regardless of their abilities. 
+- **Self-descriptiveness** is about how
+easy it is for a user to understand what the system is doing and how it
+is doing it, which are highly dependent on the user interface and documentation.
+
+### Reliability
+
+A system that isn't performing reliably is not going to be used.
+Seedcase must not be seen as something that breaks every time a new
+update has been applied, or just gives up for no reason at all. The best
+way to achieve this is by spending enough time on the architecture and
+design of the system, and by having a good test coverage. We want to
+make sure that Seedcase is reliable and that it can be trusted to store
+and retrieve information.
+
+### Security
+
+Because Seedcase is aimed at the medical research sector, security is
+paramount. We want to make sure that the data stored in Seedcase is
+secure and that only the people who are supposed to have access to the
+data can access it. It should also be protected against attacks as well
+as ensuring that once data is stored in the system it is not lost.
+Another aspect of security is to ensure that the system is compliant
+with the relevant data protection laws, this is especially important in
+the medical research sector.

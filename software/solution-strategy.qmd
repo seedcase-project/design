@@ -10,19 +10,3 @@ solve our problem, as outlined in the [Introduction
 section](introduction.qmd). Any solution we decide must
 adhere to the [values and principles](principles.qmd)
 and the [constraints](constraints.qmd).
-
-In relation to our [Quality Goals](introduction.qmd#quality-goals):
-
--   **Secure and legally compliant**:
-    -   We will separate the data in the backend with its own Docker
-        container to ensure greater security.
-    -   We will use established security and authentication protocols as
-        plugins to Seedcase software, rather than build a custom
-        solution.
--   **Beginner-friendly interfaces**:
-    -   Incorporate components of [Documentation Driven
-        Development](https://gist.github.com/zsup/9434452) (followed by
-        components of [Test Driven
-        Development](https://en.wikipedia.org/wiki/Test-driven_development))
-        to ensure that what the user interacts with is the first thing
-        we consider and document.
