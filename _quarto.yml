@@ -43,6 +43,7 @@ website:
     - id: style
       contents:
         - style/index.qmd
+        - style/naming.qmd
     - id: accessibility
       contents:
         - accessibility/index.qmd
