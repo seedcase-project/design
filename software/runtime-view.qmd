@@ -13,7 +13,7 @@ case refers to how the software works "in action".
 
 For a detailed description of the expected types of input data and the
 different ways users can upload data to the Seedcase framework, see the
-[Data Input]() section.
+[Data Input](https://sprout.seedcase-project.org/docs/design/runtime-view#data-input) section.
 
 ## Requesting data
 
