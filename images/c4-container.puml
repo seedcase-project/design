@@ -1,0 +1,58 @@
+@startuml c4-container
+!theme seedcase from https://raw.githubusercontent.com/seedcase-project/seedcase-theme/main
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+AddRelTag("dashed", $lineStyle = DashedLine())
+
+
+Person(adm, "Administrator")
+Person(inp, "Data Contributor")
+Person(req, "Data Requester")
+Person_Ext(ext, "External User")
+
+System_Boundary(seed, "Seedcase Data Resource") {
+	Container(land, "Main Seedcase page", "navigation page", "Main page showing installed apps")
+	Container(sec, "User authentication", "interface", "Called when selecting any app which needs security")
+	Container(sprout, "Sprout", "web-app", "Uploads the research instance data")
+	Container(flower, "Flower", "web-app", "Makes metadata available to browse")
+	Container(prop, "Propagate", "web-app", "Allows others to request data")
+	Container(garden, "Garden", "web-app", "Handles workflow for Data Projects")
+	Container_Boundary(backend, "Data storage"){
+  	ContainerDb(data, "Research data", "db, csv, etc")
+  	ContainerDb(metadata, "Research metadata", "db, csv, etc")
+		ContainerDb(user, "User data", "db")
+		ContainerDb(project_metadata, "Project metadata", "db")
+	}
+}
+
+Lay_Right(sec, land)
+Lay_Right(sprout,flower)
+Lay_Right(flower, prop)
+Lay_Right(prop, garden)
+Lay_U(garden, land)
+Lay_U(project_metadata, garden)
+
+BiRel_Left(sec,land, "")
+Rel(inp, land, "")
+Rel(req, land, "")
+Rel(adm, land, "")
+Rel(ext, land, "")
+
+Rel(land, sprout, "")
+Rel(land, garden, "")
+Rel(land, prop, "")
+Rel(land, flower, "")
+
+BiRel(project_metadata, garden, "")
+BiRel(project_metadata, prop, "")
+Rel_U(metadata, flower, "")
+Rel(garden, prop, "")
+Rel_U(data, prop, "", $tags="dashed")
+BiRel(sprout, data, "")
+BiRel(sprout, metadata, "")
+BiRel(sec, user, "")
+
+
+SHOW_LEGEND()
+
+@enduml
