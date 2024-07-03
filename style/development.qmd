@@ -1,0 +1,72 @@
+---
+title: "Development workflow"
+description: "Style and design choices for how we develop software and documentation."
+---
+
+{{< include /includes/_wip.qmd >}}
+
+This guide describes our "style" and approach for **how** we actually
+develop the software and the various types of documentation that we
+create and develop.
+
+::: callout-warning
+The documentation section has not been developed yet.
+:::
+
+## Software
+
+### Basic principles
+
+While developing software, we try to adhere to the principles of
+[Test-Driven
+Development](https://en.wikipedia.org/wiki/Test-driven_development)
+(TDD) and [Documentation-Driven
+Development](https://gist.github.com/zsup/9434452) (DDD). TDD is when
+you aim to write some basic tests to test your code *before* you write
+your code. DDD is similar to TDD, except you aim to write documentation
+first, before writing the code. Documentation is a very board term and
+in this case, it is the code-level design documentation, basic usage
+documentation (at the code level, not for user interfaces), and function
+documentation.
+
+In practice, we use DDD to develop the code-level design documents,
+which we then use TDD to write some basic tests for user-facing code,
+then start writing the function documentation (e.g. docstrings in
+Python), and finally writing the code. This seems quite linear, but
+there will be a fair amount of back-and-forth between these steps.
+Preferably, we also write some basic usage documentation but this is not
+always possible or appropriate, depending on the software and whether
+the focus is on the UI or the CLI/web API.
+
+### Development stages
+
+We generally tend to develop software by following these steps:
+
+1.  **Overall system and architecture design**: This is a high-level
+    description and explanation of the software, including the technical
+    and user requirements, functionality flow, the data model if
+    relevant, and how things generally fit and work together.
+2.  **Code-level design of user functionality**: This step is about
+    building up and deciding on explicit naming of the code-level of
+    functions and objects that a user might interact with, as well as
+    some general internal objects and functions that we developers will
+    interact with. This is where brainstorm and agree on the types of
+    objects the software works with as well as the actions it takes. An
+    analogy of this might be that this step would be designing the
+    command-line interface of the software (even if we never build a
+    command-line interface).
+3.  **Writing the code with tests and documentation**: Using the
+    code-level design we developed before, we'll write some basic tests
+    of the code for some core functionality. After that, we start
+    developing the code while writing the function documentation
+    alongside writing the code.
+4.  **Wireframes of the user interface (for projects with an UI)**: Once
+    we feel comfortable with the code, we can start building up
+    wireframes for the user interface, keeping in mind how we structured
+    and designed the code so that there is a smooth alignment between
+    the code and the user interface.
+5.  **URL paths and HTML templates (for projects with an UI)**: Finally,
+    we start building up the URL/file paths and the HTML templates,
+    connecting the existing functions and objects. More likely this will
+    require creating wrapper functions that connect the UI with the
+    functions already created.
