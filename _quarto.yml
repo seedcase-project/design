@@ -5,10 +5,6 @@ website:
   title: "Seedcase Project: Design"
   site-url: "https://design.seedcase-project.org/"
   repo-url: "https://github.com/seedcase-project/design"
-  page-footer:
-    center:
-      - text: "License: CC-BY 4.0"
-        href: LICENSE.md
   page-navigation: true
   navbar:
     title: false
