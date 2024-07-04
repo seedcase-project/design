@@ -1,5 +1,25 @@
 ---
-title: "Style"
+title: "Style guidelines"
 ---
 
 {{< include /includes/_wip.qmd >}}
+
+## Purpose
+
+These documents contained within the style section are meant to provide
+guidance on how to write, format, and structure documents within the
+Seedcase Project. They are meant to be a guide and a reference for all
+team members and contributors to make sure that we have some consistency
+in development, coding, and writing across all Seedcase documentation
+and software.
+
+We assume the reader is either:
+
+-   A new team member who uses these style documents as onboarding
+    material.
+-   A current team member who needs to reference the style documents for
+    a specific task or as a reminder.
+-   A potential or current contributor who wants to understand how we
+    work and how to best contribute.
+-   Other groups who want to use these documents as inspiration or to
+    copy/modify for their own uses.
