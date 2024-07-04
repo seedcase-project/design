@@ -8,7 +8,7 @@ title: "Style guidelines"
 
 These documents contained within the style section are meant to provide
 guidance on how to write, format, and structure documents within the
-Seedcase project. They are meant to be a guide and a reference for all
+Seedcase Project. They are meant to be a guide and a reference for all
 team members and contributors to make sure that we have some consistency
 in development, coding, and writing across all Seedcase documentation
 and software.
@@ -22,4 +22,4 @@ We assume the reader is either:
 -   A potential or current contributor who wants to understand how we
     work and how to best contribute.
 -   Other groups who want to use these documents as inspiration or to
-    copy/modify from for their own uses.
+    copy/modify for their own uses.
