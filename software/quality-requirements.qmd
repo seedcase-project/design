@@ -47,7 +47,8 @@ and retrieve research data. We want Seedcase to store data in a way that
 it stays correct, and is easy to maintain, and we want Seedcase to be
 have the appropriate features for the user.
 
-### Interaction Capability
+### Interaction capability
+
 
 There are many items covered in the ISO standard under the heading
 Interaction Capability. The ones we would like to initially focus on
