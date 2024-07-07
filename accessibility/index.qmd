@@ -35,7 +35,7 @@ described in a way that is compatible with screen readers.
 
 Things to check for during development:
 
--   is the text to complex?
+-   is the text too complex?
 -   is the language too technical?
 -   are the images described in a way that is compatible with screen
     readers (i.e., do we include alt texts)?
@@ -87,5 +87,6 @@ accessible contrast ratio).
 There are numerous ways to test for accessibility, and we will need to
 ensure that we have a good testing plan in place. This will at present
 be a semi-manual process, the details of which are described in the
-[Accessibility testing
-plan](!--TODO%20#89%20insert%20link%20once%20page%20is%20written--).
+Accessibility testing plan.
+
+<-- TODO: Add link -->
