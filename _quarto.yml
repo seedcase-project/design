@@ -39,6 +39,7 @@ website:
     - id: style
       contents:
         - style/index.qmd
+        - style/code.qmd
         - style/development.qmd
         - style/naming.qmd
     - id: accessibility
