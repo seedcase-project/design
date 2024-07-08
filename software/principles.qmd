@@ -23,7 +23,9 @@ also be the end [users](user-requirements.qmd).
 :::
 
 ## Values
-The core values directing and shaping many aspects of the Seedcase software are: 
+
+The core values directing and shaping many aspects of the Seedcase
+software are:
 
 ::: {layout-ncol="4"}
 ***Openness and transparency***
@@ -36,7 +38,9 @@ The core values directing and shaping many aspects of the Seedcase software are:
 :::
 
 ## Principles
-The guiding principles below are those shaped and informed by the core values:
+
+The guiding principles below are those shaped and informed by the core
+values:
 
 ::: {layout-ncol="2"}
 ### Re-use existing material
