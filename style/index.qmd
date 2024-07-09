@@ -26,7 +26,7 @@ We assume the reader is either:
 
 ## General principles
 
-Following with our Seedcase Project
+Following our Seedcase Project
 [principles](https://seedcase-project.org/about/principles) to use
 established standards and conventions, the general principle for styling
 is to use existing guides. There exists several style guides and
