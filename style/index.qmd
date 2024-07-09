@@ -29,7 +29,7 @@ We assume the reader is either:
 Following our Seedcase Project
 [principles](https://seedcase-project.org/about/principles) to use
 established standards and conventions, the general principle for styling
-is to use existing guides. There exists several style guides and
+is to use existing guides. There exist several style guides and
 resources for structuring code and doing software development, below are
 specific guides we make use of:
 
