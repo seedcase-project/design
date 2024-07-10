@@ -26,9 +26,6 @@ There are a few main security concerns:
     those who control the data and who manage the servers. Therefore,
     this is outside the scope of the Seedcase framework.
 
-![Layers for the various stages of
-security.](../images/security.png)
-
 ### Security of software and code
 
 For managing security related to software dependencies, our main
