@@ -30,7 +30,7 @@ part within the diagram is a closed box representation of the core
 internal parts of the Seedcase framework.
 
 ![C4 Container diagram showing the major internal parts of the Seedcase
-framework.](../images/c4-container.png)
+framework.](../images/c4-container.svg)
 
 | Building Block                 | Description                                                                                                             |
 |------------------------|------------------------------------------------|
