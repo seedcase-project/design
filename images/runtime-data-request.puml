@@ -1,4 +1,6 @@
 @startuml runtime-data-request
+!theme seedcase from https://raw.githubusercontent.com/seedcase-project/seedcase-theme/main
+
 skinparam SequenceMessageAlignment center
 
 ' Logged in user who is requesting data from a Data Resource.
