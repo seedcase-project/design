@@ -1,5 +1,5 @@
-@startuml 
-' Component diagram for the Seedcase product - Backend: File Storage
+@startuml component-ui
+!theme seedcase from https://raw.githubusercontent.com/seedcase-project/seedcase-theme/main
 !include  https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
 
 Container(bee, "Backend Environment")
