@@ -42,6 +42,7 @@ website:
         - style/code.qmd
         - style/development.qmd
         - style/naming.qmd
+        - style/tests.qmd
     - id: accessibility
       contents:
         - accessibility/index.qmd
