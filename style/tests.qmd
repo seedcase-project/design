@@ -9,9 +9,9 @@ description: "Guidelines on how to write tests for our Python code"
 
 Write tests for:
 
-- Every function, class, and method.
-- Every possible input and output.
-- Every possible error within the function.
+-   Every function, class, and method.
+-   Every possible input and output.
+-   Every possible error within the function.
 
 ## How to write tests
 
@@ -43,13 +43,13 @@ Always name the test file the same as the Python script, but with
 
 Use the following general pattern for naming tests:
 
-- `test_<action>_<condition>`. E.g.,
+-   `test_<action>_<condition>`. E.g.,
     `test_returns_relative_path_with_multi_digits` or
     `test_rejects_unsupported_format`.
-- If there are multiple functions in the same script, you can include
+-   If there are multiple functions in the same script, you can include
     the function name in the test name:
     `test_<function>_<action>_<condition>`.
-
+ 
 ### Test structure
 
 Use the following general structure for tests:
