@@ -54,11 +54,15 @@ Use the following general pattern for naming tests:
 
 Use the following general structure for tests:
 
-1. Arrange: Set up the test data and any other necessary conditions.
-2. Act: Call the function or method being tested.
-3. Assert: Check the output of the function or method.
+1.  Given: Set up the test data and any other necessary conditions.
+2.  When: Call the function or method being tested.
+3.  Then: Check the output of the function or method.
 
-This is sometimes called "Given, When, Then".
+This is sometimes called "Arrange, act, assert".
+
+If tests are short and very simple, you don't have to use these sections
+explicitly. But as tests get longer and more complex, it can be
+helpful - for reviewers and your future self - to include them.
 
 Keep the tests as simple as possible and only test one thing at a time.
 If you need to test multiple things, write multiple tests.
