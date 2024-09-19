@@ -24,11 +24,11 @@ description: "Guidelines on how to write and style code"
 ## docstrings
 
 -   Write docstrings for every function, class, and method.
--   Use the `"""` triple quotes for docstrings.
--   Use sentence case for describing things and end with a full stop.  
-    So use:  `path: The path to the file.`  
-    Rather than:  `path: the path to the file`
--   Use a tab when creating a new line for the description.
+    -   Use the `"""` triple quotes for docstrings.
+    -   Use sentence case for describing things and end with a full stop.  
+        So use:  `path: The path to the file.`  
+        Rather than:  `path: the path to the file`
+    -   Use a tab when creating a new line for the description.
 -   Write simple one-line docstrings for: very small functions (\<5
     lines), functions with \<2 arguments, and functions with simple
     and clear input and output
