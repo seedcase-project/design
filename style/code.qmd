@@ -21,14 +21,16 @@ description: "Guidelines on how to write and style code"
     function should chain together the smaller functions to achieve the
     larger action.
 
-## docstrings
+### docstrings
 
 -   Write docstrings for every function, class, and method.
     -   Use the `"""` triple quotes for docstrings.
     -   Use sentence case for describing things and end with a full stop.  
-        So use:  `path: The path to the file.`  
-        Rather than:  `path: the path to the file`
+        So use `path: The path to the file.` 
+        rather than `path: the path to the file`.
     -   Use a tab when creating a new line for the description.
+-   Use the [Google style](https://google.github.io/styleguide/pyguide.html#s3.8.1-comments-in-doc-strings) for writing the docstrings. When adding docstrings in Seedcase projects
+    this will automatically be added by the autoDocstring VS Code extension.
 -   Write simple one-line docstrings for: very small functions (\<5
     lines), functions with \<2 arguments, and functions with simple
     and clear input and output
