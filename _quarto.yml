@@ -40,7 +40,6 @@ website:
       contents:
         - style/index.qmd
         - style/code.qmd
-        - style/development.qmd
         - style/naming.qmd
         - style/tests.qmd
     - id: accessibility
