@@ -38,10 +38,7 @@ website:
         - data/index.qmd
     - id: style
       contents:
-        - style/index.qmd
-        - style/code.qmd
-        - style/naming.qmd
-        - style/tests.qmd
+        - auto: style/
     - id: accessibility
       contents:
         - accessibility/index.qmd
