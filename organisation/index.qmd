@@ -39,7 +39,7 @@ of how we collaborate together and how work is structured.
 We have a set of principles influenced by our values for different
 aspects of our work, like [teams](teams.qmd),
 [collaboration](collaboration.qmd), and
-[contributions](contributions.qmd). For all of them, we have these two
+[contributions](contribution.qmd). For all of them, we have these two
 general principles:
 
 -   Use established standards and practices where possible and as
