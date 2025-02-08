@@ -1,0 +1,66 @@
+---
+title: "Organisation"
+---
+
+These pages describe our organisation design, specifically in the design
+of how we collaborate together and how work is structured.
+
+## Values
+
+{{< include /includes/_values-preamble.qmd >}}
+
+-   *How* we work is as important as *what* we make or do
+
+-   Work that is visible and open is easier to participate in, engage
+    with, and contribute to
+
+-   Openness and transparency lead to better collaboration and products
+
+-   Being explicit is better than being implicit
+
+-   Prescriptive methods are easier to use than descriptive ones[^1]
+
+-   Small consistent improvements are more impactful over time than big
+    irregular ones
+
+-   Human interactions and emotions are as important as products and
+    outputs
+
+-   Investing in the future will give better outcomes than thinking too
+    short-term
+
+[^1]: An example of a descriptive approach would be describing how to
+    create a folder structure for a project and possibles names for
+    files while a prescriptive approach would be giving a template
+    folder structure that one uses and follows.
+
+## Principles
+
+We have a set of principles influenced by our values for different
+aspects of our work, like [teams](teams.qmd),
+[collaboration](collaboration.qmd), and
+[contributions](contributions.qmd). For all of them, we have these two
+general principles:
+
+-   Use established standards and practices where possible and as
+    appropriate.
+
+-   Be flexible and open to modern, newer tools or process, even when
+    they aren't widely used, as long as there is a strong rationale for
+    it.
+
+## Design patterns
+
+Design patterns common solutions to problems. We use these patterns for
+how we organise ourselves and our work:
+
+-   All content is put into GitHub repositories, the default being public
+    rather than private.
+
+-   One GitHub repository corresponds to one product and is at the root
+    of the repository.
+
+-   A project is when a team works to complete one product's "milestone"
+    or "deliverable".
+
+-   Each team works on only project at a time.
