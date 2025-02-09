@@ -1,0 +1,87 @@
+---
+title: "Collaboration"
+---
+
+Collaboration is the basis for all human work and it is built from
+culture. Culture in general is something that is organic and develops on
+its own. It can be difficult to document or make explicit. Depending on
+the specific social dynamics of the team, of internal collaborators, and
+of external contributors, culture can change quite a fair amount. Much
+of these dynamics might happen through other channels like in-person
+activities, issue discussions, or on online communication platforms.
+However, a healthy culture requires some self-awareness,
+self-reflection, and ultimately some self-regulation to remain healthy.
+Through the below principles, we hope to nurture a healthy culture of
+collaboration.
+
+## Recognize and account for the human aspect of work
+
+Humans are biological beings with limitations to their capacities and
+who have physical, emotional, and mental needs. Part of designing a
+healthy work culture is by recognizing and accounting for these limits
+and needs. We aim to design a work culture where we find and work on
+things that we enjoy doing, where we actively assess cognitive load and
+capacity when planning and designing products, and where to incorporate
+formal and informal social activities and support structures to help
+build relationships and trust.
+
+## Expect and anticipate openness and transparency
+
+A core value of the Seedcase Project is openness and transparency. This
+includes nearly all aspects of our work, including cross-collaborator
+communication. We aim to recognize, and anticipate, that we are working
+and communicating openly and that *anyone* could potentially see and
+read what we write. We also recognize that some things are private and
+should be kept private, and we aim to be clear about what those things
+are.
+
+## Work iteratively, incrementally, and prioritize extensively
+
+Humans have limited cognitive capacity, and there is only so much time
+in a given day. There will always be more tasks than we can reasonable
+or realistically complete. So to ensure we remain flexible, adaptable,
+and humane, we aim to prioritize our tasks extensively, and work in
+iterative and incremental ways.
+
+## Incorporate improvement feedback loops
+
+Adaptability and flexibility are critical to surviving and growing. But
+they require information to know what needs improvement. We aim to have
+regular sources of feedback and reflection into what we produce and how
+we collaborate. That way, we can learn and grow from our mistakes and
+successes. This includes regularly and actively seeking places to
+automate or simplify things and to improve documentation or
+collaboration.
+
+## Prioritize finishing tasks, not starting them
+
+It can be tempting and easy to start new tasks. But starting a new task
+is the easy part. The hard part is finishing it. Collaboration also
+works best when we all have a solid understanding of what needs to be
+done, who is doing what, and what needs to be reviewed. That can be
+difficult if there are too many tasks in progress. So that we don't
+build up work-in-progress items and not overextend our cognitive
+capacity, we aim to prioritize finishing tasks over starting them. As
+the Agile and Kanban saying goes, ["stop starting, start
+finishing"](https://readwrite.com/stop-starting-start-finishing-with-agile/).
+
+## Prioritize visible and documented work and communication
+
+Communication and work that isn't in some way documented and visible for
+collaborators to see is nearly impossible to learn from, engage with,
+and participate in. We aim to prioritize ["making work
+visible"](https://makingworkvisible.com/book/), as reasonably as
+possible, and in a way that makes it easier to be "visible". This
+includes documenting decisions, discussions, and work in a way that is
+accessible and understandable to others. It also means prioritizing
+written communication over verbal communication, as written
+communication is more accessible and easier to engage with. Sharing
+knowledge and insights with collaborators by documenting it is also a
+way to make our work visible, so that we also aim to share knowledge and
+insights as much as possible.
+
+## Assume and expect asynchronous work and communication
+
+We don't always work in the same timezone, nor do we all have the same
+preferred work hours. To accommodate for this, we aim to work and
+communicate in as an asynchronous manner as possible and reasonable.
