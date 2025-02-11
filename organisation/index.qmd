@@ -2,8 +2,8 @@
 title: "Organisation"
 ---
 
-These pages describe our organisation design, specifically in the design
-of how we collaborate together and how work is structured.
+These pages describe our organisation design, specifically focusing 
+on how we collaborate and structure our work.
 
 ## Values
 
@@ -26,13 +26,13 @@ of how we collaborate together and how work is structured.
 -   Human interactions and emotions are as important as products and
     outputs
 
--   Investing in the future will give better outcomes than thinking too
+-   Investing in the future will give better outcomes than thinking
     short-term
 
-[^1]: An example of a descriptive approach would be describing how to
-    create a folder structure for a project and possibles names for
-    files while a prescriptive approach would be giving a template
-    folder structure that one uses and follows.
+[^1]: An example of a prescriptive approach would be giving a template
+    folder structure that one uses and follows while a descriptive approach
+    would be describing how to create a folder structure for a project with
+    possibles names for files.
 
 ## Principles
 
@@ -51,16 +51,16 @@ general principles:
 
 ## Design patterns
 
-Design patterns common solutions to problems. We use these patterns for
-how we organise ourselves and our work:
+Design patterns are common solutions to problems. We use these patterns
+to organise ourselves and our work:
 
 -   All content is put into GitHub repositories, the default being public
     rather than private.
 
--   One GitHub repository corresponds to one product and is at the root
-    of the repository.
+-   One GitHub repository corresponds to one product that is located
+    at the root of the repository.
 
--   A project is when a team works to complete one product's "milestone"
-    or "deliverable".
+-   A "project" is working towards a major point of progress 
+		for a product, like a first prototype.
 
 -   Each team works on only project at a time.
