@@ -32,8 +32,6 @@ cognitive load. These documents describe how we design our organization,
 software, and documentation.
 :::
 
-<hr>
-
 ::: {.callout-tip appearance="default"}
 These pages are structured follow the [Diataxis](https://diataxis.fr)
 reference format, with some explanation format mixed in. Explanations on
