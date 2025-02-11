@@ -31,8 +31,8 @@ any given time.
 
 ## Document as much as possible
 
-Documenting things is a way to reduce cognitive load and improve
-collaboration, as well as making things explicit. If there is a new
+Documenting things is a way to reduce cognitive load, improve
+collaboration, and making things explicit. If there is a new
 topic or if documentation doesn't exist on something relevant to our work or collaboration, we aim to
 prioritize creating it. Adding or modifying documentation is just as
 high priority as other tasks, and deadlines will always reflect or
