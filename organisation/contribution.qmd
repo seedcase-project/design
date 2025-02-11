@@ -8,7 +8,7 @@ Our work will often involve directly contributing to others' projects to
 support and enable them in their work. This means we will most often be
 the users of the tools and products we create. So, we aim to plan for
 and design products with our own needs in mind first. But we will always
-build, document, and develop having the perspective that others will use
+build, document, and develop with the perspective that others will use
 the products too.
 
 ## Prioritize, but don't obsess over, quality
@@ -25,7 +25,7 @@ balance progress with our current knowledge for what is quality.
 Humans have limited cognitive capacity. Work must be designed around
 this in order for consistent and regular progress to be made in a way
 that is humane and sustainable to emotional and mental wellbeing. We aim
-to have focused, intensive periods of work on as few projects in any
+to have focused, intensive periods of work on as few projects as possible in any
 given period and limit the number of tasks being actively worked on at
 any given time.
 
@@ -33,7 +33,7 @@ any given time.
 
 Documenting things is a way to reduce cognitive load and improve
 collaboration, as well as making things explicit. If there is a new
-topic or if documentation doesn't exist on something, we aim to
+topic or if documentation doesn't exist on something relevant to our work or collaboration, we aim to
 prioritize creating it. Adding or modifying documentation is just as
 high priority as other tasks, and deadlines will always reflect or
 accommodate that priority.
@@ -83,8 +83,8 @@ documents get created daily and updated regularly. Even internally, our
 products and documents can easily get outdated. So we aim to actively
 and regularly seek out and be aware for opportunities to improve things.
 This doesn't just include improving the products, it also includes the
-team workflows, communications, ["developer
-experience"](https://developerexperience.io/articles/good-developer-experience),
-[DevOps](https://en.wikipedia.org/wiki/DevOps), the
-["platform"](https://en.wikipedia.org/wiki/Platform_engineering), and
+team workflows, communications, [developer
+experience](https://developerexperience.io/articles/good-developer-experience),
+[DevOps](https://en.wikipedia.org/wiki/DevOps), 
+[platform engineering](https://en.wikipedia.org/wiki/Platform_engineering), and
 security practices.
