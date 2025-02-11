@@ -78,12 +78,6 @@ Requirements](user-requirements.qmd) page, are:
     healthcare workers, journalists, researchers, and the general
     public.
 
-
-## Quality Goals
-
-Please see the [Quality requirements](quality-requirements.qmd) section
-for our thoughts on this.
-
 ## Stakeholders
 
 This section contains an explicit list of those who will need, use, or
