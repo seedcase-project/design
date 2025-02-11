@@ -6,8 +6,8 @@ Collaboration is the basis for all human work and it is built from
 culture. Culture in general is something that is organic and develops on
 its own. It can be difficult to document or make explicit. Depending on
 the specific social dynamics of the team, of internal collaborators, and
-of external contributors, culture can change quite a fair amount. Much
-of these dynamics might happen through other channels like in-person
+of external contributors, culture can change quite a fair amount. Many
+of these dynamics might happen through channels like in-person
 activities, issue discussions, or on online communication platforms.
 However, a healthy culture requires some self-awareness,
 self-reflection, and ultimately some self-regulation to remain healthy.
@@ -16,12 +16,12 @@ collaboration.
 
 ## Recognize and account for the human aspect of work
 
-Humans are biological beings with limitations to their capacities and
-who have physical, emotional, and mental needs. Part of designing a
+Humans are biological beings with limitations to their capacities with
+physical, emotional, and mental needs. Part of designing a
 healthy work culture is by recognizing and accounting for these limits
 and needs. We aim to design a work culture where we find and work on
 things that we enjoy doing, where we actively assess cognitive load and
-capacity when planning and designing products, and where to incorporate
+capacity when planning and designing products, and where we incorporate
 formal and informal social activities and support structures to help
 build relationships and trust.
 
@@ -45,12 +45,12 @@ iterative and incremental ways.
 
 ## Incorporate improvement feedback loops
 
-Adaptability and flexibility are critical to surviving and growing. But
+Adaptability and flexibility are critical to not only surviving but growing. However,
 they require information to know what needs improvement. We aim to have
 regular sources of feedback and reflection into what we produce and how
 we collaborate. That way, we can learn and grow from our mistakes and
 successes. This includes regularly and actively seeking places to
-automate or simplify things and to improve documentation or
+automate or simplify things and to improve documentation and
 collaboration.
 
 ## Prioritize finishing tasks, not starting them
@@ -75,7 +75,7 @@ possible, and in a way that makes it easier to be "visible". This
 includes documenting decisions, discussions, and work in a way that is
 accessible and understandable to others. It also means prioritizing
 written communication over verbal communication, as written
-communication is more accessible and easier to engage with. Sharing
+communication is more accessible and easier to engage with and come back to. Sharing
 knowledge and insights with collaborators by documenting it is also a
 way to make our work visible, so that we also aim to share knowledge and
 insights as much as possible.
