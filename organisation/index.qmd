@@ -1,0 +1,66 @@
+---
+title: "Organisation"
+---
+
+These pages describe our organisation design, specifically focusing 
+on how we collaborate and structure our work.
+
+## Values
+
+{{< include /includes/_values-preamble.qmd >}}
+
+-   *How* we work is as important as *what* we make or do
+
+-   Work that is visible and open is easier to participate in, engage
+    with, and contribute to
+
+-   Openness and transparency lead to better collaboration and products
+
+-   Being explicit is better than being implicit
+
+-   Prescriptive methods are easier to use than descriptive ones[^1]
+
+-   Small consistent improvements are more impactful over time than big
+    irregular ones
+
+-   Human interactions and emotions are as important as products and
+    outputs
+
+-   Investing in the future will give better outcomes than thinking
+    short-term
+
+[^1]: An example of a prescriptive approach would be giving a template
+    folder structure that one uses and follows while a descriptive approach
+    would be describing how to create a folder structure for a project with
+    possibles names for files.
+
+## Principles
+
+We have a set of principles influenced by our values for different
+aspects of our work, like [teams](teams.qmd),
+[collaboration](collaboration.qmd), and
+[contributions](contribution.qmd). For all of them, we have these two
+general principles:
+
+-   Use established standards and practices where possible and as
+    appropriate.
+
+-   Be flexible and open to modern, newer tools or process, even when
+    they aren't widely used, as long as there is a strong rationale for
+    it.
+
+## Design patterns
+
+Design patterns are common solutions to problems. We use these patterns
+to organise ourselves and our work:
+
+-   All content is put into GitHub repositories, the default being public
+    rather than private.
+
+-   One GitHub repository corresponds to one product that is located
+    at the root of the repository.
+
+-   A "project" is working towards a major point of progress 
+		for a product, like a first prototype.
+
+-   Each team works on only project at a time.
