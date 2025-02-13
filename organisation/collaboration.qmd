@@ -38,7 +38,7 @@ are.
 ## Work iteratively, incrementally, and prioritize extensively
 
 Humans have limited cognitive capacity, and there is only so much time
-in a given day. There will always be more tasks than we can reasonable
+in a given day. There will always be more tasks than we can reasonably
 or realistically complete. So to ensure we remain flexible, adaptable,
 and humane, we aim to prioritize our tasks extensively, and work in
 iterative and incremental ways.
@@ -84,4 +84,4 @@ insights as much as possible.
 
 We don't always work in the same timezone, nor do we all have the same
 preferred work hours. To accommodate for this, we aim to work and
-communicate in as an asynchronous manner as possible and reasonable.
+communicate in as asynchronous a manner as possible and reasonable.
