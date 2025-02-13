@@ -1,0 +1,90 @@
+---
+title: "Contribution"
+---
+
+## We are our first users
+
+Our work will often involve directly contributing to others' projects to
+support and enable them in their work. This means we will most often be
+the users of the tools and products we create. So, we aim to plan for
+and design products with our own needs in mind first. But we will always
+build, document, and develop with the perspective that others will use
+the products too.
+
+## Prioritize, but don't obsess over, quality
+
+High-quality, well-designed, and -written contributions are a major
+investment that will pay off in the longer term. It leads to lower
+technical debt, easier maintenance, and better user experiences. We aim
+to invest in the longer term by prioritizing quality. However,
+identifying quality often requires expertise, so we will also aim to
+balance progress with our current knowledge for what is quality.
+
+## Limit in-progress work
+
+Humans have limited cognitive capacity. Work must be designed around
+this in order for consistent and regular progress to be made in a way
+that is humane and sustainable to emotional and mental wellbeing. We aim
+to have focused, intensive periods of work on as few projects as possible in any
+given period and limit the number of tasks being actively worked on at
+any given time.
+
+## Document as much as possible
+
+Documenting things is a way to reduce cognitive load, improve
+collaboration, and making things explicit. If there is a new
+topic or if documentation doesn't exist on something relevant to our work or collaboration, we aim to
+prioritize creating it. Adding or modifying documentation is just as
+high priority as other tasks, and deadlines will always reflect or
+accommodate that priority.
+
+## Keep non-technical people in mind
+
+We want as many people to use our products as possible, including
+beginner or non-technical users. So we aim to design, write, and develop
+with these people in mind by limiting jargon and using simpler, more
+explicit language.
+
+## Design accessibly and inclusively
+
+Since we want many different types of people to use our products, we aim
+to incorporate accessibility and inclusive design as extensively as
+possible and wherever is feasible. We recognize that this can be
+challenging and that some things may not be possible, however we will
+put in the effort to keep these in mind when we design and develop.
+
+## Follow conventions, not configurations
+
+Configurations often require more cognitive load, instruction,
+knowledge, and expertise to use well and as a result are often hard to
+maintain and use properly. Meanwhile, products using conventions are
+easier to use, maintain, and use. We aim to design and build using
+external conventions as much as possible and create our own conventions
+where necessary.
+
+## Assume frequent change
+
+While the world changes quickly and regularly, our knowledge of it is
+always incomplete and evolving. We may do or use something now but later
+find there was a better way or tool to use instead. So we aim to
+incorporate this perspective into how we plan, design, and develop, by
+expecting things will change and contribute what we can with what we
+know now, assuming it is imperfect and may need updating shortly in the
+future. We will not assume any product is ever "done", nor will we
+assume any feature or task is ever truly "complete". As the sayings go,
+"perfect is the enemy of \[done\]" and "better a diamond with a flaw
+than a pebble without".
+
+## Actively seek areas to improve
+
+Things can change incredibly rapidly in the (creative) knowledge work
+world, which includes the tech world. Software, methodologies and
+documents get created daily and updated regularly. Even internally, our
+products and documents can easily get outdated. So we aim to actively
+and regularly seek out and be aware for opportunities to improve things.
+This doesn't just include improving the products, it also includes the
+team workflows, communications, [developer
+experience](https://developerexperience.io/articles/good-developer-experience),
+[DevOps](https://en.wikipedia.org/wiki/DevOps), 
+[platform engineering](https://en.wikipedia.org/wiki/Platform_engineering), and
+security practices.

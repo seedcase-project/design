@@ -39,6 +39,7 @@ website:
       contents:
         - organisation/index.qmd
         - organisation/collaboration.qmd
+        - organisation/contribution.qmd
     - id: data
       contents:
         - data/index.qmd
