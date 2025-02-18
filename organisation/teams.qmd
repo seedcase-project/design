@@ -1,0 +1,113 @@
+---
+title: "Teams"
+---
+
+How organizations work and what they are capable of building or
+producing is described by this observation:
+
+> "Organisations which design systems (in the broad sense used here) are
+> constrained to produce designs which are copies of the communication
+> structures of these organisations." --- [Conway's
+> Law](https://en.wikipedia.org/wiki/Conway%27s_law)
+
+This observation, or "Conway's Law", indicates that how an organisation
+structures the people in it and their collaboration directly dictates
+what they can build or produce. Which then ties into the idea that:
+
+> "Teams \[are\] the means of \[software\] delivery." --- [Team
+> Topologies](https://teamtopologies.com/)
+
+How an organisation structures the teams will determine the quality,
+effectiveness, adaptability, and speed of what the organisation builds
+or produces. This is why we want to be intentional about how we
+structure our teams, and leads to the following organisation design
+principles.
+
+::: callout-note
+While many of these principles don't strictly apply to our current
+situation of being a 4-person group, we want to establish the foundation
+for how we want to work if or when we grow.
+:::
+
+## Make teams based on projects and their needs
+
+To achieve the idea that teams are the means of delivery, it means we
+need create teams based on what a project or product needs in order to
+be successfully completed or "delivered". In this case, a project is
+something with a defined endpoint with a defined goal and usually
+includes some type of product. For instance, a project may be to get to
+the first minimum viable product (MVP) of a new product or to implement
+an expanded set of functionality in an existing product.
+
+The team that is created for a project must have the necessary expertise
+to fulfill the needs and requirements of the project. Design the team
+*before* fitting people into it.
+
+This team is now tied to that project. When the project ends, the team
+disbands and converts into another team for another project. Often this
+team stays the same, but it doesn't have to.
+
+## Teams are responsible for the *full* lifecycle of their project
+
+In order be able to effectively and practically complete a project, the
+team must be responsible for the full length of it, from start to end.
+This includes determining needs, planning, designing, developing,
+testing, deploying, and assessing usage. This also includes being
+responsible for the ongoing maintenance of the product that is the aim
+or focus of the project.
+
+This also means that the team needs to have the necessary autonomy to
+make and act on decisions that help with completing the project. There
+should be as little administrative overhead and bureaucracy as possible.
+
+## Teams have tasks and responsibilities, not individuals
+
+View teams as the primary unit of work. Individuals are part of the
+team, not the other way around. In that way, individuals fit the needs
+of the team. We build teams to contain individuals with the necessary
+expertise to fit what the team needs. But if the expertise is not
+available, individuals within the team must learn and develop the
+necessary expertise.
+
+## Teams should be cross-functional
+
+Related to the principles above, in order to fulfill the needs of the
+team and be responsible for the full lifecycle of a project, the team
+must be cross-functional. By that, we mean that individuals in the team
+must be competent in all the aspects of the lifecycle of the project.
+This doesn't mean that everyone is an expert in all areas, but that
+everyone should be competent in all areas. Individuals are still
+encouraged to specialize in specific areas, but not at the expense of
+competency in all areas.
+
+## Minimise the cognitive load of teams
+
+A team is made up of individuals, who each have real, physical
+constraints in what they can do and how much they can do it. This is
+often referred to as cognitive load and capacity. A team is effective
+when the cognitive load is balanced between being challenging but not
+overwhelming, with a preference toward lower cognitive load and higher.
+
+## Teams should be long-lasting and stable
+
+Teams become productive when the individuals in them feel comfortable,
+safe, secure, and are able to trust one another. This is hard to achieve
+if people in the teams are constantly coming in or going out. Therefore,
+we aim to create teams that are long-lasting and stable. This doesn't
+mean that the team is unchanging, but that the team is stable enough to
+build trust and comfort with one another.
+
+Which also means that projects need to be scoped large enough to allow a
+longer lasting team. Alternatively, the people that make up the teams
+are all familiar and comfortable enough with each other so that a stable
+team dynamic happens quickly.
+
+## Keep teams relatively small to minimize communication overhead
+
+The most effective team size for creative knowledge work is between 3 to
+8 people. More than that and the benefit of working as a team
+diminishes. This is largely due to the fact that collaboration and
+communication have a cost, which increases substantially with each added
+person. Keeping a team small also keeps the collaboration and
+communication cost low while gaining the benefits of working together to
+complete tasks for a project.
