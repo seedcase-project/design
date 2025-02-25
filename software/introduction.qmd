@@ -36,7 +36,7 @@ Primary **goals** of Seedcase software are:
 1.  **Ingesting data and metadata into standardized storage**: Take
     generated data from source locations (such as the clinic or
     laboratories) that may be distributed geographically or
-    organizationally and store it in a secure, centralized location in a
+    organisationally and store it in a secure, centralized location in a
     standardized and efficient format to form a Data Resource. Metadata
     are similarly stored and linked to the data.
 2.  **Showcasing data and metadata for discoverability and data access

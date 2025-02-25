@@ -12,7 +12,7 @@ website:
     logo-alt: "Seedcase Design logo: Main page"
     pinned: true
     left:
-      - text: "Organization"
+      - text: "Organisation"
         href: organisation/index.qmd
       - text: "Software"
         href: software/index.qmd
@@ -35,7 +35,7 @@ website:
       style: "floating"
       contents:
         - auto: software/
-    - id: organization
+    - id: organisation
       contents:
         - organisation/index.qmd
         - organisation/collaboration.qmd

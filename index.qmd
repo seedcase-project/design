@@ -28,7 +28,7 @@ div.quarto-about-jolla .about-image {
 
 ::: {#hero-heading}
 Design is about reducing complexity, guiding our work, and lowering our
-cognitive load. These documents describe how we design our organization,
+cognitive load. These documents describe how we design our organisation,
 software, and documentation.
 :::
 
@@ -50,11 +50,11 @@ think will read the documents:
 
 -   **Research software/data engineers**: These readers will be
     interested in how we design our software and potentially our
-    organization, likely for their own purposes for learning or for
+    organisation, likely for their own purposes for learning or for
     using in their own work.
 
 -   **Managers or leaders**: These are people that maybe be interested
-    in applying what we do to their own organization, team, or group.
+    in applying what we do to their own organisation, team, or group.
 
 -   **Research or development operations personnel**: This reader is a
     person who is interested in applying or learning from how we manage
