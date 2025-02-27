@@ -55,8 +55,7 @@ To effectively and practically complete a project, the
 team must be responsible for the full length of it, from start to end.
 This includes determining needs, planning, designing, developing,
 testing, deploying, and assessing usage. This also includes being
-responsible for the ongoing maintenance of the product that is the aim
-or focus of the project.
+responsible for the ongoing maintenance of the product that the project focuses on.
 
 This also means that the team needs to have the necessary autonomy to
 make and act on decisions that help with completing the project. There
@@ -65,8 +64,8 @@ should be as little administrative overhead and bureaucracy as possible.
 ## Teams have tasks and responsibilities, not individuals
 
 View teams as the primary unit of work. Individuals are part of the
-team, not the other way around. In that way, individuals fit the needs
-of the team. We build teams to contain individuals with the necessary
+team, not the other way around. Individuals fit what is needed for the
+team. We build teams to contain individuals with the necessary
 expertise to fit what the team needs. But if the expertise is not
 available, individuals within the team must learn and develop the
 necessary expertise.
@@ -88,7 +87,7 @@ A team is made up of individuals, who each have real, physical
 constraints in what they can do and how much they can do it. This is
 often referred to as cognitive load and capacity. A team is effective
 when the cognitive load is balanced between being challenging but not
-overwhelming, with a preference toward lower cognitive load and higher.
+overwhelming.
 
 ## Teams should be long-lasting and stable
 
@@ -101,7 +100,7 @@ build trust and comfort between team members.
 
 This also means that projects need to be scoped large enough to allow a
 longer lasting team. Alternatively, the people that make up the teams
-are all familiar and comfortable enough with each other so that a stable
+already know each other and are comfortable enough with each other that a stable
 team dynamic happens quickly.
 
 ## Keep teams relatively small to minimize communication overhead
