@@ -143,7 +143,7 @@ vulnerability happening with one of them. So we aim to:
 -   Keep the number of dependencies to a minimum, to keep risk exposure
     low.
 -   Use popular and established software as dependencies. A larger
-    userbase will mean that the dependency has more exposure to
+    user-base will mean that the dependency has more exposure to
     different use cases, more opportunity to identify and fix issues,
     and more people examining the code.
 -   Be very careful when selecting a software to make as a dependency.
