@@ -11,7 +11,7 @@ developing software.
 {{< include /includes/_values-preamble.qmd >}}
 
 Our values, or things we believe in, direct and shape how we build our
-software.
+software and are:
 
 -   Developing software with inclusivity and accessibility in mind
     produces better, more usable software.
@@ -30,7 +30,7 @@ software.
 -   Simplicity requires more effort but makes better software.
 
 -   Software that is built with a consideration of sustainability in the
-    broad sense, lasts longer and is easier to build and maintain.
+    broad sense lasts longer and is easier to build and maintain.
 
 -   Building software with these values makes it easier to build as a
     team and with collaborators.
@@ -38,34 +38,34 @@ software.
 ## Principles
 
 The guiding principles below are those shaped and informed by the core
-values:
+values.
 
 ### Wherever possible, re-use existing and openly licensed material
 
 Software that isn't open source is by definition not transparent, FAIR,
-or open and conflicts with our values, so we aim to use open source
+or open and conflicts with our values. We aim to use open source
 software as the basis for our software and products. In the open source
 software world, there exists many great tools, methods, frameworks, and
-resources used widely in industry but that haven't been incorporated
+resources used widely in industry that haven't been incorporated
 into common research data practices. Combined with being open source, a
 more widely used tool or method means that more people are or have
 examined its codebase. As more people examine the code, there is a
 higher likelihood that issues are found and fixed faster. So we aim to
-make use of and/or modify these software and resources for our projects.
+make use of and/or modify open software and resources for our projects wherever possible.
 
-### Build using tools that familiar to or used by both specialists and non-specialists
+### Build using tools that are familiar to or used by both specialists and non-specialists
 
-For highly technical, specialist people like software engineers or other
+For highly technical, specialists like software engineers or other
 full-time IT professionals, there is a rich ecosystem of tools to use
-for nearly any purpose. However, non-specialist but still technically
-knowledgeable people may not have the same resources or knowledge to use
+for nearly any purpose. However, technically knowledgable non-specialists
+may not have the same resources or knowledge to use
 these tools. We want to build software and products in a way that
-encourages more contributions from outsiders, which can help us maintain
+encourages more contributions from people outside our team, which can help us maintain
 and develop our products while also (hopefully) leading to greater use.
 At the same time, we want to keep it balanced so that we use tools that
 specialists (including ourselves), like research software engineers,
 data engineers, and data scientists use to be productive and effective
-when developing software. So we aim use tools and knowledge that as wide
+when developing software. So we aim use tools and knowledge that have as wide
 a variety as possible of potential contributors are at least familiar
 with or soon to be familiar with when building our products.
 
@@ -87,7 +87,7 @@ achieved this. What this means is that we will likely build smaller,
 focused software packages that each can connect well together into a
 larger ecosystem.
 
-### Prefer using software that has characteristics of stability and reliability
+### Use software that has characteristics of stability and reliability
 
 There are always new software being built, but often though not always,
 maintenance and development is easier when using tools that are more
@@ -98,7 +98,7 @@ change, while there are many organisations that develop or support open
 source software, not all of them have openness as a core value and
 mission that aligns with ours. So we aim to:
 
--   Prefer using tools made by organisations that align with our values.
+-   Use tools made by organisations that align with our values.
 -   Use tools that have a strong history of stability and reliability to
     minimise the risk of having to refactor or change our processes too
     often.
@@ -121,16 +121,16 @@ read/write speeds, limits in memory and storage, local rather than
 remote/server environments, lower Internet access and connectivity, and
 in different operating systems.
 
-### Prefer building software that is code-based rather than GUI-based
+### Build software that is code-based rather than GUI-based
 
 Building software with a graphical user interface (GUI) requires
 extensive expertise, such as UI/UX knowledge, frontend development, and
 effective API design. GUI's also require more maintenance and are more
-likely to have bugs because they can be harder to test, nor are they as
+likely to have bugs because they can be harder to test. They also aren't as
 powerful and flexible as code-based interfaces. So, following our
 [principle](/organisation/contribution.qmd) of building for us first, we
 aim to build software that is code-based, such as a Python packages or
-command-line interface.
+command-line interfaces.
 
 ### Be conservative and careful about adding dependencies
 
@@ -158,7 +158,7 @@ that there will be drift between them. In the context of software, what
 this means is that when documentation related to a piece of code is in
 another file or folder, the less likely developers will remember to keep
 the two updated. So documentation on the code is written in the same
-file as the code.
+file as the code itself.
 
 This also applies to design documentation and how-to guides. When they
 are in another repository, they are less likely to be updated with
@@ -181,11 +181,11 @@ complex software. For instance, we aim to:
 -   Build smaller functions that chain together to build larger ones.
 -   Use fewer and simpler programming data structures.
 
-### Prefer using a functional programming paradigm
+### Use a functional programming paradigm
 
 [Functional
 programming](https://en.wikipedia.org/wiki/Functional_programming) tends
-to be easier to reason about, develop, and importantly test. This is
+to be easier to reason about, develop, and most importantly test. This is
 largely because it avoids or makes it difficult to modify existing
 objects when run within the function, emphasises clear input and output
 without side effects, and has features that are more natural to humans
