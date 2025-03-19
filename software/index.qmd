@@ -55,19 +55,20 @@ make use of and/or modify open software and resources for our projects wherever 
 
 ### Build using tools that are familiar to or used by both specialists and non-specialists
 
-For highly technical, specialists like software engineers or other
-full-time IT professionals, there is a rich ecosystem of tools to use
-for nearly any purpose. However, technically knowledgable non-specialists
-may not have the same resources or knowledge to use
+For highly technical specialists like software engineers or other
+full-time IT professionals, there is a rich ecosystem of tools they can draw on and use
+for nearly any purpose. However, technically knowledgeable non-specialists
+may not have the same resources or knowledge to know how to use
 these tools. We want to build software and products in a way that
 encourages more contributions from people outside our team, which can help us maintain
 and develop our products while also (hopefully) leading to greater use.
-At the same time, we want to keep it balanced so that we use tools that
-specialists (including ourselves), like research software engineers,
-data engineers, and data scientists use to be productive and effective
-when developing software. So we aim use tools and knowledge that have as wide
-a variety as possible of potential contributors are at least familiar
+So we aim to use tools and knowledge that as many 
+potential contributors and future team members are at least familiar
 with or soon to be familiar with when building our products.
+At the same time, we will also embrace and seek out less established or newer tools
+that are a substantial improvement over existing or more widely used tools.
+That way we can balance being accessible, while also being as productive and 
+effective as we can given our resources, time, and knowledge.
 
 ### Use and build software that integrates easily with other software
 
