@@ -34,7 +34,8 @@ website:
       pinned: true
       style: "floating"
       contents:
-        - auto: software/
+        - software/index.qmd
+        - software/principles.qmd
     - id: organisation
       contents:
         - organisation/index.qmd

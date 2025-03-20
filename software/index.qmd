@@ -1,20 +1,40 @@
 ---
-title: "Software architecture documentation"
-order: 0
+title: "Software"
 ---
 
-{{< include /includes/_wip.qmd >}}
+These Software design documents describe our overall software design,
+specifically on how the software will generally look like in the end and
+our general approach to how we build and develop it. 
 
-## Purpose
+So far, these documents include our values towards software design, described
+below, and our [principles](principles.qmd), which are informed by our
+values.
 
-The core purpose of writing this architecture documentation is to be
-able to describe to ourselves and others what the Seedcase framework is
-aiming to accomplish and how it will do that.
+## Values
 
-## Reader
+{{< include /includes/_values-preamble.qmd >}}
 
-The assumed readers are similar to the ones we listed in the [Design of
-Seedcase](../index.qmd) landing page. The complete list of expected
-readers is found in the [Stakeholders](introduction.qmd#stakeholders)
-section of the Introduction.
+Our values, or things we believe in, direct and shape how we build our
+software and are:
 
+-   Developing software with inclusivity and accessibility in mind
+    produces better, more usable software.
+
+-   Software that is open source and uses open source tools are better
+    in the long term and more likely to be used.
+
+-   Documentation is as important as the software itself.
+
+-   High-quality code, though partially subjective, is as important and
+    valuable as software that works.
+
+-   Transparent and clear software is easier to reason about, build, and
+    use.
+
+-   Simplicity requires more effort but makes better software.
+
+-   Software that is built with a consideration of sustainability in the
+    broad sense lasts longer and is easier to build and maintain.
+
+-   Building software with these values makes it easier to build as a
+    team and with collaborators.
