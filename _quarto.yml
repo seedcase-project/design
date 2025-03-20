@@ -35,6 +35,7 @@ website:
       style: "floating"
       contents:
         - software/index.qmd
+        - software/principles.qmd
     - id: organisation
       contents:
         - organisation/index.qmd
