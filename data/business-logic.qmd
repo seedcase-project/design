@@ -14,13 +14,13 @@ TODO: short introduction on what this post will cover and why it's important, so
 
 Business rules works best, if they are modelled on what the organisation is already doing.  They should be reviewed on a regular basis to ensure that there isn't a better or easier way to do things.  Many organisations will also have some procedures where legal requirements or regulations stipulate a certain way that things must be handled (many organisations have a legal obligation to report any information breaches or losses to the authorities within a certain time frame, not doing so could have legal and financial implications so it is important that the SOP governing this is being adhered to at all times).
 
-An SOP is of course only good if it is being used, but well-written guidance normally results in high and (more importantly from a data perspective) very consistent data being recorded.  As soon as there is more than one or two people working with adding to a data set on a regular basis then written guidelines should be considered.  
+An SOP is of course only good if it is being used, but well-written guidance normally results in high and (more importantly from a data perspective) very consistent data being recorded.  As soon as there is more than one or two people working with adding to a data set on a regular basis then written guidelines should be considered.
 
 **Business logic** is at its core the result of SOPs and other written instructions being translated into the behaviour that is executed by the software systems supporting the work being done.  In a way it is the business rules made into code.  This makes it very important to document what has been done, in particular if logic has been changed or updated compared with the 'factory setting' that a piece of software is born with.
 
 ## Why is it important
 
-When working in a research environment where data will likely be used to write scientific papers it is vital that the data is properly documented, and an easy way of doing this is the document where data has come from, how it has been collected, and what has been done to it since it was generated.  
+When working in a research environment where data will likely be used to write scientific papers it is vital that the data is properly documented, and an easy way of doing this is the document where data has come from, how it has been collected, and what has been done to it since it was generated.
 
 Depending on the size of the project it may not be necessary to document the business rules and logic, if data is expected to remain static throughout the researcher(s) working with it, it will be enough that the data itself is well documented inside the system, as there will be no need for rules on how to manipulate the data.
 
@@ -28,9 +28,9 @@ In a slightly more complex system it may be worth documenting how data is being 
 
 ## Business logic and databases
 
-The appropriate level of documentation with regards to research data is to a certain extent dependent on the data itself and what the data will be used for.  
+The appropriate level of documentation with regards to research data is to a certain extent dependent on the data itself and what the data will be used for.
 
-The data itself should always be documented to a level where it is possible for people outside the research team to determine where the data came from, and how it was generated.  This means that the data acquisition is documented (eg. is it an extract from an already existing database or has the data been collected directly from the source by the research team).  At the same time it is also important to describe any kind of change/transformation of the data when it was first loaded into the database (often referred to as ETL Extract-Transform-Load).  This documentation should follow the database but will often be stored outside the database itself.  
+The data itself should always be documented to a level where it is possible for people outside the research team to determine where the data came from, and how it was generated.  This means that the data acquisition is documented (eg. is it an extract from an already existing database or has the data been collected directly from the source by the research team).  At the same time it is also important to describe any kind of change/transformation of the data when it was first loaded into the database (often referred to as ETL Extract-Transform-Load).  This documentation should follow the database but will often be stored outside the database itself.
 
 <!-- #TODO: discuss if we want to make a repo available for this type of documentation within Seedcase -->
 

@@ -24,7 +24,7 @@ As for the data internal to Seedcase (user accounts), it would be standard in a 
 
 A semi-static model would encompass the situation where people external to the project would wish to request extracts of data.  If this is the intent of the project then there is a strong case to be made for some written down business logic that would govern how the data is recombined (and there may be a legal requirement as well).
 
-As for the data internal to Seedcase (user accounts), it would be standard in a semi-static model for it to be set up once and then rarely (or never) edited again, as a small team of collaborators would be mostly static.  
+As for the data internal to Seedcase (user accounts), it would be standard in a semi-static model for it to be set up once and then rarely (or never) edited again, as a small team of collaborators would be mostly static.
 
 <!-- #TODO: Add links to the section mentioned once the documents start to take shape-->
 

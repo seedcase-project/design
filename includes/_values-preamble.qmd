@@ -7,4 +7,3 @@ select, describe, and explain the values we want to be guided by.
 We want to be explicit and conscious about what, how, and importantly,
 why we are doing what we decide to do. Being explicit will also help
 focus our work and (hopefully) make us more efficient and effective.
-

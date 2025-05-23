@@ -4,7 +4,7 @@ title: "Software"
 
 These Software design documents describe our overall software design,
 specifically on how the software will generally look like in the end and
-our general approach to how we build and develop it. 
+our general approach to how we build and develop it.
 
 So far, these documents include our values towards software design, described
 below, and our [principles](principles.qmd), which are informed by our

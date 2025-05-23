@@ -5,7 +5,7 @@ order: 2
 
 {{< include /includes/_wip.qmd >}}
 
-This document lists organizational and political/legal constraints 
+This document lists organizational and political/legal constraints
 that we must consider when developing software for the Seedcase Project.
 
 The main "philosophical" and value-based constraints are described in

@@ -34,7 +34,7 @@ requirements that a software system must have. These are:
 
 In the arc42 guidelines it is recommended that a project focus on between
 three and five of the above areas as the primary quality requirements.
-For Seedcase we have chosen to focus on functional suitability, 
+For Seedcase we have chosen to focus on functional suitability,
 interaction capability, reliability, and security.
 
 ### Functional suitability
@@ -56,12 +56,12 @@ are: Learnability, Operability, Inclusivity and Self-descriptiveness.
 
 - **Learnability** relates to how easy it is for a user to learn how to
 use the system. It has to do with the intuitiveness of the system as well
-as the availability of help and documentation. 
+as the availability of help and documentation.
 - **Operability** is about
 how easy it is to use the system, how the functionality links together,
 and how the different parts of Seedcase will support each other.
 - **Inclusivity** is about how easy it is for all users to use the system,
-regardless of their abilities. 
+regardless of their abilities.
 - **Self-descriptiveness** is about how
 easy it is for a user to understand what the system is doing and how it
 is doing it, which are highly dependent on the user interface and documentation.
