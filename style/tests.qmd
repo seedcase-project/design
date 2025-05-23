@@ -49,7 +49,7 @@ Use the following general pattern for naming tests:
 -   If there are multiple functions in the same script, you can include
     the function name in the test name:
     `test_<function>_<action>_<condition>`.
- 
+
 ### Test structure
 
 Use the following general structure for tests:

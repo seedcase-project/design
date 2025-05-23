@@ -85,6 +85,6 @@ and regularly seek out and be aware for opportunities to improve things.
 This doesn't just include improving the products, it also includes the
 team workflows, communications, [developer
 experience](https://developerexperience.io/articles/good-developer-experience),
-[DevOps](https://en.wikipedia.org/wiki/DevOps), 
+[DevOps](https://en.wikipedia.org/wiki/DevOps),
 [platform engineering](https://en.wikipedia.org/wiki/Platform_engineering), and
 security practices.

@@ -2,7 +2,7 @@
 title: "Organisation"
 ---
 
-These pages describe our organisation design, specifically focusing 
+These pages describe our organisation design, specifically focusing
 on how we collaborate and structure our work.
 
 ## Values
@@ -60,7 +60,7 @@ to organise ourselves and our work:
 -   One GitHub repository corresponds to one product that is located
     at the root of the repository.
 
--   A "project" is working towards a major point of progress 
+-   A "project" is working towards a major point of progress
 		for a product, like a first prototype.
 
 -   Each team works on only project at a time.
