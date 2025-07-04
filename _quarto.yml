@@ -16,12 +16,6 @@ website:
         href: organisation/index.qmd
       - text: "Software"
         href: software/index.qmd
-      - text: "Data"
-        href: data/index.qmd
-      - text: "Style"
-        href: style/index.qmd
-      - text: "Accessibility"
-        href: accessibility/index.qmd
     tools:
       - icon: house
         href: "https://seedcase-project.org"
@@ -42,15 +36,6 @@ website:
         - organisation/collaboration.qmd
         - organisation/contribution.qmd
         - organisation/teams.qmd
-    - id: data
-      contents:
-        - data/index.qmd
-    - id: style
-      contents:
-        - auto: style/
-    - id: accessibility
-      contents:
-        - accessibility/index.qmd
 
 format:
   seedcase-theme-html:
