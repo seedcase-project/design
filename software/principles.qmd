@@ -162,6 +162,10 @@ complex software. For instance, we aim to:
 -   Keep individual pieces of functionality independent: Each
     functionality should (ideally) be able to run on its own without
     depending on other functionality.
+-   Assume as little as possible about the environment: For each
+    functionality, ideally assume as little about the current state of
+    the environment as possible. For instance, what the exact path is on
+    the filesystem or where in the filesystem the software is running.
 
 ## Use a functional programming paradigm
 
