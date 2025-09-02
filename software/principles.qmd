@@ -2,8 +2,8 @@
 title: "Principles"
 ---
 
-The guiding principles below are those shaped and informed by the core
-values.
+The guiding principles below are those shaped and informed by our
+[values](index.qmd#values).
 
 ## Wherever possible, re-use existing and openly licensed material
 
