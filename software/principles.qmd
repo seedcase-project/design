@@ -159,6 +159,9 @@ complex software. For instance, we aim to:
     actions, inputs, outputs, and without side-effects.
 -   Build smaller functions that chain together to build larger ones.
 -   Use fewer and simpler programming data structures.
+-   Keep individual pieces of functionality independent: Each
+    functionality should (ideally) be able to run on its own without
+    depending on other functionality.
 
 ## Use a functional programming paradigm
 
