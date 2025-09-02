@@ -60,11 +60,6 @@ aim to design and build software:
 -   That fits well into our own and others' software ecosystems and
     workflows.
 
-By following many of the principles in this page, we will already have
-achieved this. What this means is that we will likely build smaller,
-focused software packages that each can connect well together into a
-larger ecosystem.
-
 ## Use software that has characteristics of stability and reliability
 
 There are always new software being built, but often though not always,
