@@ -95,9 +95,10 @@ a server for legal or privacy reasons. Some groups may be easily able to
 have their data be locally or be put up on popular hosting services like
 GitHub or [Zenodo](https://zenodo.org/). To be equitable and inclusive,
 we aim to design and build for computing environments with less powerful
-read/write speeds, limits in memory and storage, local rather than
-remote/server environments, lower Internet access and connectivity, and
-in different operating systems.
+read/write speeds, limits in memory and storage, local and remote/server
+environments, lower Internet access and connectivity, and in different
+operating systems (covering the most commonly used operating systems:
+Windows, MacOS, and Linux).
 
 ## Build software that is code-based rather than GUI-based
 
