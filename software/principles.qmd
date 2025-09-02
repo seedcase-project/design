@@ -177,3 +177,10 @@ objects when run within the function, emphasises clear input and output
 without side effects, and has features that are more natural to humans
 to think about. We aim to make use of more functional programming
 features and where absolutely necessary use object-oriented programming.
+
+## Integrate GDPR, privacy, and security compliance
+
+We are committed to ensuring that our software complies with GDPR and
+other privacy regulations. Many of our users work with health or
+personally sensitive data, so it is crucial that our software adheres to
+these standards.
