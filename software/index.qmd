@@ -31,8 +31,8 @@ Our values, and the things we believe in, direct and shape how we build software
 - Software that is built with a consideration of sustainability in the broad
   sense lasts longer and is easier to build and maintain.
 
-- Fewer, carefully selected third-party dependencies produces better 
-  software that is more stable, reliable, and with fewer security and 
+- Fewer, carefully selected third-party dependencies produces better
+  software that is more stable, reliable, and with fewer security and
   maintenance issues.
 
 - Prioritising both the design of software and the quality of the code itself
