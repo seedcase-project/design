@@ -2,7 +2,8 @@
 title: "Software"
 ---
 
-These design documents describe our overall software design, including how we develop software and how are software products are designed.
+These design documents describe our overall software design, including how we
+develop software and how are software products are designed.
 
 So far, these documents include our values towards software design, described
 below, and our [principles](principles.qmd), which are informed by our values.
@@ -11,7 +12,9 @@ below, and our [principles](principles.qmd), which are informed by our values.
 
 {{< include /includes/_values-preamble.qmd >}}
 
-Our values, and the things we believe in, direct and shape how we build software. We believe that these values facilitate work within the team and with external collaborations.
+Our values, and the things we believe in, direct and shape how we build
+software. We believe that these values facilitate work within the team and with
+external collaborations.
 
 - Developing software with inclusivity and accessibility in mind produces
   better, more usable software.
@@ -28,12 +31,14 @@ Our values, and the things we believe in, direct and shape how we build software
 
 - Simplicity requires more effort but makes better software.
 
-- Sustainability in software design is not only good for humans and the environment,
-  but also for the software itself.
+- Sustainability in software design is not only good for humans and the
+  environment, but also for the software itself.
 
-- Fewer, carefully selected third-party dependencies produces better
-  software that is more stable, reliable, and with fewer security and
-- Incorporate and consider security early and review often,
-  such as for dependencies, as it is more important than ever.
+- Fewer, carefully selected third-party dependencies produces better software
+  that is more stable, reliable, and with fewer security and
 
-- Reliability in stable software, such as minimizing breaking changes, is about respecting users.
+- Incorporate and consider security early and review often, such as for
+  dependencies, as it is more important than ever.
+
+- Reliability in stable software, such as minimizing breaking changes, is about
+  respecting users.
