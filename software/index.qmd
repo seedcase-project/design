@@ -28,12 +28,12 @@ Our values, and the things we believe in, direct and shape how we build software
 
 - Simplicity requires more effort but makes better software.
 
-- Building software that incorporates sustainability, in the broad sense for both
-  humans and the environment, produces better software.
+- Sustainability in software design is not only good for humans and the environment, 
+  but also for the software itself.
 
 - Fewer, carefully selected third-party dependencies produces better
   software that is more stable, reliable, and with fewer security and
-  maintenance issues.
+- Incorporate and consider security early and review often, 
+  such as for dependencies, as it is more important than ever.
 
-- Prioritising both the design of software and the quality of the code itself
-  will mean fewer breaking changes.
+- Reliability in stable software, such as minimizing breaking changes, is about respecting users.
