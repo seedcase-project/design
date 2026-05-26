@@ -34,9 +34,6 @@ external collaborations.
 - Sustainability in software design is not only good for humans and the
   environment, but also for the software itself.
 
-- Fewer, carefully selected third-party dependencies produces better software
-  that is more stable, reliable, and with fewer security and
-
 - Incorporate and consider security early and review often, such as for
   dependencies, as it is more important than ever.
 
