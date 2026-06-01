@@ -2,39 +2,40 @@
 title: "Software"
 ---
 
-These Software design documents describe our overall software design,
-specifically on how the software will generally look like in the end and
-our general approach to how we build and develop it.
+These design documents describe our overall software design, including how we
+develop software and how are software products are designed.
 
 So far, these documents include our values towards software design, described
-below, and our [principles](principles.qmd), which are informed by our
-values.
+below, and our [principles](principles.qmd), which are informed by our values.
 
 ## Values
 
 {{< include /includes/_values-preamble.qmd >}}
 
-Our values, or things we believe in, direct and shape how we build our
-software and are:
+Our values, and the things we believe in, direct and shape how we build
+software. We believe that these values facilitate work within the team and with
+external collaborations.
 
--   Developing software with inclusivity and accessibility in mind
-    produces better, more usable software.
+- Developing software with inclusivity and accessibility in mind produces
+  better, more usable software.
 
--   Software that is open source and uses open source tools are better
-    in the long term and more likely to be used.
+- Software that is open source and uses open source tools is better in the long
+  term and more likely to be used.
 
--   Documentation is as important as the software itself.
+- Documentation is as important as the software itself.
 
--   High-quality code, though partially subjective, is as important and
-    valuable as software that works.
+- High-quality code, though partially subjective, is as important and valuable
+  as software that works.
 
--   Transparent and clear software is easier to reason about, build, and
-    use.
+- Transparent and clear software is easier to reason about, build, and use.
 
--   Simplicity requires more effort but makes better software.
+- Simplicity requires more effort but makes better software.
 
--   Software that is built with a consideration of sustainability in the
-    broad sense lasts longer and is easier to build and maintain.
+- Sustainability in software design is not only good for humans and the
+  environment, but also for the software itself.
 
--   Building software with these values makes it easier to build as a
-    team and with collaborators.
+- Incorporate and consider security early and review often, such as for
+  dependencies, as it is more important than ever.
+
+- Reliability in stable software, such as minimizing breaking changes, is about
+  respecting users.
