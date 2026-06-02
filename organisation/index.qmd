@@ -66,4 +66,6 @@ organise ourselves and our work:
 - A "project" is working towards a major point of progress for a product, like a
   first prototype.
 
--   Each team works on only project at a time.
+- Each team works on only one project at a time and each project is only on one
+  board (e.g., the Product or Platform board). If someone has a task on the
+  project board, they are on the team. working on that project.
