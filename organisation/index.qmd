@@ -9,23 +9,28 @@ collaborate and structure our work.
 
 {{< include /includes/_values-preamble.qmd >}}
 
-- *How* we work is as important as *what* we make or do
+- *How* we work is as important as *what* we make or do.
 
 - Work that is visible and open is easier to participate in, engage with, and
-  contribute to
+  contribute to.
 
-- Openness and transparency lead to better collaboration and products
+- Openness and transparency lead to better collaboration and products.
 
-- Being explicit is better than being implicit
+- Being explicit is better than being implicit.
 
-- Prescriptive methods are easier to use than descriptive ones[^1]
+- Prescriptive methods are easier to use than descriptive ones[^1].
 
 - Small consistent improvements are more impactful over time than big irregular
-  ones
+  ones.
 
-- Human interactions and emotions are as important as products and outputs
+- Human interactions and emotions are as important as products and outputs.
 
-- Investing in the future will give better outcomes than thinking short-term
+- Investing in the future will give better outcomes than thinking short-term.
+
+- Building expertise is as important as building products.
+
+- Deeply understanding the problem, the domain, and the code produces better,
+  more reliable, and more maintainable products.
 
 [^1]: An example of a prescriptive approach would be giving a template folder
     structure that one uses and follows while a descriptive approach would be
@@ -41,8 +46,11 @@ principles:
 
 - Use established standards and practices where possible and as appropriate.
 
-- Be flexible and open to modern, newer tools or process, even when they aren't
-  widely used, as long as there is a strong rationale for it.
+- Be flexible and open to modern, newer tools or processes, even when they
+  aren't widely used, as long as there is a strong rationale for it.
+
+- Have dedicated learning and development time that is separate and protected
+  from project work so we keep developing our expertise just as much as the software.
 
 ## Design patterns
 
