@@ -27,7 +27,7 @@ collaborate and structure our work.
 
 - Investing in the future will give better outcomes than thinking short-term.
 
-- Building people is as important as building products.
+- Building expertise is as important as building products.
 
 - Deeply understanding the problem, the domain, and the code produces better,
   more reliable, and more maintainable products.
@@ -50,7 +50,7 @@ principles:
   aren't widely used, as long as there is a strong rationale for it.
 
 - Have dedicated learning and development time that is separate and protected
-  from project work so we develop ourselves just as much as the software.
+  from project work so we keep developing our expertise just as much as the software.
 
 ## Design patterns
 

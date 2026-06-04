@@ -16,7 +16,7 @@ High-quality, well-designed, and -written contributions are a major investment
 that will pay off in the longer term. It leads to lower technical debt, easier
 maintenance, and better user experiences. We aim to invest in the longer term by
 prioritizing quality. However, identifying quality often requires expertise, so
-we will also aim to balance progress with our current knowledge for what is
+we aim to balance progress with our current knowledge of what constitutes
 quality.
 
 ## Limit in-progress work
@@ -84,13 +84,13 @@ practices.
 
 ## Deeply understand the code just as much as the problem
 
-Not understanding the problem domain is a well-established cause of software
-that is rarely used as well as technical debt. But another, increasingly common
-source of technical debt is when the code itself isn't as well understood,
-especially with the rise of AI agents that can write code faster than we can
-understand it. With more of these tools being developed, technical expertise is
-more important than ever. So we aim to ensure that we deeply understand the code
-we write and use, just as much as we try to deeply understand the problem
-domain, so that when issues arise, we can better understand and more quickly fix
-them. Understanding the code also ensures we continue to learn and develop our
+Not understanding the problem domain is a well-established cause of both underutilised software
+and technical debt. But another, increasingly common
+source of technical debt is when the code itself isn't well understood. This
+problem is increasing with the rising popularity of AI agents that can write code faster than we can
+understand it. With more of these tools, technical expertise and understanding is
+more important than ever. So, we aim to ensure that we deeply understand the code
+we write and use, just as much as we aim to deeply understand the problem
+domain. This way, when issues arise, we can better understand and fix
+them faster. Keeping the focus on understanding the code produced also ensures we continue to learn and develop our
 own expertise.
