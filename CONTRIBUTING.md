@@ -47,10 +47,7 @@ just run-all
 
 When committing changes, please try to follow [Conventional
 Commits](https://decisions.seedcase-project.org/why-conventional-commits/) as
-Git messages. Using this convention allows us to be able to automatically create
-a release based on the commit message by using
-[Cocogitto](https://decisions.seedcase-project.org/why-semantic-release-with-cocogitto/).
-If you don't use Conventional Commits when making a commit, we will revise the
+Git messages. If you don't use Conventional Commits when making a commit, we will revise the
 pull request title to follow that format, as we use squash merges when merging
 pull requests, so all other commits in the pull request will be squashed into
 one commit.
@@ -82,10 +79,6 @@ This is a description of some of the files in this repository.
   - `rumdl.toml` and `panache.toml`: [rumdl](https://rumdl.dev) and
     [Panache](https://panache.bz) configuration file for formatting Markdown
     files in the project.
-  - `cog.toml`: [Cocogitto](https://docs.cocogitto.io) configuration file for
-    managing versions.
-  - `cliff.toml`: [git-cliff](https://git-cliff.org) configuration file for
-    creating the changelog.
 - `.editorconfig`: Editor configuration file for
   [EditorConfig](https://editorconfig.org/) to maintain consistent coding styles
   across different editors and IDEs.
@@ -94,5 +87,4 @@ This is a description of some of the files in this repository.
   a GitHub release has been uploaded to Zenodo.
 - `justfile`: [`just`](https://just.systems/man/en/) configuration file for
   scripting project tasks.
-- `CHANGELOG.md`: Changelog file for tracking changes in the project.
 - `CONTRIBUTING.md`: Guidelines for contributing to the project.
