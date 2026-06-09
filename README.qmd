@@ -1,0 +1,35 @@
+---
+format: gfm
+metadata-files:
+  - _metadata.yml
+---
+
+# {{< meta tagline >}}
+
+{{< include /includes/_badges.qmd >}}
+
+This repository contains all the high-level design principles and values we
+follow and use to guide our work in Seedcase.
+
+::: callout-tip
+This website repository was generated from the
+[`template-website`](https://github.com/seedcase-project/template-website)
+Seedcase template :tada:
+:::
+
+## Contributing
+
+Check out our [contributing document](CONTRIBUTING.md) for information on how to
+contribute to the project, including how to set up your development environment.
+
+Please note that this project is released with a [Contributor Code of
+Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to
+abide by its terms.
+
+### Contributors
+
+{{< include /includes/_contributors.qmd >}}
+
+## Licensing
+
+This project is licensed under the [CC-BY-4.0 License](LICENSE.md).
