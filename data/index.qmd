@@ -1,6 +1,9 @@
 # Data architecture
 
 {{< include /includes/_wip.qmd >}}
+## Values
+
+## Principles
 
 ## Data lifecycle stages
 
@@ -14,3 +17,33 @@ stages and links to the documents that describe them more.
 -   Storage
 -   Transformation
 -   Serving
+
+tidy data structure
+
+semver for data
+
+- major: Data was deleted, such as with a GDPR request. A new data source was added, such as after a new collection year or from another machine.
+- minor: A new field was added to existing data. A new row was added to existing data.
+- patch: An error or mistake was found in the data, and it was corrected.
+
+## Design patterns
+
+one git repo is one data package
+
+Requirements/assumptions, volume of data flow is low and or sporadic, so don't strictly have same needs as those where data update and entry are regularly occurring. Plus, aim is in data storage in a structured way, not as an ongoing transaction system
+
+
+Data architecture: Operational ("what", "who", like who inputs data, when, what needs to happen to get there) and technical ("how", like how to move data to locations)
+
+requirements: structure hypothetical incoming data in frame of health data, how does it move into our system.
+
+
+DE: DataOps Manifesto
+
+DE: SPC (statistical process control) and DODD (data-observability driven development)
+
+DE: Infrastructure as Code
+
+DE: Architecture principles: Choose common components wisely, plan for failure, architect for scalability, architecture is leadership, build loosely coupled systems, make reversible decisions, prioritize security, embrace finops (financial operations)
+
+## Tidy data
