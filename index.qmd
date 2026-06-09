@@ -13,6 +13,7 @@ about:
 ---
 
 <!-- This style is to make the image fit more nicely on the screen. -->
+
 ```{=html}
 <style>
 #quarto-content {
