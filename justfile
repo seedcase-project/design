@@ -1,21 +1,44 @@
 @_default:
-    just --list --unsorted
+  just --list --unsorted
 
-# Run all necessary build commands.
-run-all: check-spelling check-commits update-quarto-theme build-website
+# Run all build-related recipes in the justfile
+run-all: update-quarto-theme check-all format-md build-all
+
+# Run all check-related recipes
+check-all: check-spelling check-urls
+
+# Run all build-related recipes
+build-all: build-contributors build-website build-readme
+
+# List all TODO items in the repository
+list-todos:
+  grep -R -n \
+    --exclude="*.code-snippets" \
+    --exclude-dir=.quarto \
+    --exclude=justfile \
+    --exclude-dir=_site \
+    "TODO" *
 
 # Install the pre-commit hooks
 install-precommit:
-  # Install pre-commit hooks
   uvx pre-commit install
-  # Run pre-commit hooks on all files
-  uvx pre-commit run --all-files
-  # Update versions of pre-commit hooks
   uvx pre-commit autoupdate
+  uvx pre-commit run --all-files
 
-# Check spelling
+# Update (or add if not present) the Quarto seedcase-theme extension
+update-quarto-theme:
+  quarto update seedcase-project/seedcase-theme --no-prompt
+
+# Check for spelling errors in files
 check-spelling:
   uvx typos --config .config/typos.toml
+
+# Check that URLs work
+check-urls:
+  lychee . \
+    --verbose \
+    --extensions md,qmd \
+    --exclude-path "_badges.qmd"
 
 # Format Markdown files
 format-md:
@@ -23,11 +46,26 @@ format-md:
   uvx rumdl fmt --silent
   uvx --from panache-cli panache format . --quiet
 
+# Re-build the README file from the Quarto version
+build-readme:
+  uvx --from quarto quarto render README.qmd --to gfm
+
+# Generate a Quarto include file with the contributors
+build-contributors:
+  sh ./tools/get-contributors.sh seedcase-project/design > includes/_contributors.qmd
+
 # Build the website using Quarto
 build-website:
-  quarto render
+  uvx --from quarto quarto render
 
-# Update the Quarto seedcase-theme extension
-update-quarto-theme:
-  # # Add theme if it doesn't exist, update if it does
-  quarto update seedcase-project/seedcase-theme --no-prompt
+# Preview the website with automatic reload on changes
+preview-website:
+  quarto preview
+
+# Check for and apply updates from the template
+update-from-template:
+  uvx copier update --defaults
+
+# Reset repo changes to match the template
+reset-from-template:
+  uvx copier recopy --defaults
