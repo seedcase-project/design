@@ -1,0 +1,63 @@
+
+
+## diataxis
+
+Diataxis tutorials, make assumptions that it is completely self contained, for technical doc, and done by the learner on their own. Not apply to in person tutorials, where we use reading, discussion, hands on exercises, presentations/verbal explanation, and code alongs. Likewise, we use more formal learning outcomes and course design practices for these in person things. E.g. there could be a learning assessment to show they've done it.
+
+
+Principle, keep content as close as possible to the source it is used it or relevant for.
+
+One repo is one website
+
+Documentation as code
+
+
+## Workflow
+
+diataxis:
+
+```{mermaid}
+graph TB;
+    subgraph diataxis
+        references --> guides
+        guides --> tutorials
+        tutorials & guides & references <-.-> explanations
+    end
+    tutorials -.-> workshops & outreach
+    explanations -.-> workshops & outreach
+
+```
+
+## Basic principles we aim to follow
+
+-   Documentation is always evolving and is never finished.
+-   Something documented is better than nothing documented.
+-   Something incompletely and/or imperfectly documented *now* is better
+    than something fully completed and/or perfectly done *later*.
+-   Search the documentation first, ask a team member if it's not in the
+    documentation.
+-   If it isn't in the documentation, add it.
+-   Empowering action is better than asking for permission, so the less
+    barriers to making contribution, the better.
+-   Any are welcome to contribute, though we will always discuss and
+    potentially modify that contribution to fit our style and content.
+-   Public documentation is prioritized over private documentation.
+
+
+## Add documentation as soon as it is needed
+
+If there is a new topic or if documentation doesn't exist on something,
+the best time to create it is now! Creating documentation will always
+take priority over other tasks, and deadlines will always try to reflect
+that priority. If more time is needed for a task because documentation
+needs to be created first? Perfect, deadlines can almost always be
+extended.
+
+If you are thinking of sending an email or writing a longer form message
+about a question or topic, re-think that and instead take the time to
+create new file in the repository and start written down your question
+and the answers you've found for it. The content doesn't have to be
+much, a paragraph or two is fine! Then submit a Pull Request in the
+GitHub repository. If you feel the question is something we should
+discuss as a team, then instead create an Issue so we can discuss it
+there.
