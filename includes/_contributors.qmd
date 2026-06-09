@@ -7,5 +7,4 @@ requests :tada:
 [\@namannimmo10](https://github.com/namannimmo10),
 [\@pchmia](https://github.com/pchmia),
 [\@philter87](https://github.com/philter87),
-[\@rqding](https://github.com/rqding),
-[\@signekb](https://github.com/signekb)
+[\@rqding](https://github.com/rqding), [\@signekb](https://github.com/signekb)
