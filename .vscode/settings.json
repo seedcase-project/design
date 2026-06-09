@@ -19,4 +19,6 @@
     "editor.defaultFormatter": "jolars.panache"
   },
   "files.insertFinalNewline": true,
+  "conventionalCommits.emojiFormat": "emoji",
+  "conventionalCommits.promptScopes": false
 }
