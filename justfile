@@ -17,6 +17,12 @@ install-precommit:
 check-spelling:
   uvx typos --config .config/typos.toml
 
+# Format Markdown files
+format-md:
+  # Use both rumdl and panache, for different purposes
+  uvx rumdl fmt --silent
+  uvx --from panache-cli panache format . --quiet
+
 # Build the website using Quarto
 build-website:
   quarto render
