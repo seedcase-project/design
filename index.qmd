@@ -6,7 +6,8 @@ about:
   template: jolla
   image: home.svg
   image-title: "Image from Storyset"
-  image-alt: Illustration of a person working on a large floating paper that has a blueprint on it.
+  image-alt: Illustration of a person working on a large floating paper that has
+    a blueprint on it.
   image-shape: rectangle
   image-width: 25em
 ---
@@ -27,37 +28,38 @@ div.quarto-about-jolla .about-image {
 ```
 
 ::: {#hero-heading}
+{{< include /includes/_badges.qmd >}}
+
 Design is about reducing complexity, guiding our work, and lowering our
 cognitive load. These documents describe how we design our organisation,
 software, and documentation.
 :::
 
 ::: {.callout-tip appearance="default"}
-These pages are structured follow the [Diataxis](https://diataxis.fr)
-reference format, with some explanation format mixed in. Explanations on
-our design decisions are found in the
-[decisions](https://decisions.seedcase-project.org/) archive.
+These pages are structured follow the [Diataxis](https://diataxis.fr) reference
+format, with some explanation format mixed in. Explanations on our design
+decisions are found in the [decisions](https://decisions.seedcase-project.org/)
+archive.
 :::
 
 ## Who you are as the reader
 
-We've written these documents considering a few people in mind who we
-think will read the documents:
+We've written these documents considering a few people in mind who we think will
+read the documents:
 
--   **New contributors/team members**: The most important reason we have
-    written design documentation is to quickly onboard new contributors
-    or team members to the project.
+- **New contributors/team members**: The most important reason we have written
+  design documentation is to quickly onboard new contributors or team members to
+  the project.
 
--   **Research software/data engineers**: These readers will be
-    interested in how we design our software and potentially our
-    organisation, likely for their own purposes for learning or for
-    using in their own work.
+- **Research software/data engineers**: These readers will be interested in how
+  we design our software and potentially our organisation, likely for their own
+  purposes for learning or for using in their own work.
 
--   **Managers or leaders**: These are people that maybe be interested
-    in applying what we do to their own organisation, team, or group.
+- **Managers or leaders**: These are people that maybe be interested in applying
+  what we do to their own organisation, team, or group.
 
--   **Research or development operations personnel**: This reader is a
-    person who is interested in applying or learning from how we manage
-    our operations and how streamline or automate our operational tasks.
+- **Research or development operations personnel**: This reader is a person who
+  is interested in applying or learning from how we manage our operations and
+  how to streamline or automate our operational tasks.
 
 ## Image from [Storyset](https://storyset.com/). {.appendix}
