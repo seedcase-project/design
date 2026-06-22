@@ -177,9 +177,10 @@ source of security vulnerabilities. More of those things means extra, non-value
 creating work. We want less of that. Which means, the code itself is a
 liability.
 
-As a result, we want to produce as little code as possible to effectively
-produce workable software. By viewing and treating code for what it is, as a
-liability, we can be more mindful of the code that we do write. We can consider
-questions like: Is this enough code to produce the software? Can we design the
-software in a way that requires less code? Is a particular feature or change
-really necessary while still maintaining the software's value?
+As a result, we want to write as little code as possible to while still
+preserving the functionality of the software and the general readability of the
+code (explicit, simple, clear, and transparent). By viewing and treating code as
+a liability, we can be more mindful of the code that we do write. We can
+consider questions like: Is this enough code to produce the software? Can we
+design the software in a way that requires less code without sacrificing clarity
+and readability? Is a particular feature or change really necessary?
