@@ -1,0 +1,9 @@
+gh:
+  org: seedcase-project
+  repo: design
+
+tagline: "Guiding values and design principles for collaborating and building together in Seedcase"
+
+links:
+  github: "https://github.com/seedcase-project/design"
+  site: "https://design.seedcase-project.org"

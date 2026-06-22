@@ -50,7 +50,8 @@ principles:
   aren't widely used, as long as there is a strong rationale for it.
 
 - Have dedicated learning and development time that is separate and protected
-  from project work so we keep developing our expertise just as much as the software.
+  from project work so we keep developing our expertise just as much as the
+  software.
 
 ## Design patterns
 

@@ -8,8 +8,8 @@ website:
   page-navigation: true
   navbar:
     title: false
-    logo: _extensions/seedcase-project/seedcase-theme/logos/docs/navbar-design.svg
-    logo-alt: "Seedcase Design logo: Main page"
+    logo: "_extensions/seedcase-project/seedcase-theme/logos/docs/navbar-design.svg"
+    logo-alt: "Seedcase Project logo: Design page"
     pinned: true
     left:
       - text: "Organisation"
@@ -17,12 +17,12 @@ website:
       - text: "Software"
         href: software/index.qmd
     tools:
-      - icon: house
-        href: "https://seedcase-project.org"
-        aria-label: "House icon: Seedcase Project home page"
       - icon: github
         href: "https://github.com/seedcase-project/design"
-        aria-label: "GitHub icon: Source code"
+        aria-label: "GitHub icon: Source repository"
+      - icon: house
+        href: "https://seedcase-project.org"
+        aria-label: "House icon: Main website for the Seedcase Project"
   sidebar:
     - id: software
       pinned: true
@@ -41,11 +41,3 @@ format:
   seedcase-theme-html:
     include-before-body:
       - "includes/site-counter.html"
-
-editor:
-  markdown:
-    wrap: 72
-    canonical: true
-
-execute:
-  echo: false

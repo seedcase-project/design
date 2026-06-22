@@ -84,13 +84,13 @@ practices.
 
 ## Deeply understand the code just as much as the problem
 
-Not understanding the problem domain is a well-established cause of both underutilised software
-and technical debt. But another, increasingly common
+Not understanding the problem domain is a well-established cause of both
+underutilised software and technical debt. But another, increasingly common
 source of technical debt is when the code itself isn't well understood. This
-problem is increasing with the rising popularity of AI agents that can write code faster than we can
-understand it. With more of these tools, technical expertise and understanding is
-more important than ever. So, we aim to ensure that we deeply understand the code
-we write and use, just as much as we aim to deeply understand the problem
-domain. This way, when issues arise, we can better understand and fix
-them faster. Keeping the focus on understanding the code produced also ensures we continue to learn and develop our
-own expertise.
+problem is increasing with the rising popularity of AI agents that can write
+code faster than we can understand it. With more of these tools, technical
+expertise and understanding is more important than ever. So, we aim to ensure
+that we deeply understand the code we write and use, just as much as we aim to
+deeply understand the problem domain. This way, when issues arise, we can better
+understand and fix them faster. Keeping the focus on understanding the code
+produced also ensures we continue to learn and develop our own expertise.
