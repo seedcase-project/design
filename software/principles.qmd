@@ -167,15 +167,14 @@ data, so it is crucial that our software adheres to these standards.
 ## Treat software as an asset, but code as a liability
 
 Software is the set of actions that produce a given output from a set of inputs.
-This is an asset because it creates value to us and our users.
-So software is something we want to create and produce more of.
+This is an asset because it creates value to us and our users. So software is
+something we want to create and produce more of.
 
 Computer code is the set of instructions that implements the set of actions that
 constitutes the software. We need code in order to produce the software asset.
-But code also means potential bugs, maintenance, and a
-source of potential security vulnerabilities. More of those things means more non-value
-creating work. We want less of that. Which means, the code itself is a
-liability.
+But code also means potential bugs, maintenance, and a source of potential
+security vulnerabilities. More of those things means more non-value creating
+work. We want less of that. Which means, the code itself is a liability.
 
 As a result, we want to write as little code as possible to while still
 preserving the functionality of the software and the general readability of the
