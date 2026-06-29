@@ -163,3 +163,23 @@ object-oriented programming.
 We are committed to ensuring that our software complies with GDPR and other
 privacy regulations. Many of our users work with health or personally sensitive
 data, so it is crucial that our software adheres to these standards.
+
+## Treat software as an asset, but code as a liability
+
+Software is the set of actions that produce a given output from a set of inputs.
+This is an asset because it creates value to us and our users. So software is
+something we want to create and produce more of.
+
+Computer code is the set of instructions that implements the set of actions that
+constitutes the software. We need code in order to produce the software asset.
+But code also means potential bugs, maintenance, and a source of potential
+security vulnerabilities. More of those things means more non-value creating
+work. We want less of that. Which means, the code itself is a liability.
+
+As a result, we want to write as little code as possible to while still
+preserving the functionality of the software and the general readability of the
+code (explicit, simple, clear, and transparent). By viewing and treating code as
+a liability, we can be more mindful of the code that we do write. We can
+consider questions like: Is this enough code to produce the software? Can we
+design the software in a way that requires less code without sacrificing clarity
+and readability? Is a particular feature or change really necessary?
