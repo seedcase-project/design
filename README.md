@@ -40,9 +40,9 @@ to abide by its terms.
 The following people have contributed to this project by submitting pull
 requests :tada:
 
+[@fruvago](https://github.com/fruvago),
 [@K-Beicher](https://github.com/K-Beicher),
 [@lwjohnst86](https://github.com/lwjohnst86),
-[@martonvago](https://github.com/martonvago),
 [@namannimmo10](https://github.com/namannimmo10),
 [@pchmia](https://github.com/pchmia),
 [@philter87](https://github.com/philter87),
